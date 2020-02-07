@@ -1,4 +1,4 @@
-
+ï»¿
 func void B_AssessFighter()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"B_AssessFighter");
@@ -30,7 +30,7 @@ func void B_AssessFighter()
 		};
 		if(Npc_IsInFightMode(other,FMODE_FIST))
 		{
-			PrintDebugNpc(PD_ZS_Check,"...Fighter hat nur Fäuste 'gezogen'!");
+			PrintDebugNpc(PD_ZS_Check,"...Fighter hat nur FÐ´uste 'gezogen'!");
 			return;
 		};
 		if(C_NpcTypeIsFriend(self,other) || (Npc_GetAttitude(self,other) == ATT_FRIENDLY))
@@ -45,7 +45,7 @@ func void B_AssessFighter()
 		};
 		if(Npc_IsInFightMode(other,FMODE_MELEE))
 		{
-			PrintDebugNpc(PD_ZS_Check,"...Fighter führt Nahkampfwaffe!");
+			PrintDebugNpc(PD_ZS_Check,"...Fighter fÑŒhrt Nahkampfwaffe!");
 			if(Npc_GetDistToNpc(self,other) < HAI_DIST_MELEE)
 			{
 				PrintDebugNpc(PD_ZS_Check,"...und ist in Nahkampfreichweite");
@@ -58,7 +58,7 @@ func void B_AssessFighter()
 		};
 		if(Npc_IsInFightMode(other,FMODE_FAR))
 		{
-			PrintDebugNpc(PD_ZS_Check,"...Fighter führt Fernkampfwaffe!");
+			PrintDebugNpc(PD_ZS_Check,"...Fighter fÑŒhrt Fernkampfwaffe!");
 			if(Npc_GetDistToNpc(self,other) < HAI_DIST_RANGED)
 			{
 				PrintDebugNpc(PD_ZS_Check,"...und ist in Fernkampfreichweite!");
@@ -69,7 +69,7 @@ func void B_AssessFighter()
 		};
 		if(Npc_IsInFightMode(other,FMODE_MAGIC))
 		{
-			PrintDebugNpc(PD_ZS_Check,"...Fighter führt Zauberspruch!");
+			PrintDebugNpc(PD_ZS_Check,"...Fighter fÑŒhrt Zauberspruch!");
 			if((Npc_GetDistToNpc(self,other) < HAI_DIST_RANGED) && (Npc_GetActiveSpellCat(other) == SPELL_BAD))
 			{
 				PrintDebugNpc(PD_ZS_Check,"...und zwar einen Kampfzauber & innerhalb Fernkampfreichweite!");
@@ -91,7 +91,7 @@ func void B_AssessFighter()
 		PrintDebugNpc(PD_ZS_Check,"... 'fighter' ist Monster/Orc!");
 		if(C_NpcIsDangerousMonster(self,other))
 		{
-			PrintDebugNpc(PD_ZS_Check,"... 'fighter' ist gefährliches Monster!");
+			PrintDebugNpc(PD_ZS_Check,"... 'fighter' ist gefÐ´hrliches Monster!");
 			if(Npc_GetDistToNpc(self,other) < HAI_DIST_ASSESS_MONSTER)
 			{
 				B_FullStop(self);

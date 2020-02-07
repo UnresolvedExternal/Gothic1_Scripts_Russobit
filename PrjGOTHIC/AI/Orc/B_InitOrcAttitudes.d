@@ -1,4 +1,4 @@
-
+﻿
 func void B_InitOrcAttitudes(var int OrcsvsHuman)
 {
 	if(OrcsvsHuman == 1)

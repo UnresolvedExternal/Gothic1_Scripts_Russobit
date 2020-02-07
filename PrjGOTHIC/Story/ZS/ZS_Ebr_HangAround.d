@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_Ebr_HangAround()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_Ebr_HangAround");

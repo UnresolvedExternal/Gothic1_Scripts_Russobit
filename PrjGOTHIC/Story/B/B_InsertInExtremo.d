@@ -1,4 +1,4 @@
-
+﻿
 func void B_InsertInExtremo()
 {
 	Wld_InsertNpc(InExtremo_DrPymonte,"OCR_IE_PYMONTE");

@@ -1,7 +1,7 @@
-
+п»ї
 prototype Mst_Default_Golem(C_Npc)
 {
-	name[0] = "Голем";
+	name[0] = "Р“РѕР»РµРј";
 	guild = GIL_GOLEM;
 	level = 100;
 	attribute[ATR_STRENGTH] = 150;
@@ -54,7 +54,7 @@ func void Set_IceGolem_Visuals()
 
 instance StoneGolem(Mst_Default_Golem)
 {
-	name[0] = "Каменный голем";
+	name[0] = "РљР°РјРµРЅРЅС‹Р№ РіРѕР»РµРј";
 	aivar[AIV_IMPORTANT] = id_stonegolem;
 	protection[PROT_BLUNT] = 75;
 	Set_StoneGolem_Visuals();
@@ -64,7 +64,7 @@ instance StoneGolem(Mst_Default_Golem)
 
 instance SummonedByPC_StoneGolem(Mst_Default_Golem)
 {
-	name[0] = "Голем";
+	name[0] = "Р“РѕР»РµРј";
 	aivar[AIV_IMPORTANT] = ID_STONEGOLEM;
 	Set_StoneGolem_Visuals();
 	Npc_SetToFistMode(self);
@@ -79,7 +79,7 @@ instance SummonedByPC_StoneGolem(Mst_Default_Golem)
 
 instance SummonedByNPC_StoneGolem(Mst_Default_Golem)
 {
-	name[0] = "Каменный голем";
+	name[0] = "РљР°РјРµРЅРЅС‹Р№ РіРѕР»РµРј";
 	aivar[AIV_IMPORTANT] = ID_STONEGOLEM;
 	Set_StoneGolem_Visuals();
 	Npc_SetToFistMode(self);
@@ -89,7 +89,7 @@ instance SummonedByNPC_StoneGolem(Mst_Default_Golem)
 
 instance FireGolem(Mst_Default_Golem)
 {
-	name[0] = "Огненный голем";
+	name[0] = "РћРіРЅРµРЅРЅС‹Р№ РіРѕР»РµРј";
 	aivar[AIV_IMPORTANT] = id_firegolem;
 	Set_FireGolem_Visuals();
 	Npc_SetToFistMode(self);
@@ -103,7 +103,7 @@ instance FireGolem(Mst_Default_Golem)
 
 instance IceGolem(Mst_Default_Golem)
 {
-	name[0] = "Ледяной голем";
+	name[0] = "Р›РµРґСЏРЅРѕР№ РіРѕР»РµРј";
 	aivar[AIV_IMPORTANT] = id_icegolem;
 	Set_IceGolem_Visuals();
 	attribute[ATR_MANA_MAX] = 500;
@@ -119,7 +119,7 @@ instance IceGolem(Mst_Default_Golem)
 
 instance Bridgegolem(Mst_Default_Golem)
 {
-	name[0] = "Кирпичный голем";
+	name[0] = "РљРёСЂРїРёС‡РЅС‹Р№ РіРѕР»РµРј";
 	level = 50;
 	Set_StoneGolem_Visuals();
 	Npc_SetToFistMode(self);

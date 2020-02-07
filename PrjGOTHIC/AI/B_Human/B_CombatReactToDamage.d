@@ -1,4 +1,4 @@
-
+﻿
 func void B_CombatReactToDamage()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"B_CombatReactToDamage");

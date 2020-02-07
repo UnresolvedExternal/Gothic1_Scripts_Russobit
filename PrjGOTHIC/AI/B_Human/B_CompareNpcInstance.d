@@ -1,4 +1,4 @@
-
+﻿
 func int B_CompareNpcInstance(var C_Npc first,var C_Npc second)
 {
 	var int first_id;

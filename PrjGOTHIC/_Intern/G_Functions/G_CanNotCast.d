@@ -1,4 +1,4 @@
-
+﻿
 func void G_CanNotCast(var int bIsPlayer,var int nCircleNeeded,var int nCirclePossessed)
 {
 	var int nDifference;

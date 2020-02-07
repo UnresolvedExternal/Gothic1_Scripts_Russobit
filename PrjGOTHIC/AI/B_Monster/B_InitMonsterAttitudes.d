@@ -1,4 +1,4 @@
-
+﻿
 func void B_InitMonsterAttitudes()
 {
 	B_SetGuildAttitude(GIL_WARAN,ATT_HOSTILE,GIL_SEPERATOR_HUM);

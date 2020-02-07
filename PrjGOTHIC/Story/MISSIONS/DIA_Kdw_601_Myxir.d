@@ -1,4 +1,4 @@
-
+﻿
 instance Info_Myxir_EXIT(C_Info)
 {
 	npc = Kdw_601_Myxir;

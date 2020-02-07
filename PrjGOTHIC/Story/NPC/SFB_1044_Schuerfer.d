@@ -1,4 +1,4 @@
-
+﻿
 instance SFB_1044_Schuerfer(Npc_Default)
 {
 	name[0] = NAME_Schuerfer;

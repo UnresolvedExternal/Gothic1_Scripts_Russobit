@@ -1,4 +1,4 @@
-
+ï»¿
 func int C_PreyToPredator(var C_Npc prey,var C_Npc predator)
 {
 	PrintDebugNpc(PD_MST_FRAME,"C_PreyToPredator");
@@ -211,7 +211,7 @@ func void B_MM_ReactToDamage()
 	}
 	else
 	{
-		PrintDebugNpc(PD_MST_FRAME,"...Monster ist Jäger");
+		PrintDebugNpc(PD_MST_FRAME,"...Monster ist JÐ´ger");
 		Npc_SetTarget(self,other);
 		Npc_ClearAIQueue(self);
 		Npc_PercDisable(self,PERC_ASSESSENEMY);
@@ -300,7 +300,7 @@ func int ZS_MM_Attack_Loop()
 		PrintDebugNpc(PD_MST_LOOP,"...Ziel vorhanden!");
 		if(C_BodyStateContains(other,BS_RUN) || C_BodyStateContains(other,BS_JUMP))
 		{
-			PrintDebugNpc(PD_MST_LOOP,"...Ziel läuft oder springt!");
+			PrintDebugNpc(PD_MST_LOOP,"...Ziel lÐ´uft oder springt!");
 			if(Npc_GetStateTime(self) > self.aivar[AIV_BEGGAR])
 			{
 				PrintDebugNpc(PD_MST_CHECK,"...Ziel schon zu lange verfolgt!");
@@ -325,7 +325,7 @@ func int ZS_MM_Attack_Loop()
 	}
 	else
 	{
-		PrintDebugNpc(PD_ZS_Check,"...Ziel ist ungültig oder kampf-unfähig!");
+		PrintDebugNpc(PD_ZS_Check,"...Ziel ist ungÑŒltig oder kampf-unfÐ´hig!");
 		if(self.aivar[AIV_FINDABLE] == HUNTER)
 		{
 			Npc_ClearAIQueue(self);

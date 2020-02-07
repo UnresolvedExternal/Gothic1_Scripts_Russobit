@@ -1,7 +1,7 @@
-
+п»ї
 prototype Mst_Default_OrcScout(C_Npc)
 {
-	name[0] = "Орк-охотник";
+	name[0] = "РћСЂРє-РѕС…РѕС‚РЅРёРє";
 	guild = GIL_ORCSCOUT;
 	npcType = npctype_guard;
 	voice = 17;
@@ -48,7 +48,7 @@ instance OrcScout(Mst_Default_OrcScout)
 instance OrcPeasantEatAndDrink(Mst_Default_OrcScout)
 {
 	guild = GIL_ORCSCOUT;
-	name[0] = "Орк";
+	name[0] = "РћСЂРє";
 	Set_OrcScout_Visuals();
 	CreateInvItem(self,ItMw2hOrcSword01);
 	start_aistate = ZS_Orc_EatAndDrink;
@@ -56,7 +56,7 @@ instance OrcPeasantEatAndDrink(Mst_Default_OrcScout)
 
 instance OrcScoutGYD(Mst_Default_OrcScout)
 {
-	name[0] = "Орк-копейщик";
+	name[0] = "РћСЂРє-РєРѕРїРµР№С‰РёРє";
 	level = 18;
 	attribute[ATR_STRENGTH] = 30;
 	aivar[AIV_PCISSTRONGER] = 1500;

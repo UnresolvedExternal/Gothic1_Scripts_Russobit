@@ -1,10 +1,10 @@
-
+п»ї
 func void ZS_WashSelf()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_WashSelf");
 	B_SetPerception(self);
 	AI_SetWalkMode(self,NPC_WALK);
-	if(!Npc_IsOnFP(self,"Что?"))
+	if(!Npc_IsOnFP(self,"Р§С‚Рѕ?"))
 	{
 		AI_GotoWP(self,self.wp);
 	};

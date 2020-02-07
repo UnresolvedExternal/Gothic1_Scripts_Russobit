@@ -1,4 +1,4 @@
-
+﻿
 instance GRD_209_Gardist(Npc_Default)
 {
 	name[0] = NAME_Gardist;

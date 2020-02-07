@@ -1,7 +1,7 @@
-
+п»ї
 instance ORG_888_Erpresser(Npc_Default)
 {
-	name[0] = "Шантажист";
+	name[0] = "РЁР°РЅС‚Р°Р¶РёСЃС‚";
 	npcType = npctype_main;
 	guild = GIL_ORG;
 	level = 15;

@@ -1,4 +1,4 @@
-
+п»ї
 instance KDF_401_Damarok_WELCOME(C_Info)
 {
 	npc = KDF_401_Damarok;
@@ -20,7 +20,7 @@ func int KDF_401_Damarok_WELCOME_Condition()
 func void KDF_401_Damarok_WELCOME_Info()
 {
 	AI_GotoNpc(self,hero);
-	AI_Output(self,other,"KDF_401_Damarok_WELCOME_Info_14_01");	//Да хранит тебя неугасимый Огонь!
+	AI_Output(self,other,"KDF_401_Damarok_WELCOME_Info_14_01");	//Р”Р° С…СЂР°РЅРёС‚ С‚РµР±СЏ РЅРµСѓРіР°СЃРёРјС‹Р№ РћРіРѕРЅСЊ!
 	Corristo_KDFAufnahme = 6;
 	B_Story_Feueraufnahme();
 	AI_StopProcessInfos(self);
@@ -70,7 +70,7 @@ func int KDF_401_Damarok_HEAL_Condition()
 
 func void KDF_401_Damarok_HEAL_Info()
 {
-	AI_Output(self,other,"KDF_401_Damarok_HEAL_Info_14_01");	//Если ты будешь ранен, я помогу тебе вылечить раны.
+	AI_Output(self,other,"KDF_401_Damarok_HEAL_Info_14_01");	//Р•СЃР»Рё С‚С‹ Р±СѓРґРµС€СЊ СЂР°РЅРµРЅ, СЏ РїРѕРјРѕРіСѓ С‚РµР±Рµ РІС‹Р»РµС‡РёС‚СЊ СЂР°РЅС‹.
 	AI_StopProcessInfos(self);
 };
 
@@ -83,7 +83,7 @@ instance KDF_401_Damarok_HEALINFO(C_Info)
 	information = KDF_401_Damarok_HEALINFO_Info;
 	important = 0;
 	permanent = 1;
-	description = "Я ранен. Ты можешь помочь мне?";
+	description = "РЇ СЂР°РЅРµРЅ. РўС‹ РјРѕР¶РµС€СЊ РїРѕРјРѕС‡СЊ РјРЅРµ?";
 };
 
 
@@ -97,8 +97,8 @@ func int KDF_401_Damarok_HEALINFO_Condition()
 
 func void KDF_401_Damarok_HEALINFO_Info()
 {
-	AI_Output(other,self,"KDF_401_Damarok_HEALINFO_Info_15_01");	//Я ранен. Ты можешь помочь мне?
-	AI_Output(self,other,"KDF_401_Damarok_HEALINFO_Info_14_02");	//Излечивая тело, я очищаю дух.
+	AI_Output(other,self,"KDF_401_Damarok_HEALINFO_Info_15_01");	//РЇ СЂР°РЅРµРЅ. РўС‹ РјРѕР¶РµС€СЊ РїРѕРјРѕС‡СЊ РјРЅРµ?
+	AI_Output(self,other,"KDF_401_Damarok_HEALINFO_Info_14_02");	//РР·Р»РµС‡РёРІР°СЏ С‚РµР»Рѕ, СЏ РѕС‡РёС‰Р°СЋ РґСѓС….
 	Snd_Play("MFX_Heal_Cast");
 	hero.attribute[ATR_HITPOINTS] = hero.attribute[ATR_HITPOINTS_MAX];
 };

@@ -1,4 +1,4 @@
-
+п»ї
 func void PC_Sleep(var int t)
 {
 	AI_StopProcessInfos(self);
@@ -12,7 +12,7 @@ func void PC_Sleep(var int t)
 		t = t + 24;
 		Wld_SetTime(t,0);
 	};
-	PrintScreen("Ты хорошо выспался!",-1,-1,"font_old_20_white.tga",3);
+	PrintScreen("РўС‹ С…РѕСЂРѕС€Рѕ РІС‹СЃРїР°Р»СЃСЏ!",-1,-1,"font_old_20_white.tga",3);
 	hero.attribute[ATR_HITPOINTS] = hero.attribute[ATR_HITPOINTS_MAX];
 	hero.attribute[ATR_MANA] = hero.attribute[ATR_MANA_MAX];
 	PrintGlobals(PD_ITEM_MOBSI);
@@ -64,7 +64,7 @@ instance PC_SleepTime_Morning(C_Info)
 	information = PC_SleepTime_Morning_Info;
 	important = 0;
 	permanent = 1;
-	description = "Спать до утра.";
+	description = "РЎРїР°С‚СЊ РґРѕ СѓС‚СЂР°.";
 };
 
 
@@ -86,7 +86,7 @@ instance PC_SleepTime_Noon(C_Info)
 	information = PC_SleepTime_Noon_Info;
 	important = 0;
 	permanent = 1;
-	description = "Спать до полудня.";
+	description = "РЎРїР°С‚СЊ РґРѕ РїРѕР»СѓРґРЅСЏ.";
 };
 
 
@@ -108,7 +108,7 @@ instance PC_SleepTime_Evening(C_Info)
 	information = PC_SleepTime_Evening_Info;
 	important = 0;
 	permanent = 1;
-	description = "Спать до вечера.";
+	description = "РЎРїР°С‚СЊ РґРѕ РІРµС‡РµСЂР°.";
 };
 
 
@@ -130,7 +130,7 @@ instance PC_SleepTime_Midnight(C_Info)
 	information = PC_SleepTime_Midnight_Info;
 	important = 0;
 	permanent = 1;
-	description = "Спать до полуночи.";
+	description = "РЎРїР°С‚СЊ РґРѕ РїРѕР»СѓРЅРѕС‡Рё.";
 };
 
 

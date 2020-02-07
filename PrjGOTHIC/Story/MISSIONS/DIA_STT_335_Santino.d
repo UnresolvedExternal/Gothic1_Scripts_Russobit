@@ -1,4 +1,4 @@
-
+п»ї
 instance STT_335_Santino_Exit(C_Info)
 {
 	npc = STT_335_Santino;
@@ -41,7 +41,7 @@ func int STT_335_Santino_BUY_Condition()
 
 func void STT_335_Santino_BUY_Info()
 {
-	AI_Output(other,self,"STT_335_Santino_BUY_Info_15_01");	//Я могу у тебя что-нибудь купить?
-	AI_Output(self,other,"STT_335_Santino_BUY_Info_07_02");	//У меня есть все, что можно продать. А то, чего у меня нет, все равно никому не нужно.
+	AI_Output(other,self,"STT_335_Santino_BUY_Info_15_01");	//РЇ РјРѕРіСѓ Сѓ С‚РµР±СЏ С‡С‚Рѕ-РЅРёР±СѓРґСЊ РєСѓРїРёС‚СЊ?
+	AI_Output(self,other,"STT_335_Santino_BUY_Info_07_02");	//РЈ РјРµРЅСЏ РµСЃС‚СЊ РІСЃРµ, С‡С‚Рѕ РјРѕР¶РЅРѕ РїСЂРѕРґР°С‚СЊ. Рђ С‚Рѕ, С‡РµРіРѕ Сѓ РјРµРЅСЏ РЅРµС‚, РІСЃРµ СЂР°РІРЅРѕ РЅРёРєРѕРјСѓ РЅРµ РЅСѓР¶РЅРѕ.
 };
 

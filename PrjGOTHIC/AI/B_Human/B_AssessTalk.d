@@ -1,4 +1,4 @@
-
+﻿
 func void B_AssessTalk()
 {
 	var C_Npc her;

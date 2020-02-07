@@ -1,4 +1,4 @@
-
+﻿
 func void B_Orc_AssessSomethingEvil()
 {
 	var int att;

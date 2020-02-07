@@ -1,4 +1,4 @@
-
+п»ї
 const int Value_HpEssenz = 25;
 const int HP_Essenz = 50;
 const int Value_HpExtrakt = 35;
@@ -60,7 +60,7 @@ instance ItFo_Potion_Mana_01(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseManaPotion;
 	scemeName = "POTIONFAST";
-	description = "Эссенция магической энергии";
+	description = "Р­СЃСЃРµРЅС†РёСЏ РјР°РіРёС‡РµСЃРєРѕР№ СЌРЅРµСЂРіРёРё";
 	text[1] = NAME_Bonus_Mana;
 	count[1] = Mana_Essenz;
 	text[5] = NAME_Value;
@@ -85,7 +85,7 @@ instance ItFo_Potion_Mana_02(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseMana2Potion;
 	scemeName = "POTIONFAST";
-	description = "Экстракт магической энергии";
+	description = "Р­РєСЃС‚СЂР°РєС‚ РјР°РіРёС‡РµСЃРєРѕР№ СЌРЅРµСЂРіРёРё";
 	text[1] = NAME_Bonus_Mana;
 	count[1] = Mana_Extrakt;
 	text[5] = NAME_Value;
@@ -110,7 +110,7 @@ instance ItFo_Potion_Mana_03(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseMana3Potion;
 	scemeName = "POTIONFAST";
-	description = "Зелье магической энергии";
+	description = "Р—РµР»СЊРµ РјР°РіРёС‡РµСЃРєРѕР№ СЌРЅРµСЂРіРёРё";
 	text[1] = NAME_Bonus_Mana;
 	count[1] = Mana_Elixier;
 	text[5] = NAME_Value;
@@ -135,7 +135,7 @@ instance ItFo_Potion_Elixier(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseElixier;
 	scemeName = "POTIONFAST";
-	description = "Зелье";
+	description = "Р—РµР»СЊРµ";
 	text[1] = NAME_Bonus_Mana;
 	count[1] = Mana_Elixier1;
 	text[5] = NAME_Value;
@@ -160,7 +160,7 @@ instance ItFo_Potion_Health_01(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseHealthPotion;
 	scemeName = "POTIONFAST";
-	description = "Эссенция исцеления";
+	description = "Р­СЃСЃРµРЅС†РёСЏ РёСЃС†РµР»РµРЅРёСЏ";
 	text[1] = NAME_Bonus_HP;
 	count[1] = HP_Essenz;
 	text[5] = NAME_Value;
@@ -185,7 +185,7 @@ instance ItFo_Potion_Health_02(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseHealth2Potion;
 	scemeName = "POTIONFAST";
-	description = "Экстракт исцеляющей силы";
+	description = "Р­РєСЃС‚СЂР°РєС‚ РёСЃС†РµР»СЏСЋС‰РµР№ СЃРёР»С‹";
 	text[1] = NAME_Bonus_HP;
 	count[1] = HP_Extrakt;
 	text[5] = NAME_Value;
@@ -210,7 +210,7 @@ instance ItFo_Potion_Health_03(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseHealth3Potion;
 	scemeName = "POTIONFAST";
-	description = "Зелье исцеляющей силы";
+	description = "Р—РµР»СЊРµ РёСЃС†РµР»СЏСЋС‰РµР№ СЃРёР»С‹";
 	text[1] = NAME_Bonus_HP;
 	count[1] = HP_Elixier;
 	text[5] = NAME_Value;
@@ -235,8 +235,8 @@ instance ItFo_Potion_Elixier_Egg(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseEggElixier;
 	scemeName = "POTIONFAST";
-	description = "Зелье из слюны ползунов";
-	text[0] = "Настраивает на связь со Спящим.";
+	description = "Р—РµР»СЊРµ РёР· СЃР»СЋРЅС‹ РїРѕР»Р·СѓРЅРѕРІ";
+	text[0] = "РќР°СЃС‚СЂР°РёРІР°РµС‚ РЅР° СЃРІСЏР·СЊ СЃРѕ РЎРїСЏС‰РёРј.";
 	text[1] = NAME_Bonus_ManaMax;
 	count[1] = ManaMax_ElixierEgg;
 	text[5] = NAME_Value;
@@ -260,7 +260,7 @@ instance ItFo_Potion_Strength_01(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseStrengthPotion;
 	scemeName = "POTIONFAST";
-	description = "Эссенция силы";
+	description = "Р­СЃСЃРµРЅС†РёСЏ СЃРёР»С‹";
 	text[1] = NAME_Bonus_Str;
 	count[1] = STR_Essenz;
 	text[5] = NAME_Value;
@@ -284,7 +284,7 @@ instance ItFo_Potion_Strength_02(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseStrength2Potion;
 	scemeName = "POTIONFAST";
-	description = "Экстракт силы";
+	description = "Р­РєСЃС‚СЂР°РєС‚ СЃРёР»С‹";
 	text[1] = NAME_Bonus_Str;
 	count[1] = STR_Extrakt;
 	text[5] = NAME_Value;
@@ -308,7 +308,7 @@ instance ItFo_Potion_Strength_03(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseStrength3Potion;
 	scemeName = "POTIONFAST";
-	description = "Зелье силы";
+	description = "Р—РµР»СЊРµ СЃРёР»С‹";
 	text[1] = NAME_Bonus_Str;
 	count[1] = STR_Elixier;
 	text[5] = NAME_Value;
@@ -332,7 +332,7 @@ instance ItFo_Potion_Dex_01(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseDexPotion;
 	scemeName = "POTIONFAST";
-	description = "Эссенция ловкости";
+	description = "Р­СЃСЃРµРЅС†РёСЏ Р»РѕРІРєРѕСЃС‚Рё";
 	text[1] = NAME_Bonus_Dex;
 	count[1] = DEX_Essenz;
 	text[5] = NAME_Value;
@@ -356,7 +356,7 @@ instance ItFo_Potion_Dex_02(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseDex2Potion;
 	scemeName = "POTIONFAST";
-	description = "Экстракт ловкости";
+	description = "Р­РєСЃС‚СЂР°РєС‚ Р»РѕРІРєРѕСЃС‚Рё";
 	text[1] = NAME_Bonus_Dex;
 	count[1] = DEX_Extrakt;
 	text[5] = NAME_Value;
@@ -380,7 +380,7 @@ instance ItFo_Potion_Dex_03(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseDex3Potion;
 	scemeName = "POTIONFAST";
-	description = "Зелье ловкости";
+	description = "Р—РµР»СЊРµ Р»РѕРІРєРѕСЃС‚Рё";
 	text[1] = NAME_Bonus_Dex;
 	count[1] = DEX_Elixier;
 	text[5] = NAME_Value;
@@ -404,7 +404,7 @@ instance ItFo_Potion_Master_01(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseMasterPotion;
 	scemeName = "POTIONFAST";
-	description = "Зелье мощи";
+	description = "Р—РµР»СЊРµ РјРѕС‰Рё";
 	text[1] = NAME_Bonus_Dex;
 	count[1] = StrDex_Macht;
 	text[2] = NAME_Bonus_Str;
@@ -434,7 +434,7 @@ instance ItFo_Potion_Master_02(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseMaster2Potion;
 	scemeName = "POTIONFAST";
-	description = "Зелье власти";
+	description = "Р—РµР»СЊРµ РІР»Р°СЃС‚Рё";
 	text[1] = NAME_Bonus_Dex;
 	count[1] = StrDex_Herrschaft;
 	text[2] = NAME_Bonus_Str;
@@ -464,7 +464,7 @@ instance ItFo_Potion_Health_Perma_01(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseLifePotion;
 	scemeName = "POTIONFAST";
-	description = "Эссенция жизни";
+	description = "Р­СЃСЃРµРЅС†РёСЏ Р¶РёР·РЅРё";
 	text[1] = NAME_Bonus_HpMax;
 	count[1] = HPMax_Essenz;
 	text[5] = NAME_Value;
@@ -488,7 +488,7 @@ instance ItFo_Potion_Health_Perma_02(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseLife2Potion;
 	scemeName = "POTIONFAST";
-	description = "Экстракт жизни";
+	description = "Р­РєСЃС‚СЂР°РєС‚ Р¶РёР·РЅРё";
 	text[1] = NAME_Bonus_HpMax;
 	count[1] = HPMax_Extrakt;
 	text[5] = NAME_Value;
@@ -512,7 +512,7 @@ instance ItFo_Potion_Health_Perma_03(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseLife3Potion;
 	scemeName = "POTIONFAST";
-	description = "Зелье жизни";
+	description = "Р—РµР»СЊРµ Р¶РёР·РЅРё";
 	text[1] = NAME_Bonus_HpMax;
 	count[1] = HPMax_Elixier;
 	text[5] = NAME_Value;
@@ -536,7 +536,7 @@ instance ItFo_Potion_Mana_Perma_01(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseNectarPotion;
 	scemeName = "POTIONFAST";
-	description = "Эссенция силы духа";
+	description = "Р­СЃСЃРµРЅС†РёСЏ СЃРёР»С‹ РґСѓС…Р°";
 	text[1] = NAME_Bonus_ManaMax;
 	count[1] = ManaMax_Essenz;
 	text[5] = NAME_Value;
@@ -547,7 +547,7 @@ instance ItFo_Potion_Mana_Perma_01(C_Item)
 func void UseNectarPotion()
 {
 	B_RaiseAttribute(ATR_MANA_MAX,ManaMax_Essenz);
-	PrintDebugNpc(PD_ITEM_MOBSI,"Я пью магическое зелье.");
+	PrintDebugNpc(PD_ITEM_MOBSI,"РЇ РїСЊСЋ РјР°РіРёС‡РµСЃРєРѕРµ Р·РµР»СЊРµ.");
 };
 
 
@@ -561,7 +561,7 @@ instance ItFo_Potion_Mana_Perma_02(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseNectar2Potion;
 	scemeName = "POTIONFAST";
-	description = "Экстракт силы духа";
+	description = "Р­РєСЃС‚СЂР°РєС‚ СЃРёР»С‹ РґСѓС…Р°";
 	text[1] = NAME_Bonus_ManaMax;
 	count[1] = ManaMax_Extrakt;
 	text[5] = NAME_Value;
@@ -572,7 +572,7 @@ instance ItFo_Potion_Mana_Perma_02(C_Item)
 func void UseNectar2Potion()
 {
 	B_RaiseAttribute(ATR_MANA_MAX,ManaMax_Extrakt);
-	PrintDebugNpc(PD_ITEM_MOBSI,"Я пью магическое зелье.");
+	PrintDebugNpc(PD_ITEM_MOBSI,"РЇ РїСЊСЋ РјР°РіРёС‡РµСЃРєРѕРµ Р·РµР»СЊРµ.");
 };
 
 
@@ -586,7 +586,7 @@ instance ItFo_Potion_Mana_Perma_03(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseNectar3Potion;
 	scemeName = "POTIONFAST";
-	description = "Зелье силы духа";
+	description = "Р—РµР»СЊРµ СЃРёР»С‹ РґСѓС…Р°";
 	text[1] = NAME_Bonus_ManaMax;
 	count[1] = ManaMax_Elixier;
 	text[5] = NAME_Value;
@@ -597,7 +597,7 @@ instance ItFo_Potion_Mana_Perma_03(C_Item)
 func void UseNectar3Potion()
 {
 	B_RaiseAttribute(ATR_MANA_MAX,ManaMax_Elixier);
-	PrintDebugNpc(PD_ITEM_MOBSI,"Я пью магическое зелье.");
+	PrintDebugNpc(PD_ITEM_MOBSI,"РЇ РїСЊСЋ РјР°РіРёС‡РµСЃРєРѕРµ Р·РµР»СЊРµ.");
 };
 
 
@@ -611,8 +611,8 @@ instance ItFo_Potion_Haste_01(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseHastePotion;
 	scemeName = "POTIONFAST";
-	description = "Зелье скорости";
-	text[1] = "Увеличивает скорость движения.";
+	description = "Р—РµР»СЊРµ СЃРєРѕСЂРѕСЃС‚Рё";
+	text[1] = "РЈРІРµР»РёС‡РёРІР°РµС‚ СЃРєРѕСЂРѕСЃС‚СЊ РґРІРёР¶РµРЅРёСЏ.";
 	text[3] = NAME_Duration;
 	count[3] = Time_Haste1 / 60000;
 	text[5] = NAME_Value;
@@ -623,7 +623,7 @@ instance ItFo_Potion_Haste_01(C_Item)
 func void UseHastePotion()
 {
 	Mdl_ApplyOverlayMdsTimed(self,"HUMANS_SPRINT.MDS",Time_Haste1);
-	PrintDebugNpc(PD_ITEM_MOBSI,"Я стал быстрее.");
+	PrintDebugNpc(PD_ITEM_MOBSI,"РЇ СЃС‚Р°Р» Р±С‹СЃС‚СЂРµРµ.");
 };
 
 
@@ -637,8 +637,8 @@ instance ItFo_Potion_Haste_02(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseHastePotion2;
 	scemeName = "POTIONFAST";
-	description = "Зелье быстроты";
-	text[1] = "Увеличивает скорость движения.";
+	description = "Р—РµР»СЊРµ Р±С‹СЃС‚СЂРѕС‚С‹";
+	text[1] = "РЈРІРµР»РёС‡РёРІР°РµС‚ СЃРєРѕСЂРѕСЃС‚СЊ РґРІРёР¶РµРЅРёСЏ.";
 	text[3] = NAME_Duration;
 	count[3] = Time_Haste2 / 60000;
 	text[5] = NAME_Value;
@@ -649,7 +649,7 @@ instance ItFo_Potion_Haste_02(C_Item)
 func void UseHastePotion2()
 {
 	Mdl_ApplyOverlayMdsTimed(self,"HUMANS_SPRINT.MDS",Time_Haste2);
-	PrintDebugNpc(PD_ITEM_MOBSI,"Я стал быстрее.");
+	PrintDebugNpc(PD_ITEM_MOBSI,"РЇ СЃС‚Р°Р» Р±С‹СЃС‚СЂРµРµ.");
 };
 
 
@@ -663,8 +663,8 @@ instance ItFo_Potion_Haste_03(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseHastePotion3;
 	scemeName = "POTIONFAST";
-	description = "Зелье спешки";
-	text[1] = "Увеличивает скорость движения.";
+	description = "Р—РµР»СЊРµ СЃРїРµС€РєРё";
+	text[1] = "РЈРІРµР»РёС‡РёРІР°РµС‚ СЃРєРѕСЂРѕСЃС‚СЊ РґРІРёР¶РµРЅРёСЏ.";
 	text[3] = NAME_Duration;
 	count[3] = Time_Haste3 / 60000;
 	text[5] = NAME_Value;
@@ -675,6 +675,6 @@ instance ItFo_Potion_Haste_03(C_Item)
 func void UseHastePotion3()
 {
 	Mdl_ApplyOverlayMdsTimed(self,"HUMANS_SPRINT.MDS",Time_Haste3);
-	PrintDebugNpc(PD_ITEM_MOBSI,"Я стал быстрее.");
+	PrintDebugNpc(PD_ITEM_MOBSI,"РЇ СЃС‚Р°Р» Р±С‹СЃС‚СЂРµРµ.");
 };
 

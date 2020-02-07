@@ -1,7 +1,7 @@
-
+п»ї
 prototype Mst_Default_Zombie(C_Npc)
 {
-	name[0] = "Зомби";
+	name[0] = "Р—РѕРјР±Рё";
 	guild = GIL_ZOMBIE;
 	aivar[AIV_IMPORTANT] = ID_ZOMBIE;
 	level = 20;
@@ -83,7 +83,7 @@ instance Zombie4(Mst_Default_Zombie)
 
 instance ZombieTheKeeper(Mst_Default_Zombie)
 {
-	name[0] = "Стражник";
+	name[0] = "РЎС‚СЂР°Р¶РЅРёРє";
 	level = 150;
 	id = MID_THEKEEPER;
 	Set_Zombie4_Visuals();

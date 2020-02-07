@@ -1,4 +1,4 @@
-
+﻿
 func void B_GuildGreetings()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"B_GuilGreetings");

@@ -1,9 +1,9 @@
-
+п»ї
 const int Value_1H_Sword_01 = 100;
 
 instance ItMw_1H_Club_01(C_Item)
 {
-	name = "Дубина";
+	name = "Р”СѓР±РёРЅР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -26,7 +26,7 @@ instance ItMw_1H_Club_01(C_Item)
 
 instance ItMw_1H_Poker_01(C_Item)
 {
-	name = "Скребок";
+	name = "РЎРєСЂРµР±РѕРє";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -49,7 +49,7 @@ instance ItMw_1H_Poker_01(C_Item)
 
 instance ItMw_1H_Sickle_01(C_Item)
 {
-	name = "Серп";
+	name = "РЎРµСЂРї";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_METAL;
@@ -72,7 +72,7 @@ instance ItMw_1H_Sickle_01(C_Item)
 
 instance ItMwPickaxe(C_Item)
 {
-	name = "Кирка";
+	name = "РљРёСЂРєР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	value = 4;
@@ -95,7 +95,7 @@ instance ItMwPickaxe(C_Item)
 
 instance ItMw_1H_Sledgehammer_01(C_Item)
 {
-	name = "Молот";
+	name = "РњРѕР»РѕС‚";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -118,7 +118,7 @@ instance ItMw_1H_Sledgehammer_01(C_Item)
 
 instance ItMw_1H_Mace_Light_01(C_Item)
 {
-	name = "Дубина";
+	name = "Р”СѓР±РёРЅР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -141,7 +141,7 @@ instance ItMw_1H_Mace_Light_01(C_Item)
 
 instance ItMw_1H_Hatchet_01(C_Item)
 {
-	name = "Топор";
+	name = "РўРѕРїРѕСЂ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -164,7 +164,7 @@ instance ItMw_1H_Hatchet_01(C_Item)
 
 instance ItMw_1H_Sword_Old_01(C_Item)
 {
-	name = "Ржавый меч";
+	name = "Р Р¶Р°РІС‹Р№ РјРµС‡";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -187,7 +187,7 @@ instance ItMw_1H_Sword_Old_01(C_Item)
 
 instance ItMw_1H_Nailmace_01(C_Item)
 {
-	name = "Булава с гвоздями";
+	name = "Р‘СѓР»Р°РІР° СЃ РіРІРѕР·РґСЏРјРё";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -210,7 +210,7 @@ instance ItMw_1H_Nailmace_01(C_Item)
 
 instance ItMw_1H_Sword_Short_01(C_Item)
 {
-	name = "Короткий меч";
+	name = "РљРѕСЂРѕС‚РєРёР№ РјРµС‡";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -233,7 +233,7 @@ instance ItMw_1H_Sword_Short_01(C_Item)
 
 instance ItMw_1H_Sword_Short_02(C_Item)
 {
-	name = "Защитник крестьянина";
+	name = "Р—Р°С‰РёС‚РЅРёРє РєСЂРµСЃС‚СЊСЏРЅРёРЅР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -256,7 +256,7 @@ instance ItMw_1H_Sword_Short_02(C_Item)
 
 instance ItMw_1H_Sword_Short_03(C_Item)
 {
-	name = "Укус шныга";
+	name = "РЈРєСѓСЃ С€РЅС‹РіР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -279,7 +279,7 @@ instance ItMw_1H_Sword_Short_03(C_Item)
 
 instance ItMw_1H_Sword_Short_04(C_Item)
 {
-	name = "Шип ранений";
+	name = "РЁРёРї СЂР°РЅРµРЅРёР№";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -302,7 +302,7 @@ instance ItMw_1H_Sword_Short_04(C_Item)
 
 instance ItMw_1H_Sword_Short_05(C_Item)
 {
-	name = "Смирение рудокопа";
+	name = "РЎРјРёСЂРµРЅРёРµ СЂСѓРґРѕРєРѕРїР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -325,7 +325,7 @@ instance ItMw_1H_Sword_Short_05(C_Item)
 
 instance ItMw_1H_Axe_Old_01(C_Item)
 {
-	name = "Старый топор";
+	name = "РЎС‚Р°СЂС‹Р№ С‚РѕРїРѕСЂ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -348,7 +348,7 @@ instance ItMw_1H_Axe_Old_01(C_Item)
 
 instance ItMw_1H_Scythe_01(C_Item)
 {
-	name = "Косарь";
+	name = "РљРѕСЃР°СЂСЊ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -371,7 +371,7 @@ instance ItMw_1H_Scythe_01(C_Item)
 
 instance ItMw_2H_Staff_01(C_Item)
 {
-	name = "Боевой посох";
+	name = "Р‘РѕРµРІРѕР№ РїРѕСЃРѕС…";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -394,7 +394,7 @@ instance ItMw_2H_Staff_01(C_Item)
 
 instance ItMw_2H_Staff_02(C_Item)
 {
-	name = "Хороший посох";
+	name = "РҐРѕСЂРѕС€РёР№ РїРѕСЃРѕС…";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -417,7 +417,7 @@ instance ItMw_2H_Staff_02(C_Item)
 
 instance ItMw_2H_Staff_03(C_Item)
 {
-	name = "Посох жреца";
+	name = "РџРѕСЃРѕС… Р¶СЂРµС†Р°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -440,7 +440,7 @@ instance ItMw_2H_Staff_03(C_Item)
 
 instance ItMw_1H_LightGuardsSword_03(C_Item)
 {
-	name = "Легкий меч стражника";
+	name = "Р›РµРіРєРёР№ РјРµС‡ СЃС‚СЂР°Р¶РЅРёРєР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -463,7 +463,7 @@ instance ItMw_1H_LightGuardsSword_03(C_Item)
 
 instance ItMw_1H_Mace_01(C_Item)
 {
-	name = "Тяжелая булава";
+	name = "РўСЏР¶РµР»Р°СЏ Р±СѓР»Р°РІР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -486,7 +486,7 @@ instance ItMw_1H_Mace_01(C_Item)
 
 instance ItMw_1H_Mace_02(C_Item)
 {
-	name = "Булава с шипами";
+	name = "Р‘СѓР»Р°РІР° СЃ С€РёРїР°РјРё";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -509,7 +509,7 @@ instance ItMw_1H_Mace_02(C_Item)
 
 instance ItMw_1H_Mace_03(C_Item)
 {
-	name = "Жало шершня";
+	name = "Р–Р°Р»Рѕ С€РµСЂС€РЅСЏ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -532,7 +532,7 @@ instance ItMw_1H_Mace_03(C_Item)
 
 instance ItMw_1H_Mace_04(C_Item)
 {
-	name = "Стальной язык";
+	name = "РЎС‚Р°Р»СЊРЅРѕР№ СЏР·С‹Рє";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -555,7 +555,7 @@ instance ItMw_1H_Mace_04(C_Item)
 
 instance ItMw_1H_Sword_01(C_Item)
 {
-	name = "Незаточенный меч";
+	name = "РќРµР·Р°С‚РѕС‡РµРЅРЅС‹Р№ РјРµС‡";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -578,7 +578,7 @@ instance ItMw_1H_Sword_01(C_Item)
 
 instance ItMw_1H_Sword_02(C_Item)
 {
-	name = "Хороший меч";
+	name = "РҐРѕСЂРѕС€РёР№ РјРµС‡";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -601,7 +601,7 @@ instance ItMw_1H_Sword_02(C_Item)
 
 instance ItMw_1H_Sword_03(C_Item)
 {
-	name = "Меч стражника";
+	name = "РњРµС‡ СЃС‚СЂР°Р¶РЅРёРєР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -624,7 +624,7 @@ instance ItMw_1H_Sword_03(C_Item)
 
 instance ItMw_1H_Sword_04(C_Item)
 {
-	name = "Боевой меч";
+	name = "Р‘РѕРµРІРѕР№ РјРµС‡";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -647,7 +647,7 @@ instance ItMw_1H_Sword_04(C_Item)
 
 instance ItMw_1H_Sword_05(C_Item)
 {
-	name = "Военный меч";
+	name = "Р’РѕРµРЅРЅС‹Р№ РјРµС‡";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -670,7 +670,7 @@ instance ItMw_1H_Sword_05(C_Item)
 
 instance ItMw_1H_Mace_War_01(C_Item)
 {
-	name = "Моргенштерн";
+	name = "РњРѕСЂРіРµРЅС€С‚РµСЂРЅ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -693,7 +693,7 @@ instance ItMw_1H_Mace_War_01(C_Item)
 
 instance ItMw_1H_Mace_War_02(C_Item)
 {
-	name = "Стальное жало";
+	name = "РЎС‚Р°Р»СЊРЅРѕРµ Р¶Р°Р»Рѕ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -716,7 +716,7 @@ instance ItMw_1H_Mace_War_02(C_Item)
 
 instance ItMw_1H_Mace_War_03(C_Item)
 {
-	name = "Камнелом";
+	name = "РљР°РјРЅРµР»РѕРј";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -739,7 +739,7 @@ instance ItMw_1H_Mace_War_03(C_Item)
 
 instance ItMw_1H_Mace_War_04(C_Item)
 {
-	name = "Пронзающий сердца";
+	name = "РџСЂРѕРЅР·Р°СЋС‰РёР№ СЃРµСЂРґС†Р°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -762,7 +762,7 @@ instance ItMw_1H_Mace_War_04(C_Item)
 
 instance ItMw_1H_Sword_Long_01(C_Item)
 {
-	name = "Длинный меч";
+	name = "Р”Р»РёРЅРЅС‹Р№ РјРµС‡";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -785,7 +785,7 @@ instance ItMw_1H_Sword_Long_01(C_Item)
 
 instance ItMw_1H_Sword_Long_02(C_Item)
 {
-	name = "Сеющий страх";
+	name = "РЎРµСЋС‰РёР№ СЃС‚СЂР°С…";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -808,7 +808,7 @@ instance ItMw_1H_Sword_Long_02(C_Item)
 
 instance ItMw_1H_Sword_Long_03(C_Item)
 {
-	name = "Сеющий ненависть";
+	name = "РЎРµСЋС‰РёР№ РЅРµРЅР°РІРёСЃС‚СЊ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -831,7 +831,7 @@ instance ItMw_1H_Sword_Long_03(C_Item)
 
 instance ItMw_1H_Sword_Long_04(C_Item)
 {
-	name = "Победоносный";
+	name = "РџРѕР±РµРґРѕРЅРѕСЃРЅС‹Р№";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -854,7 +854,7 @@ instance ItMw_1H_Sword_Long_04(C_Item)
 
 instance ItMw_1H_Sword_Long_05(C_Item)
 {
-	name = "Несущий смерть";
+	name = "РќРµСЃСѓС‰РёР№ СЃРјРµСЂС‚СЊ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -877,7 +877,7 @@ instance ItMw_1H_Sword_Long_05(C_Item)
 
 instance ItMw_1H_Warhammer_01(C_Item)
 {
-	name = "Молот орков";
+	name = "РњРѕР»РѕС‚ РѕСЂРєРѕРІ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -900,7 +900,7 @@ instance ItMw_1H_Warhammer_01(C_Item)
 
 instance ItMw_1H_Warhammer_02(C_Item)
 {
-	name = "Военный молот";
+	name = "Р’РѕРµРЅРЅС‹Р№ РјРѕР»РѕС‚";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -923,7 +923,7 @@ instance ItMw_1H_Warhammer_02(C_Item)
 
 instance ItMw_1H_Warhammer_03(C_Item)
 {
-	name = "Молот богов";
+	name = "РњРѕР»РѕС‚ Р±РѕРіРѕРІ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -946,7 +946,7 @@ instance ItMw_1H_Warhammer_03(C_Item)
 
 instance ItMw_1H_Axe_01(C_Item)
 {
-	name = "Топор";
+	name = "РўРѕРїРѕСЂ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -969,7 +969,7 @@ instance ItMw_1H_Axe_01(C_Item)
 
 instance ItMw_1H_Axe_02(C_Item)
 {
-	name = "Череполом";
+	name = "Р§РµСЂРµРїРѕР»РѕРј";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -992,7 +992,7 @@ instance ItMw_1H_Axe_02(C_Item)
 
 instance ItMw_1H_Axe_03(C_Item)
 {
-	name = "Беспощадный";
+	name = "Р‘РµСЃРїРѕС‰Р°РґРЅС‹Р№";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_WOOD;
@@ -1015,7 +1015,7 @@ instance ItMw_1H_Axe_03(C_Item)
 
 instance ItMw_1H_Sword_Broad_01(C_Item)
 {
-	name = "Широкий меч";
+	name = "РЁРёСЂРѕРєРёР№ РјРµС‡";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -1038,7 +1038,7 @@ instance ItMw_1H_Sword_Broad_01(C_Item)
 
 instance ItMw_1H_Sword_Broad_02(C_Item)
 {
-	name = "Смертельный приговор";
+	name = "РЎРјРµСЂС‚РµР»СЊРЅС‹Р№ РїСЂРёРіРѕРІРѕСЂ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -1061,7 +1061,7 @@ instance ItMw_1H_Sword_Broad_02(C_Item)
 
 instance ItMw_1H_Sword_Broad_03(C_Item)
 {
-	name = "Шепот смерти";
+	name = "РЁРµРїРѕС‚ СЃРјРµСЂС‚Рё";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -1084,7 +1084,7 @@ instance ItMw_1H_Sword_Broad_03(C_Item)
 
 instance ItMw_1H_Sword_Broad_04(C_Item)
 {
-	name = "Кулак бойца";
+	name = "РљСѓР»Р°Рє Р±РѕР№С†Р°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -1107,7 +1107,7 @@ instance ItMw_1H_Sword_Broad_04(C_Item)
 
 instance ItMw_2H_Sword_Old_01(C_Item)
 {
-	name = "Ржавый двуручный меч";
+	name = "Р Р¶Р°РІС‹Р№ РґРІСѓСЂСѓС‡РЅС‹Р№ РјРµС‡";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD;
 	material = MAT_METAL;
@@ -1130,7 +1130,7 @@ instance ItMw_2H_Sword_Old_01(C_Item)
 
 instance ItMw_1H_Sword_Bastard_01(C_Item)
 {
-	name = "Ржавый меч-бастард";
+	name = "Р Р¶Р°РІС‹Р№ РјРµС‡-Р±Р°СЃС‚Р°СЂРґ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -1153,7 +1153,7 @@ instance ItMw_1H_Sword_Bastard_01(C_Item)
 
 instance ItMw_1H_Sword_Bastard_02(C_Item)
 {
-	name = "Убийца";
+	name = "РЈР±РёР№С†Р°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -1176,7 +1176,7 @@ instance ItMw_1H_Sword_Bastard_02(C_Item)
 
 instance ItMw_1H_Sword_Bastard_03(C_Item)
 {
-	name = "Исполнитель";
+	name = "РСЃРїРѕР»РЅРёС‚РµР»СЊ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -1199,7 +1199,7 @@ instance ItMw_1H_Sword_Bastard_03(C_Item)
 
 instance ItMw_1H_Sword_Bastard_04(C_Item)
 {
-	name = "Удар ярости";
+	name = "РЈРґР°СЂ СЏСЂРѕСЃС‚Рё";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -1222,7 +1222,7 @@ instance ItMw_1H_Sword_Bastard_04(C_Item)
 
 instance ItMw_2H_Axe_Old_01(C_Item)
 {
-	name = "Старый боевой топор";
+	name = "РЎС‚Р°СЂС‹Р№ Р±РѕРµРІРѕР№ С‚РѕРїРѕСЂ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -1245,7 +1245,7 @@ instance ItMw_2H_Axe_Old_01(C_Item)
 
 instance ItMw_2H_Axe_Old_02(C_Item)
 {
-	name = "Кровопийца";
+	name = "РљСЂРѕРІРѕРїРёР№С†Р°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -1268,7 +1268,7 @@ instance ItMw_2H_Axe_Old_02(C_Item)
 
 instance ItMw_2H_Axe_Old_03(C_Item)
 {
-	name = "Старый судейский топор";
+	name = "РЎС‚Р°СЂС‹Р№ СЃСѓРґРµР№СЃРєРёР№ С‚РѕРїРѕСЂ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -1291,7 +1291,7 @@ instance ItMw_2H_Axe_Old_03(C_Item)
 
 instance ItMw_2H_Sword_Light_01(C_Item)
 {
-	name = "Легкий двуручный меч";
+	name = "Р›РµРіРєРёР№ РґРІСѓСЂСѓС‡РЅС‹Р№ РјРµС‡";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD;
 	material = MAT_METAL;
@@ -1314,7 +1314,7 @@ instance ItMw_2H_Sword_Light_01(C_Item)
 
 instance ItMw_2H_Sword_Light_02(C_Item)
 {
-	name = "Хранитель";
+	name = "РҐСЂР°РЅРёС‚РµР»СЊ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD;
 	material = MAT_METAL;
@@ -1337,7 +1337,7 @@ instance ItMw_2H_Sword_Light_02(C_Item)
 
 instance ItMw_2H_Sword_Light_03(C_Item)
 {
-	name = "Солдатский клинок";
+	name = "РЎРѕР»РґР°С‚СЃРєРёР№ РєР»РёРЅРѕРє";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD;
 	material = MAT_METAL;
@@ -1360,7 +1360,7 @@ instance ItMw_2H_Sword_Light_03(C_Item)
 
 instance ItMw_2H_Sword_Light_04(C_Item)
 {
-	name = "Королевский клинок";
+	name = "РљРѕСЂРѕР»РµРІСЃРєРёР№ РєР»РёРЅРѕРє";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD;
 	material = MAT_METAL;
@@ -1383,7 +1383,7 @@ instance ItMw_2H_Sword_Light_04(C_Item)
 
 instance ItMw_2H_Sword_Light_05(C_Item)
 {
-	name = "Клинок демонов";
+	name = "РљР»РёРЅРѕРє РґРµРјРѕРЅРѕРІ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD;
 	material = MAT_METAL;
@@ -1406,7 +1406,7 @@ instance ItMw_2H_Sword_Light_05(C_Item)
 
 instance ItMw_2H_Axe_light_01(C_Item)
 {
-	name = "Легкий боевой топор";
+	name = "Р›РµРіРєРёР№ Р±РѕРµРІРѕР№ С‚РѕРїРѕСЂ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -1429,7 +1429,7 @@ instance ItMw_2H_Axe_light_01(C_Item)
 
 instance ItMw_2H_Axe_light_02(C_Item)
 {
-	name = "Удар грома";
+	name = "РЈРґР°СЂ РіСЂРѕРјР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -1452,7 +1452,7 @@ instance ItMw_2H_Axe_light_02(C_Item)
 
 instance ItMw_2H_Axe_light_03(C_Item)
 {
-	name = "Час расплаты";
+	name = "Р§Р°СЃ СЂР°СЃРїР»Р°С‚С‹";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -1475,7 +1475,7 @@ instance ItMw_2H_Axe_light_03(C_Item)
 
 instance ItMw_2H_Sword_01(C_Item)
 {
-	name = "Двуручный меч";
+	name = "Р”РІСѓСЂСѓС‡РЅС‹Р№ РјРµС‡";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD;
 	material = MAT_METAL;
@@ -1498,7 +1498,7 @@ instance ItMw_2H_Sword_01(C_Item)
 
 instance ItMw_2H_Sword_02(C_Item)
 {
-	name = "Отвага героя";
+	name = "РћС‚РІР°РіР° РіРµСЂРѕСЏ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD;
 	material = MAT_METAL;
@@ -1521,7 +1521,7 @@ instance ItMw_2H_Sword_02(C_Item)
 
 instance ItMw_2H_Sword_03(C_Item)
 {
-	name = "Кровавая атака";
+	name = "РљСЂРѕРІР°РІР°СЏ Р°С‚Р°РєР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD;
 	material = MAT_METAL;
@@ -1544,7 +1544,7 @@ instance ItMw_2H_Sword_03(C_Item)
 
 instance ItMw_2H_Sword_Heavy_01(C_Item)
 {
-	name = "Тяжелый двуручный меч";
+	name = "РўСЏР¶РµР»С‹Р№ РґРІСѓСЂСѓС‡РЅС‹Р№ РјРµС‡";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD;
 	material = MAT_METAL;
@@ -1567,7 +1567,7 @@ instance ItMw_2H_Sword_Heavy_01(C_Item)
 
 instance ItMw_2H_Sword_Heavy_02(C_Item)
 {
-	name = "Стальная ярость";
+	name = "РЎС‚Р°Р»СЊРЅР°СЏ СЏСЂРѕСЃС‚СЊ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD;
 	material = MAT_METAL;
@@ -1590,7 +1590,7 @@ instance ItMw_2H_Sword_Heavy_02(C_Item)
 
 instance ItMw_2H_Sword_Heavy_03(C_Item)
 {
-	name = "Молниеносный";
+	name = "РњРѕР»РЅРёРµРЅРѕСЃРЅС‹Р№";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD;
 	material = MAT_METAL;
@@ -1613,7 +1613,7 @@ instance ItMw_2H_Sword_Heavy_03(C_Item)
 
 instance ItMw_2H_Sword_Heavy_04(C_Item)
 {
-	name = "Месть тролля";
+	name = "РњРµСЃС‚СЊ С‚СЂРѕР»Р»СЏ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD;
 	material = MAT_METAL;
@@ -1636,7 +1636,7 @@ instance ItMw_2H_Sword_Heavy_04(C_Item)
 
 instance ItMw_2H_Axe_Heavy_01(C_Item)
 {
-	name = "Боевой топор";
+	name = "Р‘РѕРµРІРѕР№ С‚РѕРїРѕСЂ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -1659,7 +1659,7 @@ instance ItMw_2H_Axe_Heavy_01(C_Item)
 
 instance ItMw_2H_Axe_Heavy_02(C_Item)
 {
-	name = "Клич воина";
+	name = "РљР»РёС‡ РІРѕРёРЅР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -1682,7 +1682,7 @@ instance ItMw_2H_Axe_Heavy_02(C_Item)
 
 instance ItMw_2H_Axe_Heavy_03(C_Item)
 {
-	name = "Кулак варвара";
+	name = "РљСѓР»Р°Рє РІР°СЂРІР°СЂР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -1705,7 +1705,7 @@ instance ItMw_2H_Axe_Heavy_03(C_Item)
 
 instance ItMw_2H_Axe_Heavy_04(C_Item)
 {
-	name = "Кулак тролля";
+	name = "РљСѓР»Р°Рє С‚СЂРѕР»Р»СЏ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -1728,7 +1728,7 @@ instance ItMw_2H_Axe_Heavy_04(C_Item)
 
 instance ItMw2hOrcSword01(C_Item)
 {
-	name = "Круш Варрок";
+	name = "РљСЂСѓС€ Р’Р°СЂСЂРѕРє";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD;
 	material = MAT_WOOD;
@@ -1751,7 +1751,7 @@ instance ItMw2hOrcSword01(C_Item)
 
 instance ItMw2hOrcAxe01(C_Item)
 {
-	name = "Круш Пах";
+	name = "РљСЂСѓС€ РџР°С…";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -1774,7 +1774,7 @@ instance ItMw2hOrcAxe01(C_Item)
 
 instance ItMw2hOrcAxe02(C_Item)
 {
-	name = "Круш УрРок";
+	name = "РљСЂСѓС€ РЈСЂР РѕРє";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -1797,7 +1797,7 @@ instance ItMw2hOrcAxe02(C_Item)
 
 instance ItMw2hOrcAxe03(C_Item)
 {
-	name = "Круш Агаш";
+	name = "РљСЂСѓС€ РђРіР°С€";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -1820,7 +1820,7 @@ instance ItMw2hOrcAxe03(C_Item)
 
 instance ItMw2hOrcAxe04(C_Item)
 {
-	name = "Круш БрокДар";
+	name = "РљСЂСѓС€ Р‘СЂРѕРєР”Р°СЂ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -1843,7 +1843,7 @@ instance ItMw2hOrcAxe04(C_Item)
 
 instance ItMw2hOrcMace01(C_Item)
 {
-	name = "Круш Каррок";
+	name = "РљСЂСѓС€ РљР°СЂСЂРѕРє";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -1866,7 +1866,7 @@ instance ItMw2hOrcMace01(C_Item)
 
 instance ItRwOrcstaff(C_Item)
 {
-	name = "Грахтнакк";
+	name = "Р“СЂР°С…С‚РЅР°РєРє";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -1881,7 +1881,7 @@ instance ItRwOrcstaff(C_Item)
 
 instance ItRwUdOrcstaff(C_Item)
 {
-	name = "ШаБаНакк";
+	name = "РЁР°Р‘Р°РќР°РєРє";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;

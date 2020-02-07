@@ -1,7 +1,7 @@
-
+п»ї
 prototype Mst_Default_BlackGobbo(C_Npc)
 {
-	name[0] = "Черный гоблин";
+	name[0] = "Р§РµСЂРЅС‹Р№ РіРѕР±Р»РёРЅ";
 	guild = GIL_GOBBO;
 	aivar[AIV_IMPORTANT] = ID_BLACKGOBBO;
 	level = 12;
@@ -56,6 +56,6 @@ instance BlackGobboWarrior(Mst_Default_BlackGobbo)
 	attribute[ATR_HITPOINTS] = 105;
 	protection[PROT_BLUNT] = 50;
 	protection[PROT_EDGE] = 50;
-	name[0] = "Гоблин-воин";
+	name[0] = "Р“РѕР±Р»РёРЅ-РІРѕРёРЅ";
 };
 

@@ -1,4 +1,4 @@
-
+﻿
 const int BS_FLAG_INTERRUPTABLE = 1 << 15;
 const int BS_FLAG_FREEHANDS = 1 << 16;
 const int BS_STAND = 98304;

@@ -1,7 +1,7 @@
-
+п»ї
 prototype Mst_Default_Waran(C_Npc)
 {
-	name[0] = "Ящерица";
+	name[0] = "РЇС‰РµСЂРёС†Р°";
 	guild = GIL_WARAN;
 	aivar[AIV_IMPORTANT] = ID_WARAN;
 	level = 8;

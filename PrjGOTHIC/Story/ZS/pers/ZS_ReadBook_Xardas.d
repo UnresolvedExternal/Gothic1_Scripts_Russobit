@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_ReadBook_Xardas()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_ReadBook");

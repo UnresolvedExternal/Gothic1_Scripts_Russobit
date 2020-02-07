@@ -1,4 +1,4 @@
-
+﻿
 func void B_Give_FiskChapter1Weapons()
 {
 	var C_Npc npc;

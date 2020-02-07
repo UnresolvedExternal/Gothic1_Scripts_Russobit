@@ -1,4 +1,4 @@
-
+﻿
 const int TAB_ANZAHL = 256;
 
 const int GIL_ATTITUDES[256] =

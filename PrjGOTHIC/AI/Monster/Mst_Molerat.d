@@ -1,7 +1,7 @@
-
+п»ї
 prototype Mst_Default_Molerat(C_Npc)
 {
-	name[0] = "Кротокрыс";
+	name[0] = "РљСЂРѕС‚РѕРєСЂС‹СЃ";
 	guild = GIL_MOLERAT;
 	aivar[AIV_IMPORTANT] = ID_MOLERAT;
 	level = 5;
@@ -48,7 +48,7 @@ instance Molerat(Mst_Default_Molerat)
 
 instance YMolerat(Mst_Default_Molerat)
 {
-	name[0] = "Молодой кротокрыс";
+	name[0] = "РњРѕР»РѕРґРѕР№ РєСЂРѕС‚РѕРєСЂС‹СЃ";
 	level = 4;
 	attribute[ATR_STRENGTH] = 5;
 	attribute[ATR_DEXTERITY] = 5;

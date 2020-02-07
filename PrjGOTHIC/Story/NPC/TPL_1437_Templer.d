@@ -1,7 +1,7 @@
-
+ï»¿
 instance TPL_1437_Templer(Npc_Default)
 {
-	name[0] = "Ñòðàæ";
+	name[0] = "Ð¡Ñ‚Ñ€Ð°Ð¶";
 	npcType = npctype_main;
 	guild = GIL_TPL;
 	level = 17;

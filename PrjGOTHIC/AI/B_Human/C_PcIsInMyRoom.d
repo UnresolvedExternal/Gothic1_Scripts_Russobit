@@ -1,4 +1,4 @@
-
+﻿
 func int C_PCIsInMyRoom()
 {
 	var C_Npc owner;

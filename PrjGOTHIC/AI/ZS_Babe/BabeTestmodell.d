@@ -1,7 +1,7 @@
-
+п»ї
 prototype TestBabe(C_Npc)
 {
-	name[0] = "Женщина";
+	name[0] = "Р–РµРЅС‰РёРЅР°";
 	guild = GIL_None;
 	level = 1;
 	attribute[ATR_STRENGTH] = 5;

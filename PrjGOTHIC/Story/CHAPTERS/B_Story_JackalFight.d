@@ -1,4 +1,4 @@
-
+﻿
 func void B_Story_JackalFight()
 {
 	var C_Npc jackal;

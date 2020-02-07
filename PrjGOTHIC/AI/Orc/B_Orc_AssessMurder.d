@@ -1,4 +1,4 @@
-
+﻿
 func void B_Orc_AssessMurder()
 {
 	PrintDebugNpc(PD_ORC_FRAME,"B_Orc_AssesMurder");

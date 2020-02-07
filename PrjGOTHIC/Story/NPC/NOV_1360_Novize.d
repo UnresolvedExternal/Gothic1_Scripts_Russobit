@@ -1,4 +1,4 @@
-
+﻿
 instance NOV_1360_Novize(Npc_Default)
 {
 	name[0] = NAME_MadNovice;

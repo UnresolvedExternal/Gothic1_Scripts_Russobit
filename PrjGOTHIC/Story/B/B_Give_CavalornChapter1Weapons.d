@@ -1,4 +1,4 @@
-
+﻿
 func void B_Give_CavalornChapter1Weapons()
 {
 	var C_Npc npc;

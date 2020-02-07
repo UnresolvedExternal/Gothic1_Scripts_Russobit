@@ -1,4 +1,4 @@
-
+﻿
 func void G_PickLock(var int bSuccess,var int bBrokenOpen)
 {
 	var string strSoundFX;

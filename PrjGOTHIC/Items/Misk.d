@@ -1,11 +1,11 @@
-
+п»ї
 const int Value_MobsiItem = 3;
 const int Value_SwordBlade = 80;
 const int Value_SwordBladeHot = 64;
 const int Value_SwordRawHot = 51;
 const int Value_SwordRaw = 40;
 const int Value_Dietrich = 10;
-const int Value_Schlьssel = 3;
+const int Value_SchlСЊssel = 3;
 const int Value_Joint1 = 8;
 const int Value_Joint2 = 15;
 const int Value_Joint3 = 20;
@@ -15,9 +15,9 @@ const int Value_Fackel = 2;
 const int Value_Sumpfkraut = 8;
 const int Value_Pfeife = 10;
 const int Value_Rasiermesser = 5;
-const int Value_Mьnze = 0;
-const int Value_Schьssel = 4;
-const int Value_Kerzenstдnder = 10;
+const int Value_MСЊnze = 0;
+const int Value_SchСЊssel = 4;
+const int Value_KerzenstРґnder = 10;
 const int Value_Becher = 4;
 const int Value_Pokal = 50;
 const int Value_Besteck = 15;
@@ -28,13 +28,13 @@ const int Value_Statue = 15;
 const int Value_Schwefel = 20;
 const int Value_Quecksilber = 25;
 const int Value_Salz = 10;
-const int Value_Цl = 15;
+const int Value_Р¦l = 15;
 const int Value_Moleratfett = 5;
 const int Value_Alcohol = 18;
 
 instance ItKeLockpick(C_Item)
 {
-	name = "Отмычка";
+	name = "РћС‚РјС‹С‡РєР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Dietrich;
@@ -47,72 +47,72 @@ instance ItKeLockpick(C_Item)
 
 instance ItKeKey1(C_Item)
 {
-	name = "Ключ";
+	name = "РљР»СЋС‡";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
-	value = Value_Schlьssel;
+	value = Value_SchlСЊssel;
 	visual = "ItKe_Key_01.3ds";
 	material = MAT_METAL;
 	description = name;
 	text[4] = NAME_Value;
-	count[4] = Value_Schlьssel;
+	count[4] = Value_SchlСЊssel;
 };
 
 instance ItKeKey2(C_Item)
 {
-	name = "Ключ";
+	name = "РљР»СЋС‡";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
-	value = Value_Schlьssel;
+	value = Value_SchlСЊssel;
 	visual = "ItKe_Key_02.3ds";
 	material = MAT_METAL;
 	description = name;
 	text[4] = NAME_Value;
-	count[4] = Value_Schlьssel;
+	count[4] = Value_SchlСЊssel;
 };
 
 instance ItKeKey3(C_Item)
 {
-	name = "Ключ";
+	name = "РљР»СЋС‡";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
-	value = Value_Schlьssel;
+	value = Value_SchlСЊssel;
 	visual = "ItKe_Key_03.3ds";
 	material = MAT_METAL;
 	description = name;
 	text[4] = NAME_Value;
-	count[4] = Value_Schlьssel;
+	count[4] = Value_SchlСЊssel;
 };
 
 instance ItKeKey4(C_Item)
 {
-	name = "Ключ";
+	name = "РљР»СЋС‡";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
-	value = Value_Schlьssel;
+	value = Value_SchlСЊssel;
 	visual = "ItKe_Key_04.3ds";
 	material = MAT_METAL;
 	description = name;
 	text[4] = NAME_Value;
-	count[4] = Value_Schlьssel;
+	count[4] = Value_SchlСЊssel;
 };
 
 instance ItKeCavalorn01(C_Item)
 {
-	name = "Ключ Кавалорна";
+	name = "РљР»СЋС‡ РљР°РІР°Р»РѕСЂРЅР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
-	value = Value_Schlьssel;
+	value = Value_SchlСЊssel;
 	visual = "ItKe_Key_04.3ds";
 	material = MAT_METAL;
 	description = name;
 	text[4] = NAME_Value;
-	count[4] = Value_Schlьssel;
+	count[4] = Value_SchlСЊssel;
 };
 
 instance ItMiStomper(C_Item)
 {
-	name = "Пресс";
+	name = "РџСЂРµСЃСЃ";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_MobsiItem;
@@ -125,7 +125,7 @@ instance ItMiStomper(C_Item)
 
 instance ItMiHammer(C_Item)
 {
-	name = "Молот";
+	name = "РњРѕР»РѕС‚";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_MobsiItem;
@@ -138,7 +138,7 @@ instance ItMiHammer(C_Item)
 
 instance ItMiScoop(C_Item)
 {
-	name = "Черпак";
+	name = "Р§РµСЂРїР°Рє";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_MobsiItem;
@@ -151,7 +151,7 @@ instance ItMiScoop(C_Item)
 
 instance ItMiFlask(C_Item)
 {
-	name = "Бутылочка";
+	name = "Р‘СѓС‚С‹Р»РѕС‡РєР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_MobsiItem;
@@ -164,7 +164,7 @@ instance ItMiFlask(C_Item)
 
 instance ItMiSwordraw(C_Item)
 {
-	name = "Сырая сталь";
+	name = "РЎС‹СЂР°СЏ СЃС‚Р°Р»СЊ";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_SwordRaw;
@@ -177,7 +177,7 @@ instance ItMiSwordraw(C_Item)
 
 instance ItMiSwordrawhot(C_Item)
 {
-	name = "Раскаленная сталь";
+	name = "Р Р°СЃРєР°Р»РµРЅРЅР°СЏ СЃС‚Р°Р»СЊ";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_SwordRawHot;
@@ -190,7 +190,7 @@ instance ItMiSwordrawhot(C_Item)
 
 instance ItMiSwordbladehot(C_Item)
 {
-	name = "Раскаленный клинок";
+	name = "Р Р°СЃРєР°Р»РµРЅРЅС‹Р№ РєР»РёРЅРѕРє";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_SwordBladeHot;
@@ -203,7 +203,7 @@ instance ItMiSwordbladehot(C_Item)
 
 instance ItMiSwordblade(C_Item)
 {
-	name = "Клинок";
+	name = "РљР»РёРЅРѕРє";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_SwordBlade;
@@ -216,7 +216,7 @@ instance ItMiSwordblade(C_Item)
 
 instance ItLsTorchFirespit(C_Item)
 {
-	name = "Факел";
+	name = "Р¤Р°РєРµР»";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_BURN | ITEM_TORCH;
 	value = Value_MobsiItem;
@@ -230,7 +230,7 @@ instance ItLsTorchFirespit(C_Item)
 
 instance ItMiLute(C_Item)
 {
-	name = "Лютня";
+	name = "Р›СЋС‚РЅСЏ";
 	mainflag = ITEM_KAT_NONE;
 	value = Value_Laute;
 	visual = "ItMi_Lute_01.3DS";
@@ -255,7 +255,7 @@ func void UseLute()
 
 instance ItMiWedel(C_Item)
 {
-	name = "Пальмовый веер";
+	name = "РџР°Р»СЊРјРѕРІС‹Р№ РІРµРµСЂ";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_MobsiItem;
@@ -269,7 +269,7 @@ instance ItMiWedel(C_Item)
 
 instance ItMiBrush(C_Item)
 {
-	name = "Щетка";
+	name = "Р©РµС‚РєР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_MobsiItem;
@@ -283,7 +283,7 @@ instance ItMiBrush(C_Item)
 
 instance ItMiJoint_1(C_Item)
 {
-	name = "Новичок";
+	name = "РќРѕРІРёС‡РѕРє";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Joint1;
@@ -309,7 +309,7 @@ func void UseItMiJoint_1()
 
 instance ItMiJoint_2(C_Item)
 {
-	name = "Северный темный";
+	name = "РЎРµРІРµСЂРЅС‹Р№ С‚РµРјРЅС‹Р№";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Joint2;
@@ -335,7 +335,7 @@ func void UseItMiJoint_2()
 
 instance ItMiJoint_3(C_Item)
 {
-	name = "Зов мечты";
+	name = "Р—РѕРІ РјРµС‡С‚С‹";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Joint3;
@@ -354,7 +354,7 @@ func void UseItMiJoint_3()
 	if((Thirdjoint == FALSE) && Npc_IsPlayer(self))
 	{
 		Npc_ChangeAttribute(self,ATR_MANA_MAX,2);
-		PrintScreen("Маг. сила +2",-1,-1,"FONT_OLD_20_WHITE.TGA",3);
+		PrintScreen("РњР°Рі. СЃРёР»Р° +2",-1,-1,"FONT_OLD_20_WHITE.TGA",3);
 		Thirdjoint = TRUE;
 	};
 };
@@ -362,7 +362,7 @@ func void UseItMiJoint_3()
 
 instance ItMiNugget(C_Item)
 {
-	name = "Кусок руды";
+	name = "РљСѓСЃРѕРє СЂСѓРґС‹";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Erzbrocken;
@@ -375,7 +375,7 @@ instance ItMiNugget(C_Item)
 
 instance ItLsTorch(C_Item)
 {
-	name = "Факел";
+	name = "Р¤Р°РєРµР»";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_BURN | ITEM_TORCH | ITEM_MULTI;
 	value = Value_Fackel;
@@ -388,7 +388,7 @@ instance ItLsTorch(C_Item)
 
 instance ItLsTorchburning(C_Item)
 {
-	name = "Горящий факел";
+	name = "Р“РѕСЂСЏС‰РёР№ С„Р°РєРµР»";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_BURN | ITEM_TORCH;
 	value = 0;
@@ -399,7 +399,7 @@ instance ItLsTorchburning(C_Item)
 
 instance ItLsTorchburned(C_Item)
 {
-	name = "Факел";
+	name = "Р¤Р°РєРµР»";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_BURN | ITEM_TORCH | ITEM_MULTI;
 	value = 0;
@@ -410,7 +410,7 @@ instance ItLsTorchburned(C_Item)
 
 instance ItMi_Plants_Swampherb_01(C_Item)
 {
-	name = "Болотник";
+	name = "Р‘РѕР»РѕС‚РЅРёРє";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Sumpfkraut;
@@ -423,7 +423,7 @@ instance ItMi_Plants_Swampherb_01(C_Item)
 
 instance ItMi_Stuff_Pipe_01(C_Item)
 {
-	name = "Трубка";
+	name = "РўСЂСѓР±РєР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Pfeife;
@@ -436,7 +436,7 @@ instance ItMi_Stuff_Pipe_01(C_Item)
 
 instance ItMi_Stuff_Barbknife_01(C_Item)
 {
-	name = "Бритвенный нож";
+	name = "Р‘СЂРёС‚РІРµРЅРЅС‹Р№ РЅРѕР¶";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Rasiermesser;
@@ -449,10 +449,10 @@ instance ItMi_Stuff_Barbknife_01(C_Item)
 
 instance ItMi_Stuff_OldCoin_01(C_Item)
 {
-	name = "Монета";
+	name = "РњРѕРЅРµС‚Р°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
-	value = Value_Mьnze;
+	value = Value_MСЊnze;
 	visual = "ItMi_Stuff_OldCoin_01.3DS";
 	material = MAT_METAL;
 	description = name;
@@ -462,10 +462,10 @@ instance ItMi_Stuff_OldCoin_01(C_Item)
 
 instance ItMi_Stuff_OldCoin_02(C_Item)
 {
-	name = "Монета";
+	name = "РњРѕРЅРµС‚Р°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI | ITEM_MISSION;
-	value = Value_Mьnze;
+	value = Value_MСЊnze;
 	visual = "ItMi_Stuff_OldCoin_01.3DS";
 	material = MAT_METAL;
 	description = name;
@@ -475,10 +475,10 @@ instance ItMi_Stuff_OldCoin_02(C_Item)
 
 instance ItMi_Stuff_Plate_01(C_Item)
 {
-	name = "Тарелка";
+	name = "РўР°СЂРµР»РєР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
-	value = Value_Schьssel;
+	value = Value_SchСЊssel;
 	visual = "ItMi_Stuff_Plate_01.3DS";
 	material = MAT_CLAY;
 	description = name;
@@ -488,10 +488,10 @@ instance ItMi_Stuff_Plate_01(C_Item)
 
 instance ItMi_Stuff_Candel_01(C_Item)
 {
-	name = "Подсвечник";
+	name = "РџРѕРґСЃРІРµС‡РЅРёРє";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
-	value = Value_Kerzenstдnder;
+	value = Value_KerzenstРґnder;
 	visual = "ItMi_Stuff_Candel_01.3DS";
 	material = MAT_METAL;
 	description = name;
@@ -501,7 +501,7 @@ instance ItMi_Stuff_Candel_01(C_Item)
 
 instance ItMi_Stuff_Cup_01(C_Item)
 {
-	name = "Кубок";
+	name = "РљСѓР±РѕРє";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Becher;
@@ -514,7 +514,7 @@ instance ItMi_Stuff_Cup_01(C_Item)
 
 instance ItMi_Stuff_Cup_02(C_Item)
 {
-	name = "Бокал";
+	name = "Р‘РѕРєР°Р»";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Pokal;
@@ -527,7 +527,7 @@ instance ItMi_Stuff_Cup_02(C_Item)
 
 instance ItMi_Stuff_Silverware_01(C_Item)
 {
-	name = "Набор";
+	name = "РќР°Р±РѕСЂ";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Besteck;
@@ -540,7 +540,7 @@ instance ItMi_Stuff_Silverware_01(C_Item)
 
 instance ItMi_Stuff_Pan_01(C_Item)
 {
-	name = "Сковорода";
+	name = "РЎРєРѕРІРѕСЂРѕРґР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Pfanne;
@@ -553,7 +553,7 @@ instance ItMi_Stuff_Pan_01(C_Item)
 
 instance ItMi_Stuff_Mug_01(C_Item)
 {
-	name = "Кружка";
+	name = "РљСЂСѓР¶РєР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Krug;
@@ -566,7 +566,7 @@ instance ItMi_Stuff_Mug_01(C_Item)
 
 instance ItMi_Stuff_Amphore_01(C_Item)
 {
-	name = "Амфора";
+	name = "РђРјС„РѕСЂР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Amphore;
@@ -579,7 +579,7 @@ instance ItMi_Stuff_Amphore_01(C_Item)
 
 instance ItMi_Stuff_Idol_Ogront_01(C_Item)
 {
-	name = "Статуя";
+	name = "РЎС‚Р°С‚СѓСЏ";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Statue;
@@ -592,7 +592,7 @@ instance ItMi_Stuff_Idol_Ogront_01(C_Item)
 
 instance ItMi_Alchemy_Sulphur_01(C_Item)
 {
-	name = "Сера";
+	name = "РЎРµСЂР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Schwefel;
@@ -605,7 +605,7 @@ instance ItMi_Alchemy_Sulphur_01(C_Item)
 
 instance ItMi_Alchemy_Quicksilver_01(C_Item)
 {
-	name = "Ртуть";
+	name = "Р С‚СѓС‚СЊ";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Quecksilber;
@@ -618,7 +618,7 @@ instance ItMi_Alchemy_Quicksilver_01(C_Item)
 
 instance ItMi_Alchemy_Salt_01(C_Item)
 {
-	name = "Соль";
+	name = "РЎРѕР»СЊ";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Salz;
@@ -631,10 +631,10 @@ instance ItMi_Alchemy_Salt_01(C_Item)
 
 instance ItMi_Alchemy_Syrianoil_01(C_Item)
 {
-	name = "Сирийское масло";
+	name = "РЎРёСЂРёР№СЃРєРѕРµ РјР°СЃР»Рѕ";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
-	value = Value_Цl;
+	value = Value_Р¦l;
 	visual = "ItMi_Alchemy_Syrianoil_01.3DS";
 	material = MAT_CLAY;
 	description = name;
@@ -644,7 +644,7 @@ instance ItMi_Alchemy_Syrianoil_01(C_Item)
 
 instance ItMi_Alchemy_Moleratlubric_01(C_Item)
 {
-	name = "Жир кротокрыса";
+	name = "Р–РёСЂ РєСЂРѕС‚РѕРєСЂС‹СЃР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Moleratfett;
@@ -657,7 +657,7 @@ instance ItMi_Alchemy_Moleratlubric_01(C_Item)
 
 instance ItMi_Alchemy_Alcohol_01(C_Item)
 {
-	name = "Чистый спирт";
+	name = "Р§РёСЃС‚С‹Р№ СЃРїРёСЂС‚";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Alcohol;

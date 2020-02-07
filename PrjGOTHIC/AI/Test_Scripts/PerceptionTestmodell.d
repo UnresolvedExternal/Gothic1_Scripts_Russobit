@@ -1,4 +1,4 @@
-
+﻿
 instance Perception_Testmodell(Npc_Default)
 {
 	name[0] = "Perception_Testmodell";

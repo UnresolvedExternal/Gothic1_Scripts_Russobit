@@ -1,4 +1,4 @@
-
+п»ї
 const int ARMOR_VALUE_MULTIPLIER = 30;
 const int VALUE_TPL_ARMOR_L = 1350;
 const int VALUE_TPL_ARMOR_M = 1650;
@@ -27,7 +27,7 @@ const int VALUE_SFB_ARMOR_L = 250;
 
 instance VLK_ARMOR_L(C_Item)
 {
-	name = "Простые штаны рудокопа";
+	name = "РџСЂРѕСЃС‚С‹Рµ С€С‚Р°РЅС‹ СЂСѓРґРѕРєРѕРїР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 10;
@@ -56,7 +56,7 @@ instance VLK_ARMOR_L(C_Item)
 
 instance VLK_ARMOR_M(C_Item)
 {
-	name = "Штаны рудокопа";
+	name = "РЁС‚Р°РЅС‹ СЂСѓРґРѕРєРѕРїР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 15;
@@ -85,7 +85,7 @@ instance VLK_ARMOR_M(C_Item)
 
 instance STT_ARMOR_M(C_Item)
 {
-	name = "Одежда Призрака";
+	name = "РћРґРµР¶РґР° РџСЂРёР·СЂР°РєР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 30;
@@ -114,7 +114,7 @@ instance STT_ARMOR_M(C_Item)
 
 instance STT_ARMOR_H(C_Item)
 {
-	name = "Доспех Призрака";
+	name = "Р”РѕСЃРїРµС… РџСЂРёР·СЂР°РєР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 40;
@@ -143,7 +143,7 @@ instance STT_ARMOR_H(C_Item)
 
 instance GRD_ARMOR_L(C_Item)
 {
-	name = "Легкий доспех стражника";
+	name = "Р›РµРіРєРёР№ РґРѕСЃРїРµС… СЃС‚СЂР°Р¶РЅРёРєР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 45;
@@ -172,7 +172,7 @@ instance GRD_ARMOR_L(C_Item)
 
 instance GRD_ARMOR_M(C_Item)
 {
-	name = "Доспех стражника";
+	name = "Р”РѕСЃРїРµС… СЃС‚СЂР°Р¶РЅРёРєР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 55;
@@ -201,7 +201,7 @@ instance GRD_ARMOR_M(C_Item)
 
 instance GRD_ARMOR_H(C_Item)
 {
-	name = "Тяжелый доспех стражника";
+	name = "РўСЏР¶РµР»С‹Р№ РґРѕСЃРїРµС… СЃС‚СЂР°Р¶РЅРёРєР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 70;
@@ -230,7 +230,7 @@ instance GRD_ARMOR_H(C_Item)
 
 instance EBR_ARMOR_M(C_Item)
 {
-	name = "Дорогая одежда";
+	name = "Р”РѕСЂРѕРіР°СЏ РѕРґРµР¶РґР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 72;
@@ -260,7 +260,7 @@ instance EBR_ARMOR_M(C_Item)
 
 instance EBR_ARMOR_H(C_Item)
 {
-	name = "Доспех Гомеза";
+	name = "Р”РѕСЃРїРµС… Р“РѕРјРµР·Р°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 85;
@@ -291,7 +291,7 @@ instance EBR_ARMOR_H(C_Item)
 
 instance EBR_ARMOR_H2(C_Item)
 {
-	name = "Тяжелый доспех Барона";
+	name = "РўСЏР¶РµР»С‹Р№ РґРѕСЃРїРµС… Р‘Р°СЂРѕРЅР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 80;
@@ -321,7 +321,7 @@ instance EBR_ARMOR_H2(C_Item)
 
 instance SFB_ARMOR_L(C_Item)
 {
-	name = "Одежда рудокопа";
+	name = "РћРґРµР¶РґР° СЂСѓРґРѕРєРѕРїР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 10;
@@ -350,7 +350,7 @@ instance SFB_ARMOR_L(C_Item)
 
 instance ORG_ARMOR_L(C_Item)
 {
-	name = "Легкий доспех вора";
+	name = "Р›РµРіРєРёР№ РґРѕСЃРїРµС… РІРѕСЂР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 30;
@@ -379,7 +379,7 @@ instance ORG_ARMOR_L(C_Item)
 
 instance ORG_ARMOR_M(C_Item)
 {
-	name = "Средний доспех вора";
+	name = "РЎСЂРµРґРЅРёР№ РґРѕСЃРїРµС… РІРѕСЂР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 35;
@@ -408,7 +408,7 @@ instance ORG_ARMOR_M(C_Item)
 
 instance ORG_ARMOR_H(C_Item)
 {
-	name = "Тяжелый доспех вора";
+	name = "РўСЏР¶РµР»С‹Р№ РґРѕСЃРїРµС… РІРѕСЂР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 40;
@@ -437,7 +437,7 @@ instance ORG_ARMOR_H(C_Item)
 
 instance SLD_ARMOR_L(C_Item)
 {
-	name = "Легкий доспех наемника";
+	name = "Р›РµРіРєРёР№ РґРѕСЃРїРµС… РЅР°РµРјРЅРёРєР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 45;
@@ -466,7 +466,7 @@ instance SLD_ARMOR_L(C_Item)
 
 instance SLD_ARMOR_M(C_Item)
 {
-	name = "Доспех наемника";
+	name = "Р”РѕСЃРїРµС… РЅР°РµРјРЅРёРєР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 55;
@@ -495,7 +495,7 @@ instance SLD_ARMOR_M(C_Item)
 
 instance SLD_ARMOR_H(C_Item)
 {
-	name = "Тяжелый доспех наемника";
+	name = "РўСЏР¶РµР»С‹Р№ РґРѕСЃРїРµС… РЅР°РµРјРЅРёРєР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 70;
@@ -524,7 +524,7 @@ instance SLD_ARMOR_H(C_Item)
 
 instance NOV_ARMOR_L(C_Item)
 {
-	name = "Одежда Послушника";
+	name = "РћРґРµР¶РґР° РџРѕСЃР»СѓС€РЅРёРєР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 15;
@@ -553,7 +553,7 @@ instance NOV_ARMOR_L(C_Item)
 
 instance NOV_ARMOR_M(C_Item)
 {
-	name = "Легкий доспех Послушника";
+	name = "Р›РµРіРєРёР№ РґРѕСЃРїРµС… РџРѕСЃР»СѓС€РЅРёРєР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 30;
@@ -582,7 +582,7 @@ instance NOV_ARMOR_M(C_Item)
 
 instance NOV_ARMOR_H(C_Item)
 {
-	name = "Доспех послушника";
+	name = "Р”РѕСЃРїРµС… РїРѕСЃР»СѓС€РЅРёРєР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 40;
@@ -611,7 +611,7 @@ instance NOV_ARMOR_H(C_Item)
 
 instance TPL_ARMOR_L(C_Item)
 {
-	name = "Легкий доспех Стража";
+	name = "Р›РµРіРєРёР№ РґРѕСЃРїРµС… РЎС‚СЂР°Р¶Р°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 45;
@@ -640,7 +640,7 @@ instance TPL_ARMOR_L(C_Item)
 
 instance TPL_ARMOR_M(C_Item)
 {
-	name = "Доспех Стража";
+	name = "Р”РѕСЃРїРµС… РЎС‚СЂР°Р¶Р°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 55;
@@ -669,7 +669,7 @@ instance TPL_ARMOR_M(C_Item)
 
 instance TPL_ARMOR_H(C_Item)
 {
-	name = "Тяжелый доспех Стража";
+	name = "РўСЏР¶РµР»С‹Р№ РґРѕСЃРїРµС… РЎС‚СЂР°Р¶Р°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 70;
@@ -698,7 +698,7 @@ instance TPL_ARMOR_H(C_Item)
 
 instance GUR_ARMOR_M(C_Item)
 {
-	name = "Одеяние Гуру";
+	name = "РћРґРµСЏРЅРёРµ Р“СѓСЂСѓ";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 71;
@@ -728,7 +728,7 @@ instance GUR_ARMOR_M(C_Item)
 
 instance GUR_ARMOR_H(C_Item)
 {
-	name = "Одеяние верховного Гуру";
+	name = "РћРґРµСЏРЅРёРµ РІРµСЂС…РѕРІРЅРѕРіРѕ Р“СѓСЂСѓ";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 82;
@@ -758,7 +758,7 @@ instance GUR_ARMOR_H(C_Item)
 
 instance KDF_ARMOR_L(C_Item)
 {
-	name = "Мантия мага Огня";
+	name = "РњР°РЅС‚РёСЏ РјР°РіР° РћРіРЅСЏ";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 40;
@@ -787,7 +787,7 @@ instance KDF_ARMOR_L(C_Item)
 
 instance KDF_ARMOR_H(C_Item)
 {
-	name = "Великая мантия Огня";
+	name = "Р’РµР»РёРєР°СЏ РјР°РЅС‚РёСЏ РћРіРЅСЏ";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 50;
@@ -816,7 +816,7 @@ instance KDF_ARMOR_H(C_Item)
 
 instance KDW_ARMOR_L(C_Item)
 {
-	name = "Мантия мага Воды";
+	name = "РњР°РЅС‚РёСЏ РјР°РіР° Р’РѕРґС‹";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 65;
@@ -845,7 +845,7 @@ instance KDW_ARMOR_L(C_Item)
 
 instance KDW_ARMOR_H(C_Item)
 {
-	name = "Великая мантия мага Воды";
+	name = "Р’РµР»РёРєР°СЏ РјР°РЅС‚РёСЏ РјР°РіР° Р’РѕРґС‹";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 70;
@@ -874,7 +874,7 @@ instance KDW_ARMOR_H(C_Item)
 
 instance DMB_ARMOR_M(C_Item)
 {
-	name = "Мантия темного искусства";
+	name = "РњР°РЅС‚РёСЏ С‚РµРјРЅРѕРіРѕ РёСЃРєСѓСЃСЃС‚РІР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 90;
@@ -904,7 +904,7 @@ instance DMB_ARMOR_M(C_Item)
 
 instance CRW_ARMOR_H(C_Item)
 {
-	name = "Доспех из панцирных пластин";
+	name = "Р”РѕСЃРїРµС… РёР· РїР°РЅС†РёСЂРЅС‹С… РїР»Р°СЃС‚РёРЅ";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 80;
@@ -933,7 +933,7 @@ instance CRW_ARMOR_H(C_Item)
 
 instance ORE_ARMOR_M(C_Item)
 {
-	name = "Древний железный доспех";
+	name = "Р”СЂРµРІРЅРёР№ Р¶РµР»РµР·РЅС‹Р№ РґРѕСЃРїРµС…";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 95;
@@ -948,7 +948,7 @@ instance ORE_ARMOR_M(C_Item)
 	visual_skin = 0;
 	material = MAT_WOOD;
 	description = name;
-	text[0] = "Полностью выкован из магической руды.";
+	text[0] = "РџРѕР»РЅРѕСЃС‚СЊСЋ РІС‹РєРѕРІР°РЅ РёР· РјР°РіРёС‡РµСЃРєРѕР№ СЂСѓРґС‹.";
 	text[1] = NAME_Prot_Edge;
 	count[1] = protection[PROT_EDGE];
 	text[2] = NAME_Prot_Point;
@@ -963,7 +963,7 @@ instance ORE_ARMOR_M(C_Item)
 
 instance ORE_ARMOR_H(C_Item)
 {
-	name = "Улучшенный железный доспех";
+	name = "РЈР»СѓС‡С€РµРЅРЅС‹Р№ Р¶РµР»РµР·РЅС‹Р№ РґРѕСЃРїРµС…";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 100;
@@ -978,7 +978,7 @@ instance ORE_ARMOR_H(C_Item)
 	visual_skin = 0;
 	material = MAT_WOOD;
 	description = name;
-	text[0] = "Кузнец Стоун смог улучшить этот древний доспех!";
+	text[0] = "РљСѓР·РЅРµС† РЎС‚РѕСѓРЅ СЃРјРѕРі СѓР»СѓС‡С€РёС‚СЊ СЌС‚РѕС‚ РґСЂРµРІРЅРёР№ РґРѕСЃРїРµС…!";
 	text[1] = NAME_Prot_Edge;
 	count[1] = protection[PROT_EDGE];
 	text[2] = NAME_Prot_Point;
@@ -993,7 +993,7 @@ instance ORE_ARMOR_H(C_Item)
 
 instance LAW_ARMOR(C_Item)
 {
-	name = "Одеяние судьи";
+	name = "РћРґРµСЏРЅРёРµ СЃСѓРґСЊРё";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 20;
@@ -1023,7 +1023,7 @@ instance LAW_ARMOR(C_Item)
 
 instance GRD_ARMOR_I(C_Item)
 {
-	name = "Доспех королевского стражника";
+	name = "Р”РѕСЃРїРµС… РєРѕСЂРѕР»РµРІСЃРєРѕРіРѕ СЃС‚СЂР°Р¶РЅРёРєР°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 50;
@@ -1053,7 +1053,7 @@ instance GRD_ARMOR_I(C_Item)
 
 instance BAB_ARMOR_NUDE(C_Item)
 {
-	name = "Обнаженная девица";
+	name = "РћР±РЅР°Р¶РµРЅРЅР°СЏ РґРµРІРёС†Р°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	value = 1;
@@ -1071,7 +1071,7 @@ instance BAB_ARMOR_NUDE(C_Item)
 
 instance BAB_ARMOR_BIKINI(C_Item)
 {
-	name = "Девица";
+	name = "Р”РµРІРёС†Р°";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	value = 1;

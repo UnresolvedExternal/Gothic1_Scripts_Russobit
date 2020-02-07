@@ -1,4 +1,4 @@
-
+﻿
 instance PC_Nyul(Npc_Default)
 {
 	name[0] = "PC_Nyul";

@@ -1,4 +1,4 @@
-
+Ôªø
 instance NOV_1320_Novize_CALLSLEEPER(C_Info)
 {
 	npc = NOV_1320_Novize;
@@ -19,7 +19,7 @@ func int NOV_1320_Novize_CALLSLEEPER_Condition()
 	{
 		return TRUE;
 	};
-	return PrintScreen("“≈œ≈–‹ ¬—≈ ﬂ—ÕŒ.",-1,-1,"font_old_20_white.tga",3);
+	return PrintScreen("–¢–ï–ü–ï–†–¨ –í–°–ï –Ø–°–ù–û.",-1,-1,"font_old_20_white.tga",3);
 };
 
 func void NOV_1320_Novize_CALLSLEEPER_Info()

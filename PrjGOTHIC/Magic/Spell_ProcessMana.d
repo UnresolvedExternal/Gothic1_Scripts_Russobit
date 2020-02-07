@@ -1,4 +1,4 @@
-
+﻿
 func int Spell_ProcessMana(var int manaInvested)
 {
 	PrintDebugNpc(PD_MAGIC,"Spell_ProcessMana called");

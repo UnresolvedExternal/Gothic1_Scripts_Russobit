@@ -1,4 +1,4 @@
-
+﻿
 func void B_Give_WolfChapter1Weapons()
 {
 	var C_Npc npc;

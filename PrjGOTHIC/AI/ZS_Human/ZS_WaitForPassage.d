@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_WaitForPassage()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"ZS_WaitForPassage");

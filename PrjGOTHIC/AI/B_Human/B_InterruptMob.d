@@ -1,4 +1,4 @@
-
+﻿
 func void B_InterruptMob(var string mobsi)
 {
 	var int randomize_mob;

@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_Smalltalk()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_Smalltalk");
@@ -125,7 +125,7 @@ func void ZS_Smalltalk_Loop()
 	}
 	else if(Npc_GetStateTime(self) >= 5)
 	{
-		PrintDebugNpc(PD_TA_CHECK,"... kein Gespr�chspartner gefunden!");
+		PrintDebugNpc(PD_TA_CHECK,"... kein Gesprдchspartner gefunden!");
 		AI_StartState(self,ZS_Stand,1,"");
 	};
 	AI_Wait(self,1);

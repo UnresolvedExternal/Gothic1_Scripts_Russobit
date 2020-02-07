@@ -1,4 +1,4 @@
-
+﻿
 func void B_Story_RespawnOW()
 {
 	Wld_InsertNpc(Molerat,"OW_SAWHUT_MOLERAT_SPAWN01");

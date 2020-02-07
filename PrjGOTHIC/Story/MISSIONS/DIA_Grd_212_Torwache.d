@@ -1,4 +1,4 @@
-
+п»ї
 const string Grd_212_CHECKPOINT = "OCC_GATE_INSIDE";
 
 instance Info_Grd_212_FirstWarn(C_Info)
@@ -23,9 +23,9 @@ func int Info_Grd_212_FirstWarn_Condition()
 func void Info_Grd_212_FirstWarn_Info()
 {
 	PrintGlobals(PD_MISSION);
-	AI_Output(self,hero,"Info_Grd_212_FirstWarn_Info_13_01");	//Стой!
-	AI_Output(hero,self,"Info_Grd_212_FirstWarn_Info_15_02");	//В чем дело?
-	AI_Output(self,hero,"Info_Grd_212_FirstWarn_Info_13_03");	//В замок нельзя входить без разрешения. Убирайся отсюда!
+	AI_Output(self,hero,"Info_Grd_212_FirstWarn_Info_13_01");	//РЎС‚РѕР№!
+	AI_Output(hero,self,"Info_Grd_212_FirstWarn_Info_15_02");	//Р’ С‡РµРј РґРµР»Рѕ?
+	AI_Output(self,hero,"Info_Grd_212_FirstWarn_Info_13_03");	//Р’ Р·Р°РјРѕРє РЅРµР»СЊР·СЏ РІС…РѕРґРёС‚СЊ Р±РµР· СЂР°Р·СЂРµС€РµРЅРёСЏ. РЈР±РёСЂР°Р№СЃСЏ РѕС‚СЃСЋРґР°!
 	hero.aivar[AIV_LASTDISTTOWP] = Npc_GetDistToWP(hero,Grd_212_CHECKPOINT);
 	hero.aivar[AIV_GUARDPASSAGE_STATUS] = AIV_GPS_FIRSTWARN;
 	AI_StopProcessInfos(self);
@@ -53,7 +53,7 @@ func int Info_Grd_212_LastWarn_Condition()
 
 func int Info_Grd_212_LastWarn_Info()
 {
-	AI_Output(self,hero,"Info_Grd_212_LastWarn_13_01");	//Ты что, оглох? Еще шаг, и я прибью тебя на месте.
+	AI_Output(self,hero,"Info_Grd_212_LastWarn_13_01");	//РўС‹ С‡С‚Рѕ, РѕРіР»РѕС…? Р•С‰Рµ С€Р°Рі, Рё СЏ РїСЂРёР±СЊСЋ С‚РµР±СЏ РЅР° РјРµСЃС‚Рµ.
 	hero.aivar[AIV_LASTDISTTOWP] = Npc_GetDistToWP(hero,Grd_212_CHECKPOINT);
 	hero.aivar[AIV_GUARDPASSAGE_STATUS] = AIV_GPS_LASTWARN;
 	AI_StopProcessInfos(self);
@@ -121,7 +121,7 @@ instance Info_Grd_212_Abblitzen(C_Info)
 	condition = Info_Grd_212_Abblitzen_Condition;
 	information = Info_Grd_212_Abblitzen_Info;
 	permanent = 1;
-	description = "Я хочу попасть в замок!";
+	description = "РЇ С…РѕС‡Сѓ РїРѕРїР°СЃС‚СЊ РІ Р·Р°РјРѕРє!";
 };
 
 
@@ -135,11 +135,11 @@ func int Info_Grd_212_Abblitzen_Condition()
 
 func void Info_Grd_212_Abblitzen_Info()
 {
-	AI_Output(other,self,"Info_Grd_212_Abblitzen_15_00");	//Я хочу попасть в замок!
-	AI_Output(self,other,"Info_Grd_212_Abblitzen_13_01");	//Да, как интересно! А мне хочется убраться отсюда подальше!
-	AI_Output(self,other,"Info_Grd_212_Abblitzen_13_02");	//И, уж конечно, у меня есть и другие дела, кроме как следить за теми, кто пытается попасть в замок.
-	AI_Output(other,self,"Info_Grd_212_Abblitzen_15_03");	//Ты можешь пропустить меня...
-	AI_Output(self,other,"Info_Grd_212_Abblitzen_13_04");	//Нет, не могу! Поговори с Торусом.
+	AI_Output(other,self,"Info_Grd_212_Abblitzen_15_00");	//РЇ С…РѕС‡Сѓ РїРѕРїР°СЃС‚СЊ РІ Р·Р°РјРѕРє!
+	AI_Output(self,other,"Info_Grd_212_Abblitzen_13_01");	//Р”Р°, РєР°Рє РёРЅС‚РµСЂРµСЃРЅРѕ! Рђ РјРЅРµ С…РѕС‡РµС‚СЃСЏ СѓР±СЂР°С‚СЊСЃСЏ РѕС‚СЃСЋРґР° РїРѕРґР°Р»СЊС€Рµ!
+	AI_Output(self,other,"Info_Grd_212_Abblitzen_13_02");	//Р, СѓР¶ РєРѕРЅРµС‡РЅРѕ, Сѓ РјРµРЅСЏ РµСЃС‚СЊ Рё РґСЂСѓРіРёРµ РґРµР»Р°, РєСЂРѕРјРµ РєР°Рє СЃР»РµРґРёС‚СЊ Р·Р° С‚РµРјРё, РєС‚Рѕ РїС‹С‚Р°РµС‚СЃСЏ РїРѕРїР°СЃС‚СЊ РІ Р·Р°РјРѕРє.
+	AI_Output(other,self,"Info_Grd_212_Abblitzen_15_03");	//РўС‹ РјРѕР¶РµС€СЊ РїСЂРѕРїСѓСЃС‚РёС‚СЊ РјРµРЅСЏ...
+	AI_Output(self,other,"Info_Grd_212_Abblitzen_13_04");	//РќРµС‚, РЅРµ РјРѕРіСѓ! РџРѕРіРѕРІРѕСЂРё СЃ РўРѕСЂСѓСЃРѕРј.
 	AI_StopProcessInfos(self);
 };
 
@@ -165,9 +165,9 @@ func int Info_Grd_212_FirstIn_Condition()
 
 func void Info_Grd_212_FirstIn_Info()
 {
-	AI_Output(self,other,"Info_Grd_212_FirstIn_13_00");	//Стой!
-	AI_Output(other,self,"Info_Grd_212_FirstIn_15_01");	//Да ладно, я поговорил с Торусом. Он разрешил мне войти.
-	AI_Output(self,other,"Info_Grd_212_FirstIn_13_02");	//Я запомню твое лицо. Если ты сделаешь хоть одну ошибку, тебе не сдобровать!
+	AI_Output(self,other,"Info_Grd_212_FirstIn_13_00");	//РЎС‚РѕР№!
+	AI_Output(other,self,"Info_Grd_212_FirstIn_15_01");	//Р”Р° Р»Р°РґРЅРѕ, СЏ РїРѕРіРѕРІРѕСЂРёР» СЃ РўРѕСЂСѓСЃРѕРј. РћРЅ СЂР°Р·СЂРµС€РёР» РјРЅРµ РІРѕР№С‚Рё.
+	AI_Output(self,other,"Info_Grd_212_FirstIn_13_02");	//РЇ Р·Р°РїРѕРјРЅСЋ С‚РІРѕРµ Р»РёС†Рѕ. Р•СЃР»Рё С‚С‹ СЃРґРµР»Р°РµС€СЊ С…РѕС‚СЊ РѕРґРЅСѓ РѕС€РёР±РєСѓ, С‚РµР±Рµ РЅРµ СЃРґРѕР±СЂРѕРІР°С‚СЊ!
 	AI_StopProcessInfos(self);
 };
 
@@ -179,7 +179,7 @@ instance Info_Grd_212_Passgate(C_Info)
 	condition = Info_Grd_212_Passgate_Condition;
 	information = Info_Grd_212_Passgate_Info;
 	permanent = 1;
-	description = "Я могу войти?";
+	description = "РЇ РјРѕРіСѓ РІРѕР№С‚Рё?";
 };
 
 
@@ -193,8 +193,8 @@ func int Info_Grd_212_Passgate_Condition()
 
 func void Info_Grd_212_Passgate_Info()
 {
-	AI_Output(other,self,"Info_Grd_212_Passgate_15_00");	//Я могу войти?
-	AI_Output(self,other,"Info_Grd_212_Passgate_13_01");	//Еще один вопрос, и я уж точно никогда тебя не впущу.
+	AI_Output(other,self,"Info_Grd_212_Passgate_15_00");	//РЇ РјРѕРіСѓ РІРѕР№С‚Рё?
+	AI_Output(self,other,"Info_Grd_212_Passgate_13_01");	//Р•С‰Рµ РѕРґРёРЅ РІРѕРїСЂРѕСЃ, Рё СЏ СѓР¶ С‚РѕС‡РЅРѕ РЅРёРєРѕРіРґР° С‚РµР±СЏ РЅРµ РІРїСѓС‰Сѓ.
 	AI_StopProcessInfos(self);
 };
 

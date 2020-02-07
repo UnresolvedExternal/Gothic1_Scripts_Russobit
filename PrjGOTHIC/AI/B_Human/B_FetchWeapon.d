@@ -1,4 +1,4 @@
-
+﻿
 func int B_FetchWeapon()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"B_FetchWeapon");

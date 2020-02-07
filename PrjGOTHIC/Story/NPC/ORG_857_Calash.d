@@ -1,7 +1,7 @@
-
+п»ї
 instance ORG_857_Calash(Npc_Default)
 {
-	name[0] = "Калаш";
+	name[0] = "РљР°Р»Р°С€";
 	npcType = npctype_main;
 	guild = GIL_ORG;
 	level = 11;

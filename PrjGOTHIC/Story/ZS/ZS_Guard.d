@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_Guard()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_Guard");

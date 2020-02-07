@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_CatchThief()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"ZS_CatchThief");

@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_Babe_Fan()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_Babe_Fan");

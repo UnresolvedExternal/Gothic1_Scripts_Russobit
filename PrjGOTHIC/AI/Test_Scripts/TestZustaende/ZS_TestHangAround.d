@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_TestHangAround()
 {
 	Npc_PercEnable(self,PERC_ASSESSENTERROOM,B_AssessEnterRoom);

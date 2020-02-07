@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_Stay()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_Stay");

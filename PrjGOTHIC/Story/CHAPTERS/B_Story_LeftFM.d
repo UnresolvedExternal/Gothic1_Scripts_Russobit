@@ -1,4 +1,4 @@
-
+﻿
 func void B_Story_LeftFM()
 {
 	var C_Npc gorn;

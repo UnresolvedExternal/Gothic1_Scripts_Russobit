@@ -1,7 +1,7 @@
-
+п»ї
 instance ItWrTemplemap(C_Item)
 {
-	name = "Карта";
+	name = "РљР°СЂС‚Р°";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 30;
@@ -9,7 +9,7 @@ instance ItWrTemplemap(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	on_state[0] = UseTemplemap;
-	description = "Схема храма";
+	description = "РЎС…РµРјР° С…СЂР°РјР°";
 	text[4] = NAME_Value;
 	count[4] = value;
 };
@@ -27,7 +27,7 @@ func void UseTemplemap()
 
 instance ItMiAlarmhorn(C_Item)
 {
-	name = "Рог";
+	name = "Р РѕРі";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = 9;
@@ -41,21 +41,21 @@ instance ItMiAlarmhorn(C_Item)
 
 instance ItMi_Stuff_Idol_Sleeper_01(C_Item)
 {
-	name = "Статуя";
+	name = "РЎС‚Р°С‚СѓСЏ";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = 0;
 	visual = "ItMi_Stuff_Idol_Sleeper_01.3DS";
 	material = MAT_CLAY;
 	description = name;
-	text[0] = "Это фигурка какого-то бесформенного существа,";
-	text[1] = "которое носит маску.";
-	text[2] = "Маска окружена шестью большими шипами.";
+	text[0] = "Р­С‚Рѕ С„РёРіСѓСЂРєР° РєР°РєРѕРіРѕ-С‚Рѕ Р±РµСЃС„РѕСЂРјРµРЅРЅРѕРіРѕ СЃСѓС‰РµСЃС‚РІР°,";
+	text[1] = "РєРѕС‚РѕСЂРѕРµ РЅРѕСЃРёС‚ РјР°СЃРєСѓ.";
+	text[2] = "РњР°СЃРєР° РѕРєСЂСѓР¶РµРЅР° С€РµСЃС‚СЊСЋ Р±РѕР»СЊС€РёРјРё С€РёРїР°РјРё.";
 };
 
 instance Weltenspalter(C_Item)
 {
-	name = "Раскалывающий миры";
+	name = "Р Р°СЃРєР°Р»С‹РІР°СЋС‰РёР№ РјРёСЂС‹";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_2HD_SWD | ITEM_MISSION;
 	material = MAT_METAL;
@@ -67,17 +67,17 @@ instance Weltenspalter(C_Item)
 	cond_value[2] = 30;
 	visual = "ItMi_SleeperKey_01.3DS";
 	description = name;
-	text[0] = "Это меч бессмертного";
-	text[1] = "орка-жреца Варраг-Хашора.";
-	text[2] = "Меч был испорчен временем";
-	text[3] = "и стал непригоден!";
-	text[4] = "Быть может, его можно использовать";
-	text[5] = "как-то иначе.";
+	text[0] = "Р­С‚Рѕ РјРµС‡ Р±РµСЃСЃРјРµСЂС‚РЅРѕРіРѕ";
+	text[1] = "РѕСЂРєР°-Р¶СЂРµС†Р° Р’Р°СЂСЂР°Рі-РҐР°С€РѕСЂР°.";
+	text[2] = "РњРµС‡ Р±С‹Р» РёСЃРїРѕСЂС‡РµРЅ РІСЂРµРјРµРЅРµРј";
+	text[3] = "Рё СЃС‚Р°Р» РЅРµРїСЂРёРіРѕРґРµРЅ!";
+	text[4] = "Р‘С‹С‚СЊ РјРѕР¶РµС‚, РµРіРѕ РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ";
+	text[5] = "РєР°Рє-С‚Рѕ РёРЅР°С‡Рµ.";
 };
 
 instance Lichtbringer(C_Item)
 {
-	name = "Несущий свет";
+	name = "РќРµСЃСѓС‰РёР№ СЃРІРµС‚";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_2HD_SWD | ITEM_MISSION;
 	material = MAT_METAL;
@@ -89,17 +89,17 @@ instance Lichtbringer(C_Item)
 	cond_value[2] = 30;
 	visual = "ItMi_SleeperKey_01.3DS";
 	description = name;
-	text[0] = "Это меч бессмертного";
-	text[1] = "орка-жреца Варраг-Казорга.";
-	text[2] = "Меч был испорчен временем";
-	text[3] = "и стал непригоден!";
-	text[4] = "Быть может, его можно использовать";
-	text[5] = "как-то иначе.";
+	text[0] = "Р­С‚Рѕ РјРµС‡ Р±РµСЃСЃРјРµСЂС‚РЅРѕРіРѕ";
+	text[1] = "РѕСЂРєР°-Р¶СЂРµС†Р° Р’Р°СЂСЂР°Рі-РљР°Р·РѕСЂРіР°.";
+	text[2] = "РњРµС‡ Р±С‹Р» РёСЃРїРѕСЂС‡РµРЅ РІСЂРµРјРµРЅРµРј";
+	text[3] = "Рё СЃС‚Р°Р» РЅРµРїСЂРёРіРѕРґРµРЅ!";
+	text[4] = "Р‘С‹С‚СЊ РјРѕР¶РµС‚, РµРіРѕ РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ";
+	text[5] = "РєР°Рє-С‚Рѕ РёРЅР°С‡Рµ.";
 };
 
 instance Zeitenklinge(C_Item)
 {
-	name = "Клинок времен";
+	name = "РљР»РёРЅРѕРє РІСЂРµРјРµРЅ";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_2HD_SWD | ITEM_MISSION;
 	material = MAT_METAL;
@@ -111,17 +111,17 @@ instance Zeitenklinge(C_Item)
 	cond_value[2] = 30;
 	visual = "ItMi_SleeperKey_01.3DS";
 	description = name;
-	text[0] = "Это меч бессмертного";
-	text[1] = "орка-жреца Варраг-Унхилькта.";
-	text[2] = "Меч был испорчен временем";
-	text[3] = "и стал непригоден!";
-	text[4] = "Быть может, его можно использовать";
-	text[5] = "как-то иначе.";
+	text[0] = "Р­С‚Рѕ РјРµС‡ Р±РµСЃСЃРјРµСЂС‚РЅРѕРіРѕ";
+	text[1] = "РѕСЂРєР°-Р¶СЂРµС†Р° Р’Р°СЂСЂР°Рі-РЈРЅС…РёР»СЊРєС‚Р°.";
+	text[2] = "РњРµС‡ Р±С‹Р» РёСЃРїРѕСЂС‡РµРЅ РІСЂРµРјРµРЅРµРј";
+	text[3] = "Рё СЃС‚Р°Р» РЅРµРїСЂРёРіРѕРґРµРЅ!";
+	text[4] = "Р‘С‹С‚СЊ РјРѕР¶РµС‚, РµРіРѕ РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ";
+	text[5] = "РєР°Рє-С‚Рѕ РёРЅР°С‡Рµ.";
 };
 
 instance Daemonenstreich(C_Item)
 {
-	name = "Удар демона";
+	name = "РЈРґР°СЂ РґРµРјРѕРЅР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_2HD_SWD | ITEM_MISSION;
 	material = MAT_METAL;
@@ -133,17 +133,17 @@ instance Daemonenstreich(C_Item)
 	cond_value[2] = 30;
 	visual = "ItMi_SleeperKey_01.3DS";
 	description = name;
-	text[0] = "Это меч бессмертного";
-	text[1] = "орка-жреца Варраг-Руушка.";
-	text[2] = "Меч был испорчен временем";
-	text[3] = "и стал непригоден!";
-	text[4] = "Быть может, его можно использовать";
-	text[5] = "как-то иначе.";
+	text[0] = "Р­С‚Рѕ РјРµС‡ Р±РµСЃСЃРјРµСЂС‚РЅРѕРіРѕ";
+	text[1] = "РѕСЂРєР°-Р¶СЂРµС†Р° Р’Р°СЂСЂР°Рі-Р СѓСѓС€РєР°.";
+	text[2] = "РњРµС‡ Р±С‹Р» РёСЃРїРѕСЂС‡РµРЅ РІСЂРµРјРµРЅРµРј";
+	text[3] = "Рё СЃС‚Р°Р» РЅРµРїСЂРёРіРѕРґРµРЅ!";
+	text[4] = "Р‘С‹С‚СЊ РјРѕР¶РµС‚, РµРіРѕ РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ";
+	text[5] = "РєР°Рє-С‚Рѕ РёРЅР°С‡Рµ.";
 };
 
 instance Bannklinge(C_Item)
 {
-	name = "Клинок проклятий";
+	name = "РљР»РёРЅРѕРє РїСЂРѕРєР»СЏС‚РёР№";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_2HD_SWD | ITEM_MISSION;
 	material = MAT_METAL;
@@ -155,17 +155,17 @@ instance Bannklinge(C_Item)
 	cond_value[2] = 30;
 	visual = "ItMi_SleeperKey_01.3DS";
 	description = name;
-	text[0] = "Это меч бессмертного";
-	text[1] = "орка-жреца Граш-Варраг-Арушата.";
-	text[2] = "Меч был испорчен временем";
-	text[3] = "и стал непригоден!";
-	text[4] = "Быть может, его можно использовать";
-	text[5] = "как-то иначе.";
+	text[0] = "Р­С‚Рѕ РјРµС‡ Р±РµСЃСЃРјРµСЂС‚РЅРѕРіРѕ";
+	text[1] = "РѕСЂРєР°-Р¶СЂРµС†Р° Р“СЂР°С€-Р’Р°СЂСЂР°Рі-РђСЂСѓС€Р°С‚Р°.";
+	text[2] = "РњРµС‡ Р±С‹Р» РёСЃРїРѕСЂС‡РµРЅ РІСЂРµРјРµРЅРµРј";
+	text[3] = "Рё СЃС‚Р°Р» РЅРµРїСЂРёРіРѕРґРµРЅ!";
+	text[4] = "Р‘С‹С‚СЊ РјРѕР¶РµС‚, РµРіРѕ РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ";
+	text[5] = "РєР°Рє-С‚Рѕ РёРЅР°С‡Рµ.";
 };
 
 instance Mythrilklinge(C_Item)
 {
-	name = "Необычный меч";
+	name = "РќРµРѕР±С‹С‡РЅС‹Р№ РјРµС‡";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_2HD_SWD | ITEM_MISSION;
 	material = MAT_METAL;
@@ -177,16 +177,16 @@ instance Mythrilklinge(C_Item)
 	cond_value[2] = 30;
 	visual = "ItMw_2H_Sword_Sleeper_01.3DS";
 	description = name;
-	text[0] = "Очень красивый меч.";
-	text[1] = "На клинке выгравированы древние руны.";
-	text[2] = "Может быть, Ксардас сможет их прочитать!";
-	text[3] = "Лучше я сначала узнаю, что это за оружие,";
-	text[4] = "а пока буду носить его с собой.";
+	text[0] = "РћС‡РµРЅСЊ РєСЂР°СЃРёРІС‹Р№ РјРµС‡.";
+	text[1] = "РќР° РєР»РёРЅРєРµ РІС‹РіСЂР°РІРёСЂРѕРІР°РЅС‹ РґСЂРµРІРЅРёРµ СЂСѓРЅС‹.";
+	text[2] = "РњРѕР¶РµС‚ Р±С‹С‚СЊ, РљСЃР°СЂРґР°СЃ СЃРјРѕР¶РµС‚ РёС… РїСЂРѕС‡РёС‚Р°С‚СЊ!";
+	text[3] = "Р›СѓС‡С€Рµ СЏ СЃРЅР°С‡Р°Р»Р° СѓР·РЅР°СЋ, С‡С‚Рѕ СЌС‚Рѕ Р·Р° РѕСЂСѓР¶РёРµ,";
+	text[4] = "Р° РїРѕРєР° Р±СѓРґСѓ РЅРѕСЃРёС‚СЊ РµРіРѕ СЃ СЃРѕР±РѕР№.";
 };
 
 instance Mythrilklinge01(C_Item)
 {
-	name = "УРИЗЕЛЬ";
+	name = "РЈР РР—Р•Р›Р¬";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MISSION;
 	material = MAT_METAL;
@@ -198,9 +198,9 @@ instance Mythrilklinge01(C_Item)
 	cond_value[2] = 30;
 	visual = "ItMw_2H_Sword_Sleeper_01.3DS";
 	description = name;
-	text[0] = "Ксардас сказал, что это очень древний меч, который называется УРИЗЕЛЬ.";
-	text[1] = "Раньше он обладал огромной силой,";
-	text[2] = "но она была утеряна.";
+	text[0] = "РљСЃР°СЂРґР°СЃ СЃРєР°Р·Р°Р», С‡С‚Рѕ СЌС‚Рѕ РѕС‡РµРЅСЊ РґСЂРµРІРЅРёР№ РјРµС‡, РєРѕС‚РѕСЂС‹Р№ РЅР°Р·С‹РІР°РµС‚СЃСЏ РЈР РР—Р•Р›Р¬.";
+	text[1] = "Р Р°РЅСЊС€Рµ РѕРЅ РѕР±Р»Р°РґР°Р» РѕРіСЂРѕРјРЅРѕР№ СЃРёР»РѕР№,";
+	text[2] = "РЅРѕ РѕРЅР° Р±С‹Р»Р° СѓС‚РµСЂСЏРЅР°.";
 	text[3] = NAME_Damage;
 	count[3] = damageTotal;
 	text[4] = NAME_Str_needed;
@@ -211,7 +211,7 @@ instance Mythrilklinge01(C_Item)
 
 instance Mythrilklinge02(C_Item)
 {
-	name = "УРИЗЕЛЬ";
+	name = "РЈР РР—Р•Р›Р¬";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MISSION;
 	material = MAT_METAL;
@@ -224,8 +224,8 @@ instance Mythrilklinge02(C_Item)
 	cond_value[2] = 30;
 	visual = "ItMw_2H_Sword_Sleeper_02.3DS";
 	description = name;
-	text[0] = "Это меч Уризель.";
-	text[1] = "Уризель заряжен магической энергией.";
+	text[0] = "Р­С‚Рѕ РјРµС‡ РЈСЂРёР·РµР»СЊ.";
+	text[1] = "РЈСЂРёР·РµР»СЊ Р·Р°СЂСЏР¶РµРЅ РјР°РіРёС‡РµСЃРєРѕР№ СЌРЅРµСЂРіРёРµР№.";
 	text[2] = NAME_Dam_Magic;
 	count[2] = damage[DAM_INDEX_MAGIC];
 	text[3] = NAME_Dam_Fire;
@@ -238,7 +238,7 @@ instance Mythrilklinge02(C_Item)
 
 instance Mythrilklinge03(C_Item)
 {
-	name = "УРИЗЕЛЬ";
+	name = "РЈР РР—Р•Р›Р¬";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MISSION;
 	material = MAT_METAL;
@@ -250,9 +250,9 @@ instance Mythrilklinge03(C_Item)
 	cond_value[2] = 30;
 	visual = "ItMw_2H_Sword_Sleeper_01.3DS";
 	description = name;
-	text[0] = "Магический драгоценный камень был";
-	text[1] = "изъят. Меч все еще очень хорош,";
-	text[2] = "но теперь он не обладает магической силой.";
+	text[0] = "РњР°РіРёС‡РµСЃРєРёР№ РґСЂР°РіРѕС†РµРЅРЅС‹Р№ РєР°РјРµРЅСЊ Р±С‹Р»";
+	text[1] = "РёР·СЉСЏС‚. РњРµС‡ РІСЃРµ РµС‰Рµ РѕС‡РµРЅСЊ С…РѕСЂРѕС€,";
+	text[2] = "РЅРѕ С‚РµРїРµСЂСЊ РѕРЅ РЅРµ РѕР±Р»Р°РґР°РµС‚ РјР°РіРёС‡РµСЃРєРѕР№ СЃРёР»РѕР№.";
 	text[3] = NAME_Damage;
 	count[3] = damageTotal;
 	text[4] = NAME_Str_needed;
@@ -263,34 +263,34 @@ instance Mythrilklinge03(C_Item)
 
 instance Scroll4Milten(C_Item)
 {
-	name = "Перенос энергии";
+	name = "РџРµСЂРµРЅРѕСЃ СЌРЅРµСЂРіРёРё";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 15;
 	visual = "ItWrScroll.3DS";
 	material = MAT_LEATHER;
 	description = name;
-	text[0] = "Заклинание переноса энергии";
-	text[1] = "на меч.";
-	text[2] = "Я не могу его использовать.";
+	text[0] = "Р—Р°РєР»РёРЅР°РЅРёРµ РїРµСЂРµРЅРѕСЃР° СЌРЅРµСЂРіРёРё";
+	text[1] = "РЅР° РјРµС‡.";
+	text[2] = "РЇ РЅРµ РјРѕРіСѓ РµРіРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ.";
 };
 
 instance ItKe_SunkenTower(C_Item)
 {
-	name = "Ключ";
+	name = "РљР»СЋС‡";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = 3;
 	visual = "ItKe_Key_03.3ds";
 	material = MAT_METAL;
 	description = name;
-	text[0] = "Открывает двери";
-	text[1] = "в затонувшей башне.";
+	text[0] = "РћС‚РєСЂС‹РІР°РµС‚ РґРІРµСЂРё";
+	text[1] = "РІ Р·Р°С‚РѕРЅСѓРІС€РµР№ Р±Р°С€РЅРµ.";
 };
 
 instance DungeonKey(C_Item)
 {
-	name = "Ключ от подземелья";
+	name = "РљР»СЋС‡ РѕС‚ РїРѕРґР·РµРјРµР»СЊСЏ";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = 3;
@@ -298,12 +298,12 @@ instance DungeonKey(C_Item)
 	material = MAT_METAL;
 	description = name;
 	text[0] = "";
-	text[0] = "Открывает подземелье в Старом лагере.";
+	text[0] = "РћС‚РєСЂС‹РІР°РµС‚ РїРѕРґР·РµРјРµР»СЊРµ РІ РЎС‚Р°СЂРѕРј Р»Р°РіРµСЂРµ.";
 };
 
 instance UrizielRune(C_Item)
 {
-	name = "Волна смерти УРИЗЕЛЯ";
+	name = "Р’РѕР»РЅР° СЃРјРµСЂС‚Рё РЈР РР—Р•Р›РЇ";
 	mainflag = ITEM_KAT_RUNE;
 	flags = ITEM_MISSION;
 	value = 10000;
@@ -312,8 +312,8 @@ instance UrizielRune(C_Item)
 	spell = SPL_MASSDEATH;
 	mag_circle = 6;
 	description = name;
-	text[0] = "Эта магическая руна содержит";
-	text[1] = "древнюю силу меча УРИЗЕЛЬ.";
+	text[0] = "Р­С‚Р° РјР°РіРёС‡РµСЃРєР°СЏ СЂСѓРЅР° СЃРѕРґРµСЂР¶РёС‚";
+	text[1] = "РґСЂРµРІРЅСЋСЋ СЃРёР»Сѓ РјРµС‡Р° РЈР РР—Р•Р›Р¬.";
 	text[2] = NAME_Mag_Circle;
 	count[2] = mag_circle;
 	text[3] = NAME_Manakosten;

@@ -1,4 +1,4 @@
-
+п»ї
 instance DIA_Ricelord_EXIT(C_Info)
 {
 	npc = Bau_900_Ricelord;
@@ -28,7 +28,7 @@ instance DIA_Ricelord_Hello(C_Info)
 	condition = DIA_Ricelord_Hello_Condition;
 	information = DIA_Ricelord_Hello_Info;
 	permanent = 0;
-	description = "Это ты управляешь рисовыми полями, ведь так?";
+	description = "Р­С‚Рѕ С‚С‹ СѓРїСЂР°РІР»СЏРµС€СЊ СЂРёСЃРѕРІС‹РјРё РїРѕР»СЏРјРё, РІРµРґСЊ С‚Р°Рє?";
 };
 
 
@@ -39,8 +39,8 @@ func int DIA_Ricelord_Hello_Condition()
 
 func void DIA_Ricelord_Hello_Info()
 {
-	AI_Output(other,self,"DIA_Ricelord_Hello_15_00");	//Это ты управляешь рисовыми полями, ведь так?
-	AI_Output(self,other,"DIA_Ricelord_Hello_12_01");	//А что? Тебе нужна работа?
+	AI_Output(other,self,"DIA_Ricelord_Hello_15_00");	//Р­С‚Рѕ С‚С‹ СѓРїСЂР°РІР»СЏРµС€СЊ СЂРёСЃРѕРІС‹РјРё РїРѕР»СЏРјРё, РІРµРґСЊ С‚Р°Рє?
+	AI_Output(self,other,"DIA_Ricelord_Hello_12_01");	//Рђ С‡С‚Рѕ? РўРµР±Рµ РЅСѓР¶РЅР° СЂР°Р±РѕС‚Р°?
 };
 
 
@@ -51,7 +51,7 @@ instance DIA_Ricelord_Arbeit(C_Info)
 	condition = DIA_Ricelord_Arbeit_Condition;
 	information = DIA_Ricelord_Arbeit_Info;
 	permanent = 0;
-	description = "А ты можешь мне что-то предложить?";
+	description = "Рђ С‚С‹ РјРѕР¶РµС€СЊ РјРЅРµ С‡С‚Рѕ-С‚Рѕ РїСЂРµРґР»РѕР¶РёС‚СЊ?";
 };
 
 
@@ -65,8 +65,8 @@ func int DIA_Ricelord_Arbeit_Condition()
 
 func void DIA_Ricelord_Arbeit_Info()
 {
-	AI_Output(other,self,"DIA_Ricelord_Arbeit_15_00");	//А ты можешь мне что-то предложить?
-	AI_Output(self,other,"DIA_Ricelord_Arbeit_12_01");	//Поговори с Лефти. Думаю, ты найдешь его справа от сарая.
+	AI_Output(other,self,"DIA_Ricelord_Arbeit_15_00");	//Рђ С‚С‹ РјРѕР¶РµС€СЊ РјРЅРµ С‡С‚Рѕ-С‚Рѕ РїСЂРµРґР»РѕР¶РёС‚СЊ?
+	AI_Output(self,other,"DIA_Ricelord_Arbeit_12_01");	//РџРѕРіРѕРІРѕСЂРё СЃ Р›РµС„С‚Рё. Р”СѓРјР°СЋ, С‚С‹ РЅР°Р№РґРµС€СЊ РµРіРѕ СЃРїСЂР°РІР° РѕС‚ СЃР°СЂР°СЏ.
 };
 
 
@@ -77,7 +77,7 @@ instance DIA_Ricelord_TRADE(C_Info)
 	condition = DIA_Ricelord_TRADE_Condition;
 	information = DIA_Ricelord_TRADE_Info;
 	permanent = 1;
-	description = "Мы могли бы сработаться...";
+	description = "РњС‹ РјРѕРіР»Рё Р±С‹ СЃСЂР°Р±РѕС‚Р°С‚СЊСЃСЏ...";
 	trade = 1;
 };
 
@@ -88,8 +88,8 @@ func int DIA_Ricelord_TRADE_Condition()
 
 func void DIA_Ricelord_TRADE_Info()
 {
-	AI_Output(other,self,"DIA_Ricelord_TRADE_15_00");	//Мы могли бы сработаться...
-	AI_Output(self,other,"DIA_Ricelord_TRADE_12_01");	//Ты можешь что-то предложить?
+	AI_Output(other,self,"DIA_Ricelord_TRADE_15_00");	//РњС‹ РјРѕРіР»Рё Р±С‹ СЃСЂР°Р±РѕС‚Р°С‚СЊСЃСЏ...
+	AI_Output(self,other,"DIA_Ricelord_TRADE_12_01");	//РўС‹ РјРѕР¶РµС€СЊ С‡С‚Рѕ-С‚Рѕ РїСЂРµРґР»РѕР¶РёС‚СЊ?
 };
 
 
@@ -100,7 +100,7 @@ instance DIA_Ricelord_LeftySentMe(C_Info)
 	condition = DIA_Ricelord_LeftySentMe_Condition;
 	information = DIA_Ricelord_LeftySentMe_Info;
 	permanent = 1;
-	description = "Меня послал Лефти.";
+	description = "РњРµРЅСЏ РїРѕСЃР»Р°Р» Р›РµС„С‚Рё.";
 };
 
 
@@ -114,8 +114,8 @@ func int DIA_Ricelord_LeftySentMe_Condition()
 
 func void DIA_Ricelord_LeftySentMe_Info()
 {
-	AI_Output(other,self,"DIA_Ricelord_LeftySentMe_15_00");	//Меня послал Лефти.
-	AI_Output(self,other,"DIA_Ricelord_LeftySentMe_12_01");	//Да, и что он сказал?
+	AI_Output(other,self,"DIA_Ricelord_LeftySentMe_15_00");	//РњРµРЅСЏ РїРѕСЃР»Р°Р» Р›РµС„С‚Рё.
+	AI_Output(self,other,"DIA_Ricelord_LeftySentMe_12_01");	//Р”Р°, Рё С‡С‚Рѕ РѕРЅ СЃРєР°Р·Р°Р»?
 	Ricelord_AskedForWater = TRUE;
 };
 
@@ -127,7 +127,7 @@ instance DIA_Ricelord_GetWater(C_Info)
 	condition = DIA_Ricelord_GetWater_Condition;
 	information = DIA_Ricelord_GetWater_Info;
 	permanent = 1;
-	description = "Я должен отнести крестьянам воды.";
+	description = "РЇ РґРѕР»Р¶РµРЅ РѕС‚РЅРµСЃС‚Рё РєСЂРµСЃС‚СЊСЏРЅР°Рј РІРѕРґС‹.";
 };
 
 
@@ -141,25 +141,25 @@ func int DIA_Ricelord_GetWater_Condition()
 
 func void DIA_Ricelord_GetWater_Info()
 {
-	AI_Output(other,self,"DIA_Ricelord_GetWater_15_00");	//Я должен отнести крестьянам воды.
+	AI_Output(other,self,"DIA_Ricelord_GetWater_15_00");	//РЇ РґРѕР»Р¶РµРЅ РѕС‚РЅРµСЃС‚Рё РєСЂРµСЃС‚СЊСЏРЅР°Рј РІРѕРґС‹.
 	if(Lefty_WorkDay == Wld_GetDay())
 	{
-		AI_Output(self,other,"DIA_Ricelord_GetWater_12_01");	//Отлично. Держи. Дюжина бутылок с водой.
-		AI_Output(self,other,"DIA_Ricelord_GetWater_12_02");	//Крестьян там намного больше, так что следи, чтобы всем досталось поровну.
+		AI_Output(self,other,"DIA_Ricelord_GetWater_12_01");	//РћС‚Р»РёС‡РЅРѕ. Р”РµСЂР¶Рё. Р”СЋР¶РёРЅР° Р±СѓС‚С‹Р»РѕРє СЃ РІРѕРґРѕР№.
+		AI_Output(self,other,"DIA_Ricelord_GetWater_12_02");	//РљСЂРµСЃС‚СЊСЏРЅ С‚Р°Рј РЅР°РјРЅРѕРіРѕ Р±РѕР»СЊС€Рµ, С‚Р°Рє С‡С‚Рѕ СЃР»РµРґРё, С‡С‚РѕР±С‹ РІСЃРµРј РґРѕСЃС‚Р°Р»РѕСЃСЊ РїРѕСЂРѕРІРЅСѓ.
 		CreateInvItems(self,ItFo_Potion_Water_01,12);
 		B_GiveInvItems(self,other,ItFo_Potion_Water_01,12);
 		Ricelord_AskedForWater = FALSE;
-		B_LogEntry(CH1_CarryWater,"Лорд дал мне дюжину бутылок с водой.");
+		B_LogEntry(CH1_CarryWater,"Р›РѕСЂРґ РґР°Р» РјРЅРµ РґСЋР¶РёРЅСѓ Р±СѓС‚С‹Р»РѕРє СЃ РІРѕРґРѕР№.");
 		AI_StopProcessInfos(self);
 	}
 	else if(Lefty_WorkDay == (Wld_GetDay() - 1))
 	{
-		AI_Output(self,other,"DIA_Ricelord_GetWater_TooLate_12_00");	//Это было вчера, парень! Лучше сходи к нему, он хочет тебе что-то сказать.
+		AI_Output(self,other,"DIA_Ricelord_GetWater_TooLate_12_00");	//Р­С‚Рѕ Р±С‹Р»Рѕ РІС‡РµСЂР°, РїР°СЂРµРЅСЊ! Р›СѓС‡С€Рµ СЃС…РѕРґРё Рє РЅРµРјСѓ, РѕРЅ С…РѕС‡РµС‚ С‚РµР±Рµ С‡С‚Рѕ-С‚Рѕ СЃРєР°Р·Р°С‚СЊ.
 		AI_StopProcessInfos(self);
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Ricelord_GetWater_TooLate_12_01");	//Это было несколько дней назад, парень! Лучше сходи к нему, он хочет с тобой поговорить.
+		AI_Output(self,other,"DIA_Ricelord_GetWater_TooLate_12_01");	//Р­С‚Рѕ Р±С‹Р»Рѕ РЅРµСЃРєРѕР»СЊРєРѕ РґРЅРµР№ РЅР°Р·Р°Рґ, РїР°СЂРµРЅСЊ! Р›СѓС‡С€Рµ СЃС…РѕРґРё Рє РЅРµРјСѓ, РѕРЅ С…РѕС‡РµС‚ СЃ С‚РѕР±РѕР№ РїРѕРіРѕРІРѕСЂРёС‚СЊ.
 		AI_StopProcessInfos(self);
 	};
 };

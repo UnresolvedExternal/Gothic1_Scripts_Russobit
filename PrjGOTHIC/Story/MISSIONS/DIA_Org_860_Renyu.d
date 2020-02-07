@@ -1,4 +1,4 @@
-
+п»ї
 instance Info_Renyu_EXIT(C_Info)
 {
 	npc = Org_860_Renyu;
@@ -42,7 +42,7 @@ func int ORG_860_Renyu_GetLost_Condition()
 
 func void ORG_860_Renyu_GetLost_Info()
 {
-	AI_Output(self,other,"Org_860_Renyu_GetLost_Info_06_00");	//Убирайся!
+	AI_Output(self,other,"Org_860_Renyu_GetLost_Info_06_00");	//РЈР±РёСЂР°Р№СЃСЏ!
 	AI_StopProcessInfos(self);
 };
 

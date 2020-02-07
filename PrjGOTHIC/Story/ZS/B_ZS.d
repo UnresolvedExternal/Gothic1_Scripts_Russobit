@@ -1,4 +1,4 @@
-
+﻿
 const int TA_IT_NONE = 0;
 const int TA_IT_APPLE = 1;
 const int TA_IT_LOAF = 2;

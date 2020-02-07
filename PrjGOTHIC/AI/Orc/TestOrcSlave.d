@@ -1,4 +1,4 @@
-
+﻿
 prototype ORCSLAVE_TESTTYPE(C_Npc)
 {
 	name[0] = "OrcSlave Prototype";

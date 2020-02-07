@@ -1,4 +1,4 @@
-
+﻿
 instance Tpl_1431_Templer_CALLSLEEPER(C_Info)
 {
 	npc = TPL_1431_Templer;

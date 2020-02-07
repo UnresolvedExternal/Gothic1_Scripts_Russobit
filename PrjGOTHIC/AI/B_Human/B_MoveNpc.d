@@ -1,4 +1,4 @@
-
+﻿
 func void B_MoveNpc()
 {
 	PrintDebugNpc(PD_ZS_DETAIL,"B_MoveNpc");
@@ -11,7 +11,7 @@ func void B_MoveNpc()
 		};
 		if(C_NpcIsDown(other))
 		{
-			PrintDebugNpc(PD_ZS_DETAIL,"...Blockierender ist kampfunf�hig!");
+			PrintDebugNpc(PD_ZS_DETAIL,"...Blockierender ist kampfunfдhig!");
 			return;
 		};
 		if(C_NpcTypeIsFriend(self,other))

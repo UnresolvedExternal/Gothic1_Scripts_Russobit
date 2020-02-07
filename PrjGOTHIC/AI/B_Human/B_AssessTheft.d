@@ -1,4 +1,4 @@
-
+﻿
 func void B_GuardItemsAssessTheft()
 {
 	PrintDebugNpc(PD_ZS_Check,"B_GuardItemsAssessTheft");
@@ -47,7 +47,7 @@ func void B_AssessTheft()
 			item_ownerguild = item.ownerGuild;
 			if(Npc_OwnedByNpc(item,self))
 			{
-				PrintDebugNpc(PD_ZS_Check,"...Item geh�rt NSC!");
+				PrintDebugNpc(PD_ZS_Check,"...Item gehцrt NSC!");
 				Npc_ClearAIQueue(self);
 				C_LookAtNpc(self,other);
 				AI_StartState(self,ZS_CatchThief,0,"");

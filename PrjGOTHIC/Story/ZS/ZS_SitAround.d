@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_SitAround()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_SitAround");

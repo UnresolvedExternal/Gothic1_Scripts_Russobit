@@ -1,4 +1,4 @@
-
+﻿
 func int ZS_Orc_WatchFight()
 {
 	var int i;

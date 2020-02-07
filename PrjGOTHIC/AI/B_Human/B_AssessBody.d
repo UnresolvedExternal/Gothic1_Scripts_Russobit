@@ -1,11 +1,11 @@
-
+ï»¿
 func void B_AssessBody()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"B_AssessBody");
 	PrintGlobals(PD_ZS_Check);
 	if(Npc_GetDistToNpc(self,other) < 1000)
 	{
-		PrintDebugNpc(PD_ZS_Check,"...Körper näher als 10m!");
+		PrintDebugNpc(PD_ZS_Check,"...KÑ†rper nÐ´her als 10m!");
 		B_FullStop(self);
 		AI_StartState(self,ZS_AssessBody,0,"");
 	};
@@ -26,12 +26,12 @@ func void ZS_AssessBody()
 	Npc_PercEnable(self,PERC_ASSESSTALK,B_RefuseTalk);
 	if(other.aivar[AIV_PLUNDERED] == TRUE)
 	{
-		PrintDebugNpc(PD_ZS_Check,"...Körper bereits geplündert!");
+		PrintDebugNpc(PD_ZS_Check,"...KÑ†rper bereits geplÑŒndert!");
 		AI_ContinueRoutine(self);
 	};
 	if(Npc_GetDistToNpc(self,other) > PERC_DIST_INTERMEDIAT)
 	{
-		PrintDebugNpc(PD_ZS_Check,"...Körper zu weit weg!");
+		PrintDebugNpc(PD_ZS_Check,"...KÑ†rper zu weit weg!");
 		AI_ContinueRoutine(self);
 	};
 };
@@ -53,7 +53,7 @@ func void ZS_AssessBody_End()
 	};
 	if((self.fight_tactic != FAI_HUMAN_RANGED) && (self.npcType != npctype_friend) && C_NpcIsHuman(self))
 	{
-		PrintDebugNpc(PD_ZS_Check,"...kein purer Fernkämpfer und kein NSC-Freund!");
+		PrintDebugNpc(PD_ZS_Check,"...kein purer FernkÐ´mpfer und kein NSC-Freund!");
 		AI_PlayAni(self,"T_PLUNDER");
 		if(B_Plunder())
 		{

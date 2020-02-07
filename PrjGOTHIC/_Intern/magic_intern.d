@@ -1,4 +1,4 @@
-
+﻿
 const int TARGET_COLLECT_NONE = 0;
 const int TARGET_COLLECT_CASTER = 1;
 const int TARGET_COLLECT_FOCUS = 2;

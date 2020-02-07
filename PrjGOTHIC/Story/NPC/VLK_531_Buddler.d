@@ -1,4 +1,4 @@
-
+﻿
 instance VLK_531_Buddler(Npc_Default)
 {
 	name[0] = NAME_Buddler;

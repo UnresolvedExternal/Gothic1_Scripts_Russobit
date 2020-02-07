@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_BodyGuard()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_BodyGuard");

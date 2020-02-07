@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_Drained_YBerion()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_Drained_YBerion");

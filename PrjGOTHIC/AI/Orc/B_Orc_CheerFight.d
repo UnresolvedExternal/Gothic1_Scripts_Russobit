@@ -1,4 +1,4 @@
-
+﻿
 func void B_Orc_CheerFight()
 {
 	var int h;

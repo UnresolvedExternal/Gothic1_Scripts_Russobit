@@ -1,4 +1,4 @@
-
+﻿
 instance TPL_1453_Templer(Npc_Default)
 {
 	name[0] = NAME_MadTemplar2;

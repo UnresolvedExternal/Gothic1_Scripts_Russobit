@@ -1,4 +1,4 @@
-
+﻿
 func void B_Story_EncounteredHighPriest()
 {
 	Wld_InsertNpc(SkeletonWarrior,"TPL_017");

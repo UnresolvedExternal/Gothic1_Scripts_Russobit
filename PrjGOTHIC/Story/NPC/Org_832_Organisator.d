@@ -1,4 +1,4 @@
-
+﻿
 instance Org_832_Organisator(Npc_Default)
 {
 	name[0] = NAME_Organisator;

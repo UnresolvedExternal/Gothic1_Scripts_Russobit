@@ -1,4 +1,4 @@
-
+Ôªø
 func int ZS_AssessQuietSound()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"ZS_AssessQuietSound");
@@ -41,7 +41,7 @@ func int ZS_AssessQuietSound_Loop()
 		}
 		else
 		{
-			PrintDebugNpc(PD_ZS_LOOP,"...SC auﬂerhalb Fluchtradius oder in Gespr‰ch!");
+			PrintDebugNpc(PD_ZS_LOOP,"...SC au–Øerhalb Fluchtradius oder in Gespr–¥ch!");
 			return LOOP_END;
 		};
 	}

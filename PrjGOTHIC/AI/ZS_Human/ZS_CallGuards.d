@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_CallGuards()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"ZS_CallGuards");

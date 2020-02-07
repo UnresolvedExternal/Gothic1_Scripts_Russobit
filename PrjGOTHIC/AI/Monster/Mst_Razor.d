@@ -1,7 +1,7 @@
-
+п»ї
 prototype Mst_Default_Razor(C_Npc)
 {
-	name[0] = "Штек";
+	name[0] = "РЁС‚РµРє";
 	guild = GIL_SNAPPER;
 	aivar[AIV_IMPORTANT] = ID_RAZOR;
 	level = 20;

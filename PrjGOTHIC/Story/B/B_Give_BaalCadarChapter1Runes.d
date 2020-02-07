@@ -1,4 +1,4 @@
-
+﻿
 func void B_Give_BaalCadarChapter1Runes()
 {
 	var C_Npc npc;

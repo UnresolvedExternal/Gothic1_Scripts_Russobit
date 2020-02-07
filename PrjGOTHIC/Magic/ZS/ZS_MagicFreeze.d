@@ -1,4 +1,4 @@
-
+﻿
 func void B_StopMagicFreeze()
 {
 	PrintDebugNpc(PD_MAGIC,"B_StopMagicFreeze");

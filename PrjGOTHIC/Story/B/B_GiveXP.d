@@ -1,4 +1,4 @@
-
+Ôªø
 const int LP_PER_LEVEL = 10;
 const int HP_PER_LEVEL = 12;
 const int XP_PER_LEVEL_UNCONSCIOUS = 5;
@@ -34,11 +34,11 @@ func void B_DeathXP()
 	PrintGlobals(PD_ZS_Check);
 	if(C_NpcIsHuman(self) && Npc_WasInState(self,ZS_Unconscious))
 	{
-		PrintDebugNpc(PD_ZS_Check,"...Opfer ist bewuﬂtloser Mensch!");
+		PrintDebugNpc(PD_ZS_Check,"...Opfer ist bewu–Øtloser Mensch!");
 	}
 	else
 	{
-		PrintDebugNpc(PD_ZS_Check,"...Opfer ist entweder nicht bewuﬂtlos oder kein Mensch!");
+		PrintDebugNpc(PD_ZS_Check,"...Opfer ist entweder nicht bewu–Øtlos oder kein Mensch!");
 		B_GiveXP(self.level * XP_PER_LEVEL_DEAD);
 	};
 };

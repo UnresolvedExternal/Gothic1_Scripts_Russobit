@@ -1,4 +1,4 @@
-
+﻿
 func void B_TestReaction()
 {
 	PrintDebugS("B_TestReaction");

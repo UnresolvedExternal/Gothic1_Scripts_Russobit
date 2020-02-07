@@ -1,4 +1,4 @@
-
+Ôªø
 func void ZS_Flee()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"ZS_Flee");
@@ -18,7 +18,7 @@ func int ZS_Flee_Loop()
 	PrintDebugNpc(PD_ZS_LOOP,"ZS_Flee_Loop");
 	if(!Hlp_IsValidNpc(other))
 	{
-		PrintDebugNpc(PD_ZS_Check,"...Gegner nicht mehr g¸ltig!");
+		PrintDebugNpc(PD_ZS_Check,"...Gegner nicht mehr g—åltig!");
 		return LOOP_END;
 	}
 	else if(Npc_GetDistToNpc(self,other) > HAI_DIST_ABORT_FLEE)
@@ -28,7 +28,7 @@ func int ZS_Flee_Loop()
 	}
 	else if(C_NpcIsDown(other))
 	{
-		PrintDebugNpc(PD_ZS_Check,"...Gegner nicht mehr kampff‰hig!");
+		PrintDebugNpc(PD_ZS_Check,"...Gegner nicht mehr kampff–¥hig!");
 		return LOOP_END;
 	}
 	else

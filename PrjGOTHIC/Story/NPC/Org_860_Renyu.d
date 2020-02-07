@@ -1,7 +1,7 @@
-
+п»ї
 instance Org_860_Renyu(Npc_Default)
 {
-	name[0] = "Рабочий";
+	name[0] = "Р Р°Р±РѕС‡РёР№";
 	npcType = npctype_main;
 	guild = GIL_ORG;
 	level = 8;

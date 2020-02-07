@@ -1,4 +1,4 @@
-
+﻿
 func void B_Story_BringFirstFocus()
 {
 	var C_Npc nyras;

@@ -1,4 +1,4 @@
-
+﻿
 func int ZS_MagicShrink()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"ZS_MagicShrink");

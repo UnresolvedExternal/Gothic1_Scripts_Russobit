@@ -1,7 +1,7 @@
-
+п»ї
 instance SLD_752_Okyl(Npc_Default)
 {
-	name[0] = "Окил";
+	name[0] = "РћРєРёР»";
 	npcType = npctype_main;
 	guild = GIL_SLD;
 	level = 18;

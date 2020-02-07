@@ -1,4 +1,4 @@
-
+ï»¿
 func int C_AmIStronger(var C_Npc slf,var C_Npc oth)
 {
 	PrintDebugNpc(PD_ZS_DETAIL,"C_AmIStronger");
@@ -355,7 +355,7 @@ func int C_NpcHasAmmo(var C_Npc slf,var int category)
 	PrintDebugNpc(PD_ZS_DETAIL,"C_NpcHasAmmo");
 	if((category != ItAmArrow) && (category != ItAmBolt))
 	{
-		PrintDebugNpc(PD_ZS_DETAIL,"...ungültige Kategorie !!!");
+		PrintDebugNpc(PD_ZS_DETAIL,"...ungÑŒltige Kategorie !!!");
 		return 0;
 	};
 	count = Npc_GetInvItemBySlot(slf,INV_WEAPON,1);
@@ -426,7 +426,7 @@ func int C_NpcHasWeapon(var C_Npc slf,var int category)
 	PrintDebugNpc(PD_ZS_FRAME,"C_NpcHasWeapon");
 	if((category != ITEM_KAT_NF) && (category != ITEM_KAT_FF))
 	{
-		PrintDebugNpc(PD_ZS_Check,"...ungültige Kategorie !!!");
+		PrintDebugNpc(PD_ZS_Check,"...ungÑŒltige Kategorie !!!");
 		return FALSE;
 	};
 	Npc_GetInvItemBySlot(slf,INV_WEAPON,1);

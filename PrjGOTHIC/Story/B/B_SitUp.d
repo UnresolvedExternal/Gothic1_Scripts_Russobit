@@ -1,4 +1,4 @@
-
+ï»¿
 func void B_SitUp()
 {
 	if(self.attribute[ATR_HITPOINTS] < 20)
@@ -55,7 +55,7 @@ func void ZS_WaitForRescue_End()
 
 instance FreemineOrc(C_Npc)
 {
-	name[0] = "Îðê-ðàá";
+	name[0] = "ÐžÑ€Ðº-Ñ€Ð°Ð±";
 	guild = GIL_None;
 	level = 3;
 	flags = NPC_FLAG_IMMORTAL;

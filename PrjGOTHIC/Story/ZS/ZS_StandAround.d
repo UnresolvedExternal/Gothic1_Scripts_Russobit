@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_StandAround()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_StandAround");

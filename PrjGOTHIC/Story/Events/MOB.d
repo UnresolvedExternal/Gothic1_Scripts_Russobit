@@ -1,4 +1,4 @@
-
+п»ї
 var int _str_message_wheel_stucks_again;
 
 func int mc_oldmine_asghan()
@@ -22,13 +22,13 @@ func int mc_oldmine_entrance()
 	PrintGlobals(PD_ITEM_MOBSI);
 	if((Kapitel >= 4) && Hlp_IsValidNpc(self))
 	{
-		PrintDebugNpc(PD_ITEM_MOBSI,"...заблокировано.");
+		PrintDebugNpc(PD_ITEM_MOBSI,"...Р·Р°Р±Р»РѕРєРёСЂРѕРІР°РЅРѕ.");
 		G_PrintScreen(_STR_MESSAGE_WHEEL_STUCKS);
 		return FALSE;
 	}
 	else
 	{
-		PrintDebugNpc(PD_ITEM_MOBSI,"...готово к работе.");
+		PrintDebugNpc(PD_ITEM_MOBSI,"...РіРѕС‚РѕРІРѕ Рє СЂР°Р±РѕС‚Рµ.");
 		return TRUE;
 	};
 };
@@ -38,7 +38,7 @@ func int mc_monasteryruin_gate()
 	PrintDebugNpc(PD_ITEM_MOBSI,"MC_MONASTERYRUIN_GATE");
 	if(MonasteryRuin_GateOpen == FALSE)
 	{
-		PrintDebugNpc(PD_ITEM_MOBSI,"...еще не открыто.");
+		PrintDebugNpc(PD_ITEM_MOBSI,"...РµС‰Рµ РЅРµ РѕС‚РєСЂС‹С‚Рѕ.");
 		AI_UseMob(hero,"VWHEEL",1);
 		AI_UseMob(hero,"VWHEEL",-1);
 		MonasteryRuin_GateOpen = TRUE;
@@ -46,7 +46,7 @@ func int mc_monasteryruin_gate()
 	}
 	else
 	{
-		PrintDebugNpc(PD_ITEM_MOBSI,"...уже открыто.");
+		PrintDebugNpc(PD_ITEM_MOBSI,"...СѓР¶Рµ РѕС‚РєСЂС‹С‚Рѕ.");
 		return TRUE;
 	};
 };

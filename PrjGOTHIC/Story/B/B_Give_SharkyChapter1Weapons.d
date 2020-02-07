@@ -1,4 +1,4 @@
-
+﻿
 func void B_Give_SharkyChapter1Weapons()
 {
 	var C_Npc npc;

@@ -1,4 +1,4 @@
-
+ï»¿
 func void B_AssessEnterRoom()
 {
 	var int self_guild;
@@ -29,19 +29,19 @@ func void B_AssessEnterRoom()
 	};
 	if(Npc_CanSeeNpc(self,other) || (!C_BodyStateContains(other,BS_SNEAK) && (Npc_GetDistToNpc(self,other) < HAI_DIST_HEARROOMINTRUDER)))
 	{
-		PrintDebugNpc(PD_ZS_Check,"...Nsc sieht/hört Eindringling!");
+		PrintDebugNpc(PD_ZS_Check,"...Nsc sieht/hÑ†rt Eindringling!");
 		if(C_NpcIsGuard(self))
 		{
 			PrintDebugNpc(PD_ZS_Check,"...Nsc ist Wache!");
 			if((portalguild != GIL_None) && (Wld_GetGuildAttitude(self_guild,portalguild) == ATT_FRIENDLY))
 			{
-				PrintDebugNpc(PD_ZS_Check,"...betretener Portalraum gehört Schützling-Gilde!");
+				PrintDebugNpc(PD_ZS_Check,"...betretener Portalraum gehÑ†rt SchÑŒtzling-Gilde!");
 				B_FullStop(self);
 				AI_StartState(self,ZS_ClearRoom,0,"");
 			}
 			else if((formerportalguild != GIL_None) && (Wld_GetGuildAttitude(self_guild,formerportalguild) == ATT_FRIENDLY))
 			{
-				PrintDebugNpc(PD_ZS_Check,"...verlassener Portalraum gehört Schützling-Gilde!");
+				PrintDebugNpc(PD_ZS_Check,"...verlassener Portalraum gehÑ†rt SchÑŒtzling-Gilde!");
 				B_FullStop(self);
 				B_WhirlAround(self,other);
 				AI_PointAtNpc(self,other);
@@ -55,7 +55,7 @@ func void B_AssessEnterRoom()
 		}
 		else if(C_NpcIsGuardArcher(self))
 		{
-			PrintDebugNpc(PD_ZS_Check,"...ich bin Fernkampfwache und ignoriere Räume betreten grundsätzlich!");
+			PrintDebugNpc(PD_ZS_Check,"...ich bin Fernkampfwache und ignoriere RÐ´ume betreten grundsÐ´tzlich!");
 			Npc_PercEnable(self,PERC_OBSERVEINTRUDER,B_ObserveIntruder);
 			AI_ContinueRoutine(self);
 		}
@@ -64,14 +64,14 @@ func void B_AssessEnterRoom()
 			PrintDebugNpc(PD_ZS_Check,"...Nsc ist KEINE Wache!");
 			if((Npc_GetDistToNpc(self,other) < HAI_DIST_CLEARROOM) && (portalguild != GIL_None) && ((self_guild == portalguild) || (Wld_GetGuildAttitude(self_guild,portalguild) == ATT_FRIENDLY)))
 			{
-				PrintDebugNpc(PD_ZS_Check,"...SC nah & betretener Portalraum gehört Gilde des NSCs");
+				PrintDebugNpc(PD_ZS_Check,"...SC nah & betretener Portalraum gehÑ†rt Gilde des NSCs");
 				B_FullStop(self);
 				AI_StartState(self,ZS_ClearRoom,0,"");
 				return;
 			};
 			if((Npc_GetDistToNpc(self,other) < HAI_DIST_CLEARROOM) && (formerportalguild != GIL_None) && ((self_guild == formerportalguild) || (Wld_GetGuildAttitude(self_guild,formerportalguild) == ATT_FRIENDLY)))
 			{
-				PrintDebugNpc(PD_ZS_Check,"...SC nah & SC verläßt eigenen Portalraum");
+				PrintDebugNpc(PD_ZS_Check,"...SC nah & SC verlÐ´Ð¯t eigenen Portalraum");
 				B_FullStop(self);
 				B_WhirlAround(self,other);
 				AI_PointAtNpc(self,other);
@@ -86,7 +86,7 @@ func void B_AssessEnterRoom()
 	}
 	else
 	{
-		PrintDebugNpc(PD_ZS_Check,"...NSC kann den Eindringling weder sehen noch hören!");
+		PrintDebugNpc(PD_ZS_Check,"...NSC kann den Eindringling weder sehen noch hÑ†ren!");
 	};
 };
 

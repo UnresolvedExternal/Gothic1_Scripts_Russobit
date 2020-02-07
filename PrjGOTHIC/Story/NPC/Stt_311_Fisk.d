@@ -1,7 +1,7 @@
-
+Ôªø
 instance Stt_311_Fisk(Npc_Default)
 {
-	name[0] = "‘ËÒÍ";
+	name[0] = "–§–∏—Å–∫";
 	npcType = npctype_main;
 	guild = GIL_STT;
 	level = 7;

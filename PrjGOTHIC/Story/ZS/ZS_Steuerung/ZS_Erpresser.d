@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_Erpresser()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_Erpresser");

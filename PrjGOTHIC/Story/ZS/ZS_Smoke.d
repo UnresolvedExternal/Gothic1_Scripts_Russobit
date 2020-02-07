@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_Smoke()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_Smoke");

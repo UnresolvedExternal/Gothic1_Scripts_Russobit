@@ -1,4 +1,4 @@
-
+﻿
 func void B_TransferItems(var int amount)
 {
 	var int transferItem;
@@ -195,7 +195,7 @@ func int B_Plunder()
 	{
 		amountPlundered = amountPlundered + 1;
 	};
-	PrintDebugInt(PD_ZS_Check,"...Anzahl gepl�nderter Items:",amountPlundered);
+	PrintDebugInt(PD_ZS_Check,"...Anzahl geplьnderter Items:",amountPlundered);
 	return amountPlundered;
 };
 

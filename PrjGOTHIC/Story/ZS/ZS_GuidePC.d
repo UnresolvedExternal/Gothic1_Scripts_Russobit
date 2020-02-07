@@ -1,4 +1,4 @@
-
+﻿
 func void B_GuidePC_AssessPlayer()
 {
 	PrintDebugNpc(PD_TA_CHECK,"B_GuidePC_AssessPlayer");

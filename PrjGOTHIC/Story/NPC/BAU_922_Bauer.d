@@ -1,4 +1,4 @@
-
+﻿
 instance BAU_922_Bauer(Npc_Default)
 {
 	name[0] = NAME_Bauer;

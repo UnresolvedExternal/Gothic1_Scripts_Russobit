@@ -1,7 +1,7 @@
-
+п»ї
 instance ORG_855_Wolf(Npc_Default)
 {
-	name[0] = "Волк";
+	name[0] = "Р’РѕР»Рє";
 	npcType = npctype_main;
 	guild = GIL_ORG;
 	level = 11;

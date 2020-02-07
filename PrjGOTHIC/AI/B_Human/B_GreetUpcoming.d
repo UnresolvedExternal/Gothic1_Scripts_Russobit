@@ -1,4 +1,4 @@
-
+﻿
 func void B_GreetUpcoming()
 {
 	var int greet;

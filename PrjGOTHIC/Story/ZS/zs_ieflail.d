@@ -1,4 +1,4 @@
-
+﻿
 func void zs_ieflail()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_IEFLAIL");

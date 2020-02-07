@@ -1,4 +1,4 @@
-
+п»ї
 instance DIA_Shrat_Exit(C_Info)
 {
 	npc = NOV_1356_Shrat;
@@ -29,7 +29,7 @@ instance DIA_Shrat_WhyHere(C_Info)
 	condition = DIA_Shrat_WhyHere_Condition;
 	information = DIA_Shrat_WhyHere_Info;
 	permanent = 0;
-	description = "Что ты здесь делаешь?";
+	description = "Р§С‚Рѕ С‚С‹ Р·РґРµСЃСЊ РґРµР»Р°РµС€СЊ?";
 };
 
 
@@ -40,12 +40,12 @@ func int DIA_Shrat_WhyHere_Condition()
 
 func void DIA_Shrat_WhyHere_Info()
 {
-	AI_Output(other,self,"DIA_Shrat_WhyHere_15_00");	//Что ты здесь делаешь?
-	AI_Output(self,other,"DIA_Shrat_WhyHere_02_01");	//Разве я позволил тебе обратиться ко мне?
-	AI_Output(self,other,"DIA_Shrat_WhyHere_02_02");	//Шучу! Я здесь, потому что эти недоумки действуют мне на нервы!
-	AI_Output(self,other,"DIA_Shrat_WhyHere_02_03");	//Не смей обращаться ко мне: 'Моли Спящего о прощении! Это задание необычайной важности!'
-	AI_Output(self,other,"DIA_Shrat_WhyHere_02_04");	//Когда вокруг тебя столько психов, этого достаточно, чтобы свести человека с ума.
-	AI_Output(self,other,"DIA_Shrat_WhyHere_02_05");	//Я Шрет, ученик первого ранга, им же и останусь!
+	AI_Output(other,self,"DIA_Shrat_WhyHere_15_00");	//Р§С‚Рѕ С‚С‹ Р·РґРµСЃСЊ РґРµР»Р°РµС€СЊ?
+	AI_Output(self,other,"DIA_Shrat_WhyHere_02_01");	//Р Р°Р·РІРµ СЏ РїРѕР·РІРѕР»РёР» С‚РµР±Рµ РѕР±СЂР°С‚РёС‚СЊСЃСЏ РєРѕ РјРЅРµ?
+	AI_Output(self,other,"DIA_Shrat_WhyHere_02_02");	//РЁСѓС‡Сѓ! РЇ Р·РґРµСЃСЊ, РїРѕС‚РѕРјСѓ С‡С‚Рѕ СЌС‚Рё РЅРµРґРѕСѓРјРєРё РґРµР№СЃС‚РІСѓСЋС‚ РјРЅРµ РЅР° РЅРµСЂРІС‹!
+	AI_Output(self,other,"DIA_Shrat_WhyHere_02_03");	//РќРµ СЃРјРµР№ РѕР±СЂР°С‰Р°С‚СЊСЃСЏ РєРѕ РјРЅРµ: 'РњРѕР»Рё РЎРїСЏС‰РµРіРѕ Рѕ РїСЂРѕС‰РµРЅРёРё! Р­С‚Рѕ Р·Р°РґР°РЅРёРµ РЅРµРѕР±С‹С‡Р°Р№РЅРѕР№ РІР°Р¶РЅРѕСЃС‚Рё!'
+	AI_Output(self,other,"DIA_Shrat_WhyHere_02_04");	//РљРѕРіРґР° РІРѕРєСЂСѓРі С‚РµР±СЏ СЃС‚РѕР»СЊРєРѕ РїСЃРёС…РѕРІ, СЌС‚РѕРіРѕ РґРѕСЃС‚Р°С‚РѕС‡РЅРѕ, С‡С‚РѕР±С‹ СЃРІРµСЃС‚Рё С‡РµР»РѕРІРµРєР° СЃ СѓРјР°.
+	AI_Output(self,other,"DIA_Shrat_WhyHere_02_05");	//РЇ РЁСЂРµС‚, СѓС‡РµРЅРёРє РїРµСЂРІРѕРіРѕ СЂР°РЅРіР°, РёРј Р¶Рµ Рё РѕСЃС‚Р°РЅСѓСЃСЊ!
 };
 
 
@@ -56,7 +56,7 @@ instance DIA_Shrat_JoinPSI(C_Info)
 	condition = DIA_Shrat_JoinPSI_Condition;
 	information = DIA_Shrat_JoinPSI_Info;
 	permanent = 0;
-	description = "Я хочу вступить в Братство. Ты можешь мне помочь?";
+	description = "РЇ С…РѕС‡Сѓ РІСЃС‚СѓРїРёС‚СЊ РІ Р‘СЂР°С‚СЃС‚РІРѕ. РўС‹ РјРѕР¶РµС€СЊ РјРЅРµ РїРѕРјРѕС‡СЊ?";
 };
 
 
@@ -70,9 +70,9 @@ func int DIA_Shrat_JoinPSI_Condition()
 
 func void DIA_Shrat_JoinPSI_Info()
 {
-	AI_Output(other,self,"DIA_Shrat_JoinPSI_15_00");	//Я хочу вступить в Братство. Ты можешь мне помочь?
-	AI_Output(self,other,"DIA_Shrat_JoinPSI_02_01");	//Ты действительно присоединишься к этим типам? А я только и думаю о том, как убраться отсюда.
-	AI_Output(self,other,"DIA_Shrat_JoinPSI_02_02");	//Мы могли бы вместе странствовать по колонии. Облегчим кошельки парочки толстосумов, поднакопим руды, что скажешь?
+	AI_Output(other,self,"DIA_Shrat_JoinPSI_15_00");	//РЇ С…РѕС‡Сѓ РІСЃС‚СѓРїРёС‚СЊ РІ Р‘СЂР°С‚СЃС‚РІРѕ. РўС‹ РјРѕР¶РµС€СЊ РјРЅРµ РїРѕРјРѕС‡СЊ?
+	AI_Output(self,other,"DIA_Shrat_JoinPSI_02_01");	//РўС‹ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅРѕ РїСЂРёСЃРѕРµРґРёРЅРёС€СЊСЃСЏ Рє СЌС‚РёРј С‚РёРїР°Рј? Рђ СЏ С‚РѕР»СЊРєРѕ Рё РґСѓРјР°СЋ Рѕ С‚РѕРј, РєР°Рє СѓР±СЂР°С‚СЊСЃСЏ РѕС‚СЃСЋРґР°.
+	AI_Output(self,other,"DIA_Shrat_JoinPSI_02_02");	//РњС‹ РјРѕРіР»Рё Р±С‹ РІРјРµСЃС‚Рµ СЃС‚СЂР°РЅСЃС‚РІРѕРІР°С‚СЊ РїРѕ РєРѕР»РѕРЅРёРё. РћР±Р»РµРіС‡РёРј РєРѕС€РµР»СЊРєРё РїР°СЂРѕС‡РєРё С‚РѕР»СЃС‚РѕСЃСѓРјРѕРІ, РїРѕРґРЅР°РєРѕРїРёРј СЂСѓРґС‹, С‡С‚Рѕ СЃРєР°Р¶РµС€СЊ?
 };
 
 
@@ -83,7 +83,7 @@ instance DIA_Shrat_ComeWithMe(C_Info)
 	condition = DIA_Shrat_ComeWithMe_Condition;
 	information = DIA_Shrat_ComeWithMe_Info;
 	permanent = 1;
-	description = "Что ж, пойдем вместе. Идем!";
+	description = "Р§С‚Рѕ Р¶, РїРѕР№РґРµРј РІРјРµСЃС‚Рµ. РРґРµРј!";
 };
 
 
@@ -97,8 +97,8 @@ func int DIA_Shrat_ComeWithMe_Condition()
 
 func void DIA_Shrat_ComeWithMe_Info()
 {
-	AI_Output(other,self,"DIA_Shrat_ComeWithMe_15_00");	//Что ж, пойдем вместе. Идем!
-	AI_Output(self,other,"DIA_Shrat_ComeWithMe_02_01");	//То, что я хотел услышать! Вперед!
+	AI_Output(other,self,"DIA_Shrat_ComeWithMe_15_00");	//Р§С‚Рѕ Р¶, РїРѕР№РґРµРј РІРјРµСЃС‚Рµ. РРґРµРј!
+	AI_Output(self,other,"DIA_Shrat_ComeWithMe_02_01");	//РўРѕ, С‡С‚Рѕ СЏ С…РѕС‚РµР» СѓСЃР»С‹С€Р°С‚СЊ! Р’РїРµСЂРµРґ!
 	Npc_ExchangeRoutine(self,"FOLLOW");
 	self.aivar[AIV_PARTYMEMBER] = TRUE;
 };
@@ -111,7 +111,7 @@ instance DIA_Shrat_LeaveMe(C_Info)
 	condition = DIA_Shrat_LeaveMe_Condition;
 	information = DIA_Shrat_LeaveMe_Info;
 	permanent = 1;
-	description = "Здесь мы должны разделиться. Дальше я пойду один.";
+	description = "Р—РґРµСЃСЊ РјС‹ РґРѕР»Р¶РЅС‹ СЂР°Р·РґРµР»РёС‚СЊСЃСЏ. Р”Р°Р»СЊС€Рµ СЏ РїРѕР№РґСѓ РѕРґРёРЅ.";
 };
 
 
@@ -125,8 +125,8 @@ func int DIA_Shrat_LeaveMe_Condition()
 
 func void DIA_Shrat_LeaveMe_Info()
 {
-	AI_Output(other,self,"DIA_Shrat_LeaveMe_15_00");	//Здесь мы должны разделиться. Дальше я пойду один.
-	AI_Output(self,other,"DIA_Shrat_LeaveMe_02_01");	//Ладно. А я вернусь в свое укрытие на болотах. Береги себя!
+	AI_Output(other,self,"DIA_Shrat_LeaveMe_15_00");	//Р—РґРµСЃСЊ РјС‹ РґРѕР»Р¶РЅС‹ СЂР°Р·РґРµР»РёС‚СЊСЃСЏ. Р”Р°Р»СЊС€Рµ СЏ РїРѕР№РґСѓ РѕРґРёРЅ.
+	AI_Output(self,other,"DIA_Shrat_LeaveMe_02_01");	//Р›Р°РґРЅРѕ. Рђ СЏ РІРµСЂРЅСѓСЃСЊ РІ СЃРІРѕРµ СѓРєСЂС‹С‚РёРµ РЅР° Р±РѕР»РѕС‚Р°С…. Р‘РµСЂРµРіРё СЃРµР±СЏ!
 	Npc_ExchangeRoutine(self,"START");
 	self.aivar[AIV_PARTYMEMBER] = FALSE;
 };

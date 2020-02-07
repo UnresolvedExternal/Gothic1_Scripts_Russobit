@@ -1,4 +1,4 @@
-
+﻿
 const int SPELL_GOOD = 0;
 const int SPELL_NEUTRAL = 1;
 const int SPELL_BAD = 2;

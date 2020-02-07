@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_TurnAway()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"ZS_TurnAway");

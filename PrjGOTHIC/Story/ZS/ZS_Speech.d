@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_Speech()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_Speech");

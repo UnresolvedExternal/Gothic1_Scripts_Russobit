@@ -1,4 +1,4 @@
-
+﻿
 func int Spell_Logic_IceWave(var int manaInvested)
 {
 	PrintDebugNpc(PD_MAGIC,"Spell_Logic_IceWave");

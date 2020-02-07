@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_ObserveSuspect()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"ZS_ObserveSuspect");

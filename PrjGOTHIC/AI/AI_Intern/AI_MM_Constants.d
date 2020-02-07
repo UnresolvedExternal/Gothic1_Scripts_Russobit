@@ -1,4 +1,4 @@
-
+﻿
 const int AIV_MM_PercRange = 1;
 const int AIV_MM_DrohRange = 2;
 const int AIV_MM_AttackRange = 3;

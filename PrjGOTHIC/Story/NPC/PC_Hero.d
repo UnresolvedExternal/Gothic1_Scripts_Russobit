@@ -1,7 +1,7 @@
-
+п»ї
 instance PC_Hero(Npc_Default)
 {
-	name[0] = "Я";
+	name[0] = "РЇ";
 	npcType = npctype_main;
 	guild = GIL_None;
 	level = 0;
@@ -23,7 +23,7 @@ instance PC_Hero(Npc_Default)
 
 instance PC_Hero_L2(Npc_Default)
 {
-	name[0] = "Я";
+	name[0] = "РЇ";
 	npcType = npctype_main;
 	guild = GIL_None;
 	level = 2;
@@ -48,7 +48,7 @@ instance PC_Hero_L2(Npc_Default)
 
 instance PC_Hero_L5(Npc_Default)
 {
-	name[0] = "Я";
+	name[0] = "РЇ";
 	npcType = npctype_main;
 	guild = GIL_None;
 	level = 5;
@@ -72,7 +72,7 @@ instance PC_Hero_L5(Npc_Default)
 
 instance PC_Hero_L7(Npc_Default)
 {
-	name[0] = "Я";
+	name[0] = "РЇ";
 	npcType = npctype_main;
 	guild = GIL_ORG;
 	level = 7;
@@ -105,7 +105,7 @@ instance PC_Hero_L7(Npc_Default)
 
 instance PC_Hero_L11(Npc_Default)
 {
-	name[0] = "Я";
+	name[0] = "РЇ";
 	npcType = npctype_main;
 	guild = GIL_SLD;
 	level = 11;
@@ -136,7 +136,7 @@ instance PC_Hero_L11(Npc_Default)
 
 instance PC_Hero_L13(Npc_Default)
 {
-	name[0] = "Я";
+	name[0] = "РЇ";
 	npcType = npctype_main;
 	guild = GIL_SLD;
 	level = 13;
@@ -237,6 +237,6 @@ func void Use_XP_Map()
 {
 	CreateInvItems(self,ItMiNugget,1000);
 	hero.lp = hero.lp + 20;
-	PrintScreen("+1000 кусков руды",-1,40,"font_10_book.tga",10);
+	PrintScreen("+1000 РєСѓСЃРєРѕРІ СЂСѓРґС‹",-1,40,"font_10_book.tga",10);
 };
 

@@ -1,4 +1,4 @@
-
+﻿
 func void startup_AI_Testlevel_Monsterparse()
 {
 	Wld_InsertNpc(Bloodfly,"WP_Scorpion");

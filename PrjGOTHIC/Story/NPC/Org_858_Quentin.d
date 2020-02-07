@@ -1,7 +1,7 @@
-
+п»ї
 instance Org_858_Quentin(Npc_Default)
 {
-	name[0] = "Квентин";
+	name[0] = "РљРІРµРЅС‚РёРЅ";
 	npcType = Npctype_ROGUE;
 	guild = GIL_None;
 	level = 12;

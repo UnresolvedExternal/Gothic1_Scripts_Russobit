@@ -1,4 +1,4 @@
-
+п»ї
 instance Info_XardasDemon_EXIT(C_Info)
 {
 	npc = XardasDemon;
@@ -19,7 +19,7 @@ func int Info_XardasDemon_EXIT_Condition()
 func void Info_XardasDemon_EXIT_Info()
 {
 	AI_Output(self,other,"DIA_BaalCadar_NoTalk_Hi_02_01");	//
-	AI_Output(hero,self,"Info_Saturas_EXIT_15_01");	//... Я?.. Смертный?.. Я уже ухожу!
+	AI_Output(hero,self,"Info_Saturas_EXIT_15_01");	//... РЇ?.. РЎРјРµСЂС‚РЅС‹Р№?.. РЇ СѓР¶Рµ СѓС…РѕР¶Сѓ!
 	AI_StopProcessInfos(self);
 };
 
@@ -45,14 +45,14 @@ func int Info_XardasDemon_INTRO_Condition()
 func void Info_XardasDemon_INTRO_Info()
 {
 	AI_TurnAway(hero,self);
-	AI_Output(hero,self,"Info_XardasDemon_INTRO_15_01");	//Так... Кто... Кто это говорит?
+	AI_Output(hero,self,"Info_XardasDemon_INTRO_15_01");	//РўР°Рє... РљС‚Рѕ... РљС‚Рѕ СЌС‚Рѕ РіРѕРІРѕСЂРёС‚?
 	AI_WhirlAround(hero,self);
-	AI_Output(hero,self,"Info_XardasDemon_INTRO_15_02");	//Так это ты со мной говоришь? А как... а почему твой голос звучит только в моей голове?
+	AI_Output(hero,self,"Info_XardasDemon_INTRO_15_02");	//РўР°Рє СЌС‚Рѕ С‚С‹ СЃРѕ РјРЅРѕР№ РіРѕРІРѕСЂРёС€СЊ? Рђ РєР°Рє... Р° РїРѕС‡РµРјСѓ С‚РІРѕР№ РіРѕР»РѕСЃ Р·РІСѓС‡РёС‚ С‚РѕР»СЊРєРѕ РІ РјРѕРµР№ РіРѕР»РѕРІРµ?
 	AI_Output(self,other,"DIA_BaalCadar_NoTalk_Hi_02_01");	//
-	AI_Output(hero,self,"Info_XardasDemon_INTRO_15_03");	//Кто ты?.. простой слуга своего хозяина?
-	AI_Output(hero,self,"Info_XardasDemon_INTRO_15_04");	//Мне кажется, ты - одно из порождений бога Тьмы!
+	AI_Output(hero,self,"Info_XardasDemon_INTRO_15_03");	//РљС‚Рѕ С‚С‹?.. РїСЂРѕСЃС‚РѕР№ СЃР»СѓРіР° СЃРІРѕРµРіРѕ С…РѕР·СЏРёРЅР°?
+	AI_Output(hero,self,"Info_XardasDemon_INTRO_15_04");	//РњРЅРµ РєР°Р¶РµС‚СЃСЏ, С‚С‹ - РѕРґРЅРѕ РёР· РїРѕСЂРѕР¶РґРµРЅРёР№ Р±РѕРіР° РўСЊРјС‹!
 	AI_Output(self,other,"DIA_BaalCadar_NoTalk_Hi_02_01");	//
-	AI_Output(hero,self,"Info_XardasDemon_INTRO_15_05");	//Мне замолчать?
+	AI_Output(hero,self,"Info_XardasDemon_INTRO_15_05");	//РњРЅРµ Р·Р°РјРѕР»С‡Р°С‚СЊ?
 };
 
 
@@ -63,7 +63,7 @@ instance Info_XardasDemon_MASTERWHO(C_Info)
 	information = Info_XardasDemon_MASTERWHO_Info;
 	permanent = 0;
 	important = 0;
-	description = "А твой хозяин, случайно, не Ксардас?";
+	description = "Рђ С‚РІРѕР№ С…РѕР·СЏРёРЅ, СЃР»СѓС‡Р°Р№РЅРѕ, РЅРµ РљСЃР°СЂРґР°СЃ?";
 };
 
 
@@ -77,10 +77,10 @@ func int Info_XardasDemon_MASTERWHO_Condition()
 
 func void Info_XardasDemon_MASTERWHO_Info()
 {
-	AI_Output(hero,self,"Info_XardasDemon_MASTERWHO_15_01");	//А твой хозяин, случайно, не Ксардас?
+	AI_Output(hero,self,"Info_XardasDemon_MASTERWHO_15_01");	//Рђ С‚РІРѕР№ С…РѕР·СЏРёРЅ, СЃР»СѓС‡Р°Р№РЅРѕ, РЅРµ РљСЃР°СЂРґР°СЃ?
 	AI_Output(self,other,"DIA_BaalCadar_NoTalk_Hi_02_01");	//
-	AI_Output(hero,self,"Info_XardasDemon_MASTERWHO_15_02");	//Ах, так... имена не имеют значения... ладно.
-	AI_Output(hero,self,"Info_XardasDemon_MASTERWHO_15_03");	//Просто мне сказали, что где-то здесь должна быть башня Ксардаса. По-моему, это она и есть.
+	AI_Output(hero,self,"Info_XardasDemon_MASTERWHO_15_02");	//РђС…, С‚Р°Рє... РёРјРµРЅР° РЅРµ РёРјРµСЋС‚ Р·РЅР°С‡РµРЅРёСЏ... Р»Р°РґРЅРѕ.
+	AI_Output(hero,self,"Info_XardasDemon_MASTERWHO_15_03");	//РџСЂРѕСЃС‚Рѕ РјРЅРµ СЃРєР°Р·Р°Р»Рё, С‡С‚Рѕ РіРґРµ-С‚Рѕ Р·РґРµСЃСЊ РґРѕР»Р¶РЅР° Р±С‹С‚СЊ Р±Р°С€РЅСЏ РљСЃР°СЂРґР°СЃР°. РџРѕ-РјРѕРµРјСѓ, СЌС‚Рѕ РѕРЅР° Рё РµСЃС‚СЊ.
 };
 
 
@@ -91,7 +91,7 @@ instance Info_XardasDemon_MASTERHOW(C_Info)
 	information = Info_XardasDemon_MASTERHOW_Info;
 	permanent = 0;
 	important = 0;
-	description = "Я хочу поговорить с твоим хозяином!";
+	description = "РЇ С…РѕС‡Сѓ РїРѕРіРѕРІРѕСЂРёС‚СЊ СЃ С‚РІРѕРёРј С…РѕР·СЏРёРЅРѕРј!";
 };
 
 
@@ -105,15 +105,15 @@ func int Info_XardasDemon_MASTERHOW_Condition()
 
 func void Info_XardasDemon_MASTERHOW_Info()
 {
-	AI_Output(hero,self,"Info_XardasDemon_MASTERHOW_15_01");	//Я хочу поговорить с твоим хозяином!
+	AI_Output(hero,self,"Info_XardasDemon_MASTERHOW_15_01");	//РЇ С…РѕС‡Сѓ РїРѕРіРѕРІРѕСЂРёС‚СЊ СЃ С‚РІРѕРёРј С…РѕР·СЏРёРЅРѕРј!
 	AI_Output(self,other,"DIA_BaalCadar_NoTalk_Hi_02_01");	//
-	AI_Output(hero,self,"Info_XardasDemon_MASTERHOW_15_02");	//Я?.. Недостоин?.. А что за испытание?..
+	AI_Output(hero,self,"Info_XardasDemon_MASTERHOW_15_02");	//РЇ?.. РќРµРґРѕСЃС‚РѕРёРЅ?.. Рђ С‡С‚Рѕ Р·Р° РёСЃРїС‹С‚Р°РЅРёРµ?..
 	AI_Output(self,other,"DIA_BaalCadar_NoTalk_Hi_02_01");	//
-	AI_Output(hero,self,"Info_XardasDemon_MASTERHOW_15_03");	//... А-а... Понимаю... если кто-то хочет поговорить с твоим хозяином, он должен доказать, что он этого достоин!
-	AI_Output(hero,self,"Info_XardasDemon_MASTERHOW_15_04");	//... Подожди, как ты сказал?.. Доказательство?.. Какая-то победа?.. Над стихиями?
-	AI_Output(hero,self,"Info_XardasDemon_MASTERHOW_15_05");	//... Камень?.. Лед?.. Огонь?
+	AI_Output(hero,self,"Info_XardasDemon_MASTERHOW_15_03");	//... Рђ-Р°... РџРѕРЅРёРјР°СЋ... РµСЃР»Рё РєС‚Рѕ-С‚Рѕ С…РѕС‡РµС‚ РїРѕРіРѕРІРѕСЂРёС‚СЊ СЃ С‚РІРѕРёРј С…РѕР·СЏРёРЅРѕРј, РѕРЅ РґРѕР»Р¶РµРЅ РґРѕРєР°Р·Р°С‚СЊ, С‡С‚Рѕ РѕРЅ СЌС‚РѕРіРѕ РґРѕСЃС‚РѕРёРЅ!
+	AI_Output(hero,self,"Info_XardasDemon_MASTERHOW_15_04");	//... РџРѕРґРѕР¶РґРё, РєР°Рє С‚С‹ СЃРєР°Р·Р°Р»?.. Р”РѕРєР°Р·Р°С‚РµР»СЊСЃС‚РІРѕ?.. РљР°РєР°СЏ-С‚Рѕ РїРѕР±РµРґР°?.. РќР°Рґ СЃС‚РёС…РёСЏРјРё?
+	AI_Output(hero,self,"Info_XardasDemon_MASTERHOW_15_05");	//... РљР°РјРµРЅСЊ?.. Р›РµРґ?.. РћРіРѕРЅСЊ?
 	FindGolemHearts = 1;
-	B_LogEntry(CH4_FindXardas,"В башне Ксардаса меня встретил демон, который говорил со мной, передавая мне свои мысли. Он хочет получить три доказательства победы над стихиями огня, льда и камня, перед тем как я смогу попасть к его хозяину.");
+	B_LogEntry(CH4_FindXardas,"Р’ Р±Р°С€РЅРµ РљСЃР°СЂРґР°СЃР° РјРµРЅСЏ РІСЃС‚СЂРµС‚РёР» РґРµРјРѕРЅ, РєРѕС‚РѕСЂС‹Р№ РіРѕРІРѕСЂРёР» СЃРѕ РјРЅРѕР№, РїРµСЂРµРґР°РІР°СЏ РјРЅРµ СЃРІРѕРё РјС‹СЃР»Рё. РћРЅ С…РѕС‡РµС‚ РїРѕР»СѓС‡РёС‚СЊ С‚СЂРё РґРѕРєР°Р·Р°С‚РµР»СЊСЃС‚РІР° РїРѕР±РµРґС‹ РЅР°Рґ СЃС‚РёС…РёСЏРјРё РѕРіРЅСЏ, Р»СЊРґР° Рё РєР°РјРЅСЏ, РїРµСЂРµРґ С‚РµРј РєР°Рє СЏ СЃРјРѕРіСѓ РїРѕРїР°СЃС‚СЊ Рє РµРіРѕ С…РѕР·СЏРёРЅСѓ.");
 };
 
 
@@ -124,7 +124,7 @@ instance Info_XardasDemon_NOHEART(C_Info)
 	information = Info_XardasDemon_NOHEART_Info;
 	permanent = 1;
 	important = 0;
-	description = "Я не понимаю! Загадки какие-то.";
+	description = "РЇ РЅРµ РїРѕРЅРёРјР°СЋ! Р—Р°РіР°РґРєРё РєР°РєРёРµ-С‚Рѕ.";
 };
 
 
@@ -138,10 +138,10 @@ func int Info_XardasDemon_NOHEART_Condition()
 
 func void Info_XardasDemon_NOHEART_Info()
 {
-	AI_Output(hero,self,"Info_XardasDemon_NOHEART_15_01");	//Я не понимаю! Загадки какие-то.
+	AI_Output(hero,self,"Info_XardasDemon_NOHEART_15_01");	//РЇ РЅРµ РїРѕРЅРёРјР°СЋ! Р—Р°РіР°РґРєРё РєР°РєРёРµ-С‚Рѕ.
 	AI_Output(self,other,"DIA_BaalCadar_NoTalk_Hi_02_01");	//
-	AI_Output(hero,self,"Info_XardasDemon_NOHEART_15_02");	//... Это я уже слышал, зачем ты это повторяешь?..
-	AI_Output(hero,self,"Info_XardasDemon_NOHEART_15_03");	//... А, так тебе нужны доказательства победы над стихиями Огня, Льда и Камня!
+	AI_Output(hero,self,"Info_XardasDemon_NOHEART_15_02");	//... Р­С‚Рѕ СЏ СѓР¶Рµ СЃР»С‹С€Р°Р», Р·Р°С‡РµРј С‚С‹ СЌС‚Рѕ РїРѕРІС‚РѕСЂСЏРµС€СЊ?..
+	AI_Output(hero,self,"Info_XardasDemon_NOHEART_15_03");	//... Рђ, С‚Р°Рє С‚РµР±Рµ РЅСѓР¶РЅС‹ РґРѕРєР°Р·Р°С‚РµР»СЊСЃС‚РІР° РїРѕР±РµРґС‹ РЅР°Рґ СЃС‚РёС…РёСЏРјРё РћРіРЅСЏ, Р›СЊРґР° Рё РљР°РјРЅСЏ!
 };
 
 func void B_XardasDemon_GiveHeart()
@@ -149,24 +149,24 @@ func void B_XardasDemon_GiveHeart()
 	if(FindGolemHearts == 1)
 	{
 		AI_Output(self,other,"DIA_BaalCadar_NoTalk_Hi_02_01");	//
-		AI_Output(hero,self,"Info_XardasDemon_GIVEHEART_15_01");	//... Что? А-а!.. Убедительное доказательство!
-		AI_Output(hero,self,"Info_XardasDemon_GIVEHEART_15_02");	//...Отсутствуют? Двух еще нет?
+		AI_Output(hero,self,"Info_XardasDemon_GIVEHEART_15_01");	//... Р§С‚Рѕ? Рђ-Р°!.. РЈР±РµРґРёС‚РµР»СЊРЅРѕРµ РґРѕРєР°Р·Р°С‚РµР»СЊСЃС‚РІРѕ!
+		AI_Output(hero,self,"Info_XardasDemon_GIVEHEART_15_02");	//...РћС‚СЃСѓС‚СЃС‚РІСѓСЋС‚? Р”РІСѓС… РµС‰Рµ РЅРµС‚?
 		FindGolemHearts = 2;
 	}
 	else if(FindGolemHearts == 2)
 	{
 		AI_Output(self,other,"DIA_BaalCadar_NoTalk_Hi_02_01");	//
-		AI_Output(hero,self,"Info_XardasDemon_GIVEHEART_15_03");	//... Второе доказательство?.. Теперь у тебя их два?
-		AI_Output(hero,self,"Info_XardasDemon_GIVEHEART_15_04");	//... Не хватает еще одного?
+		AI_Output(hero,self,"Info_XardasDemon_GIVEHEART_15_03");	//... Р’С‚РѕСЂРѕРµ РґРѕРєР°Р·Р°С‚РµР»СЊСЃС‚РІРѕ?.. РўРµРїРµСЂСЊ Сѓ С‚РµР±СЏ РёС… РґРІР°?
+		AI_Output(hero,self,"Info_XardasDemon_GIVEHEART_15_04");	//... РќРµ С…РІР°С‚Р°РµС‚ РµС‰Рµ РѕРґРЅРѕРіРѕ?
 		FindGolemHearts = 3;
 	}
 	else if(FindGolemHearts == 3)
 	{
 		AI_Output(self,other,"DIA_BaalCadar_NoTalk_Hi_02_01");	//
-		AI_Output(hero,self,"Info_XardasDemon_GIVEHEART_15_05");	//... Совершенство?.. Я достоин?
-		AI_Output(hero,self,"Info_XardasDemon_GIVEHEART_15_06");	//Если это так, то я хочу поговорить с твоим хозяином!
-		AI_Output(hero,self,"Info_XardasDemon_GIVEHEART_15_07");	//... Опровержение?.. Опровержение чего?.. Руна?.. Ты дашь мне руну?
-		AI_Output(hero,self,"Info_XardasDemon_GIVEHEART_15_08");	//Тогда я возьму эту руну телепортации в знак того, что я прошел испытание!
+		AI_Output(hero,self,"Info_XardasDemon_GIVEHEART_15_05");	//... РЎРѕРІРµСЂС€РµРЅСЃС‚РІРѕ?.. РЇ РґРѕСЃС‚РѕРёРЅ?
+		AI_Output(hero,self,"Info_XardasDemon_GIVEHEART_15_06");	//Р•СЃР»Рё СЌС‚Рѕ С‚Р°Рє, С‚Рѕ СЏ С…РѕС‡Сѓ РїРѕРіРѕРІРѕСЂРёС‚СЊ СЃ С‚РІРѕРёРј С…РѕР·СЏРёРЅРѕРј!
+		AI_Output(hero,self,"Info_XardasDemon_GIVEHEART_15_07");	//... РћРїСЂРѕРІРµСЂР¶РµРЅРёРµ?.. РћРїСЂРѕРІРµСЂР¶РµРЅРёРµ С‡РµРіРѕ?.. Р СѓРЅР°?.. РўС‹ РґР°С€СЊ РјРЅРµ СЂСѓРЅСѓ?
+		AI_Output(hero,self,"Info_XardasDemon_GIVEHEART_15_08");	//РўРѕРіРґР° СЏ РІРѕР·СЊРјСѓ СЌС‚Сѓ СЂСѓРЅСѓ С‚РµР»РµРїРѕСЂС‚Р°С†РёРё РІ Р·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЏ РїСЂРѕС€РµР» РёСЃРїС‹С‚Р°РЅРёРµ!
 		B_Story_AccessToXardas();
 	};
 };
@@ -179,7 +179,7 @@ instance Info_XardasDemon_STONEHEART(C_Info)
 	information = Info_XardasDemon_STONEHEART_Info;
 	permanent = 0;
 	important = 0;
-	description = "У меня есть сердце каменного голема!";
+	description = "РЈ РјРµРЅСЏ РµСЃС‚СЊ СЃРµСЂРґС†Рµ РєР°РјРµРЅРЅРѕРіРѕ РіРѕР»РµРјР°!";
 };
 
 
@@ -193,7 +193,7 @@ func int Info_XardasDemon_STONEHEART_Condition()
 
 func void Info_XardasDemon_STONEHEART_Info()
 {
-	AI_Output(hero,self,"Info_XardasDemon_STONEHEART_15_01");	//У меня есть сердце каменного голема!
+	AI_Output(hero,self,"Info_XardasDemon_STONEHEART_15_01");	//РЈ РјРµРЅСЏ РµСЃС‚СЊ СЃРµСЂРґС†Рµ РєР°РјРµРЅРЅРѕРіРѕ РіРѕР»РµРјР°!
 	B_GiveInvItems(hero,self,ItAt_StoneGolem_01,1);
 	Npc_RemoveInvItem(self,ItAt_StoneGolem_01);
 	B_XardasDemon_GiveHeart();
@@ -207,7 +207,7 @@ instance Info_XardasDemon_ICEHEART(C_Info)
 	information = Info_XardasDemon_ICEHEART_Info;
 	permanent = 0;
 	important = 0;
-	description = "Вот второе доказательство - сердце ледяного голема!";
+	description = "Р’РѕС‚ РІС‚РѕСЂРѕРµ РґРѕРєР°Р·Р°С‚РµР»СЊСЃС‚РІРѕ - СЃРµСЂРґС†Рµ Р»РµРґСЏРЅРѕРіРѕ РіРѕР»РµРјР°!";
 };
 
 
@@ -221,7 +221,7 @@ func int Info_XardasDemon_ICEHEART_Condition()
 
 func void Info_XardasDemon_ICEHEART_Info()
 {
-	AI_Output(hero,self,"Info_XardasDemon_ICEHEART_15_01");	//Вот второе доказательство - сердце ледяного голема!
+	AI_Output(hero,self,"Info_XardasDemon_ICEHEART_15_01");	//Р’РѕС‚ РІС‚РѕСЂРѕРµ РґРѕРєР°Р·Р°С‚РµР»СЊСЃС‚РІРѕ - СЃРµСЂРґС†Рµ Р»РµРґСЏРЅРѕРіРѕ РіРѕР»РµРјР°!
 	B_GiveInvItems(hero,self,ItAt_IceGolem_01,1);
 	B_XardasDemon_GiveHeart();
 };
@@ -234,7 +234,7 @@ instance Info_XardasDemon_FIREHEART(C_Info)
 	information = Info_XardasDemon_FIREHEART_Info;
 	permanent = 0;
 	important = 0;
-	description = "Сердце огненного голема убедительное доказательство?";
+	description = "РЎРµСЂРґС†Рµ РѕРіРЅРµРЅРЅРѕРіРѕ РіРѕР»РµРјР° СѓР±РµРґРёС‚РµР»СЊРЅРѕРµ РґРѕРєР°Р·Р°С‚РµР»СЊСЃС‚РІРѕ?";
 };
 
 
@@ -248,7 +248,7 @@ func int Info_XardasDemon_FIREHEART_Condition()
 
 func void Info_XardasDemon_FIREHEART_Info()
 {
-	AI_Output(hero,self,"Info_XardasDemon_FIREHEART_15_01");	//Сердце огненного голема убедительное доказательство?
+	AI_Output(hero,self,"Info_XardasDemon_FIREHEART_15_01");	//РЎРµСЂРґС†Рµ РѕРіРЅРµРЅРЅРѕРіРѕ РіРѕР»РµРјР° СѓР±РµРґРёС‚РµР»СЊРЅРѕРµ РґРѕРєР°Р·Р°С‚РµР»СЊСЃС‚РІРѕ?
 	B_GiveInvItems(hero,self,ItAt_FireGolem_01,1);
 	B_XardasDemon_GiveHeart();
 };

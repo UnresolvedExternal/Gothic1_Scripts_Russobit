@@ -1,7 +1,7 @@
-
+п»ї
 instance Tpl_1422_GorHanis(Npc_Default)
 {
-	name[0] = "Гор Ханис";
+	name[0] = "Р“РѕСЂ РҐР°РЅРёСЃ";
 	npcType = npctype_main;
 	guild = GIL_None;
 	level = 12;

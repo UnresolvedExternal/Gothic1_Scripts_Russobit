@@ -1,4 +1,4 @@
-
+Ôªø
 func void ZS_ClearRoom()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"ZS_ClearRoom");
@@ -46,14 +46,14 @@ func void ZS_ClearRoom_End()
 	AI_TurnToNPC(self,other);
 	if(C_AmIStronger(self,other))
 	{
-		PrintDebugNpc(PD_ZS_Check,"...Nsc ist st‰rker!");
+		PrintDebugNpc(PD_ZS_Check,"...Nsc ist st–¥rker!");
 		B_DrawWeapon(self,other);
 		B_Say(self,other,"$GETOUTOFHERE");
 		AI_StartState(self,ZS_ClearRoomWait,0,"");
 	}
 	else
 	{
-		PrintDebugNpc(PD_ZS_Check,"...Nsc ist schw‰cher!");
+		PrintDebugNpc(PD_ZS_Check,"...Nsc ist schw–¥cher!");
 		B_Say(self,other,"$WHYAREYOUINHERE");
 		AI_StartState(self,ZS_ClearRoomWait,0,"");
 	};
@@ -146,7 +146,7 @@ func void B_ClearRoomUseMob()
 	PrintDebugNpc(PD_ZS_FRAME,"B_ClearRoomUseMob");
 	if(Npc_IsDetectedMobOwnedByNpc(other,self) || Npc_IsDetectedMobOwnedByGuild(other,self.guild))
 	{
-		PrintDebugNpc(PD_ZS_Check,"...MOB gehˆrt NSC oder seiner Gilde!");
+		PrintDebugNpc(PD_ZS_Check,"...MOB geh—Ürt NSC oder seiner Gilde!");
 		B_FullStop(self);
 		Npc_PercDisable(self,PERC_ASSESSUSEMOB);
 		B_AssessAndMemorize(NEWS_THEFT,NEWS_SOURCE_WITNESS,self,other,self);

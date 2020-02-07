@@ -1,7 +1,7 @@
-
+п»ї
 instance NOV_1304_Balor(Npc_Default)
 {
-	name[0] = "Балор";
+	name[0] = "Р‘Р°Р»РѕСЂ";
 	npcType = npctype_main;
 	guild = GIL_NOV;
 	level = 15;

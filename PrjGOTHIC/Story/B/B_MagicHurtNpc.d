@@ -1,4 +1,4 @@
-
+﻿
 func void B_MagicHurtNpc(var C_Npc attacker,var int damage)
 {
 	var int effectiveDamage;

@@ -1,4 +1,4 @@
-
+﻿
 prototype Npc_Default(C_Npc)
 {
 	attribute[ATR_STRENGTH] = 5;

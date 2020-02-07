@@ -1,7 +1,7 @@
-
+ï»¿
 instance Grd_211_Skip(Npc_Default)
 {
-	name[0] = "Ñêèï";
+	name[0] = "Ð¡ÐºÐ¸Ð¿";
 	npcType = npctype_main;
 	guild = GIL_GRD;
 	level = 15;

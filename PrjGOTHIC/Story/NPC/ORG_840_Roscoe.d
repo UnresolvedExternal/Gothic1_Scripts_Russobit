@@ -1,7 +1,7 @@
-
+п»ї
 instance ORG_840_Roscoe(Npc_Default)
 {
-	name[0] = "Роско";
+	name[0] = "Р РѕСЃРєРѕ";
 	npcType = npctype_main;
 	guild = GIL_ORG;
 	level = 11;

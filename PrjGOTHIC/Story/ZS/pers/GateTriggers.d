@@ -1,4 +1,4 @@
-
+﻿
 func int On_OCC_GATE_Trigger()
 {
 	var C_Npc wache;

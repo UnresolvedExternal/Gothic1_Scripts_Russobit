@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_SittingDuck()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_SittingDuck");

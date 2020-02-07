@@ -1,4 +1,4 @@
-
+﻿
 instance NOV_1319_Novize_CALLSLEEPER(C_Info)
 {
 	npc = NOV_1319_Novize;

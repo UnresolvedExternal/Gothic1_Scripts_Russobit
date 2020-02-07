@@ -1,7 +1,7 @@
-
+п»ї
 prototype Mst_Default_MinecrawlerWarrior(C_Npc)
 {
-	name[0] = "Ползун-боец";
+	name[0] = "РџРѕР»Р·СѓРЅ-Р±РѕРµС†";
 	guild = GIL_MINECRAWLER;
 	aivar[AIV_IMPORTANT] = ID_MINECRAWLERWARRIOR;
 	level = 22;
@@ -47,7 +47,7 @@ instance MinecrawlerWarrior(Mst_Default_MinecrawlerWarrior)
 
 instance OTMinecrawler(Mst_Default_MinecrawlerWarrior)
 {
-	name[0] = "Храмовый ползун";
+	name[0] = "РҐСЂР°РјРѕРІС‹Р№ РїРѕР»Р·СѓРЅ";
 	level = 25;
 	Set_MinecrawlerWarrior_Visuals();
 	Npc_SetToFistMode(self);

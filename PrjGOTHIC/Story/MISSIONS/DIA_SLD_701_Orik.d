@@ -1,4 +1,4 @@
-
+Ôªø
 instance Sld_701_Orik_Exit(C_Info)
 {
 	npc = SLD_701_Orik;
@@ -7,7 +7,7 @@ instance Sld_701_Orik_Exit(C_Info)
 	information = Sld_701_Orik_Exit_Info;
 	important = 0;
 	permanent = 1;
-	description = "«¿ ŒÕ◊»“‹ –¿«√Œ¬Œ–";
+	description = "–ó–ê–ö–û–ù–ß–ò–¢–¨ –†–ê–ó–ì–û–í–û–†";
 };
 
 

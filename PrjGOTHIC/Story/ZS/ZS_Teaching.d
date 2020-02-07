@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_Teaching()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_Teaching");

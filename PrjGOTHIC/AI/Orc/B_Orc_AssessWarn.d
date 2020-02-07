@@ -1,4 +1,4 @@
-
+﻿
 func void B_Orc_AssessWarn()
 {
 	PrintDebugNpc(PD_ORC_FRAME,"B_Orc_AssessWarn");

@@ -1,4 +1,4 @@
-
+﻿
 func void evt_tpl_01_func_01()
 {
 	Wld_InsertNpc(Skeleton,"EVT_TPL_01_SPAWN_01");

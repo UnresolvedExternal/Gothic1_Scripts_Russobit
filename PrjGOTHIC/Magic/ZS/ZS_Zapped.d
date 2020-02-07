@@ -1,4 +1,4 @@
-
+﻿
 func void B_StopZapped()
 {
 	PrintDebugNpc(PD_MAGIC,"B_StopZapped");
@@ -27,7 +27,7 @@ func int ZS_Zapped()
 	};
 	if(!Npc_IsDead(self) && !Npc_IsInState(self,ZS_Unconscious) && !C_BodyStateContains(self,BS_SWIM) && !C_BodyStateContains(self,BS_DIVE))
 	{
-		PrintDebugNpc(PD_MAGIC,"...NSC ist nicht bewu�tlos / tot / schwimmend / tauchend");
+		PrintDebugNpc(PD_MAGIC,"...NSC ist nicht bewuЯtlos / tot / schwimmend / tauchend");
 		AI_PlayAni(self,"T_STAND_2_LIGHTNING_VICTIM");
 	};
 };

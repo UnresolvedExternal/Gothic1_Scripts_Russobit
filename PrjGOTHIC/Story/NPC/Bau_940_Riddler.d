@@ -1,7 +1,7 @@
-
+п»ї
 instance Bau_940_Riddler(Npc_Default)
 {
-	name[0] = "Труп";
+	name[0] = "РўСЂСѓРї";
 	npcType = npctype_main;
 	guild = GIL_BAU;
 	level = 10;

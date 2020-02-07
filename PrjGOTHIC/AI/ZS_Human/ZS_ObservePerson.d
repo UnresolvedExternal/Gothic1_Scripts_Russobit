@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_ObservePerson()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"ZS_ObservePerson");

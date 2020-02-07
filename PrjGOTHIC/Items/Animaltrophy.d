@@ -1,5 +1,5 @@
-
-const int Value_Zдhne = 10;
+п»ї
+const int Value_ZРґhne = 10;
 const int Value_Krallen = 15;
 const int Value_Wolfsfell = 10;
 const int Value_Orkhundfell = 15;
@@ -10,10 +10,10 @@ const int Value_Lurkerklaue = 15;
 const int Value_Lurkerhaut = 25;
 const int Value_Sumpfhaihaut = 200;
 const int Value_Trollfell = 300;
-const int Value_Flьgel = 15;
+const int Value_FlСЊgel = 15;
 const int Value_Stachel = 25;
 const int Value_Feuerzunge = 500;
-const int Value_Sumpfhaizдhne = 500;
+const int Value_SumpfhaizРґhne = 500;
 const int Value_Shadowbeasthorn = 500;
 const int Value_Trollhauer = 500;
 const int Value_Steinherz = 1000;
@@ -23,20 +23,20 @@ const int Value_Eistueck = 100;
 
 instance ItAt_Teeth_01(C_Item)
 {
-	name = "Клыки";
+	name = "РљР»С‹РєРё";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
-	value = Value_Zдhne;
+	value = Value_ZРґhne;
 	visual = "ItAt_Teeth_01.3DS";
 	material = MAT_LEATHER;
 	description = name;
 	text[4] = NAME_Value;
-	count[4] = Value_Zдhne;
+	count[4] = Value_ZРґhne;
 };
 
 instance ItAt_Wolf_01(C_Item)
 {
-	name = "Шкура волка";
+	name = "РЁРєСѓСЂР° РІРѕР»РєР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Wolfsfell;
@@ -49,7 +49,7 @@ instance ItAt_Wolf_01(C_Item)
 
 instance ItAt_Wolf_02(C_Item)
 {
-	name = "Шкура орочьей собаки";
+	name = "РЁРєСѓСЂР° РѕСЂРѕС‡СЊРµР№ СЃРѕР±Р°РєРё";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Orkhundfell;
@@ -62,7 +62,7 @@ instance ItAt_Wolf_02(C_Item)
 
 instance ItAt_Waran_01(C_Item)
 {
-	name = "Язык огненной ящерицы";
+	name = "РЇР·С‹Рє РѕРіРЅРµРЅРЅРѕР№ СЏС‰РµСЂРёС†С‹";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Feuerzunge;
@@ -75,7 +75,7 @@ instance ItAt_Waran_01(C_Item)
 
 instance ItAt_Claws_01(C_Item)
 {
-	name = "Когти";
+	name = "РљРѕРіС‚Рё";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Krallen;
@@ -88,20 +88,20 @@ instance ItAt_Claws_01(C_Item)
 
 instance ItAt_Crawler_02(C_Item)
 {
-	name = "Панцирная пластина";
+	name = "РџР°РЅС†РёСЂРЅР°СЏ РїР»Р°СЃС‚РёРЅР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI | ITEM_MISSION;
 	value = Value_Panzerplatte;
 	visual = "ItAt_Crawler_02.3DS";
 	material = MAT_WOOD;
-	description = "Панцирная пластина ползуна-воина";
+	description = "РџР°РЅС†РёСЂРЅР°СЏ РїР»Р°СЃС‚РёРЅР° РїРѕР»Р·СѓРЅР°-РІРѕРёРЅР°";
 	text[4] = NAME_Value;
 	count[4] = Value_Panzerplatte;
 };
 
 instance ItAt_Crawler_01(C_Item)
 {
-	name = "Челюсти ползуна";
+	name = "Р§РµР»СЋСЃС‚Рё РїРѕР»Р·СѓРЅР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Crawlerzangen;
@@ -114,33 +114,33 @@ instance ItAt_Crawler_01(C_Item)
 
 instance ItAt_Shadow_01(C_Item)
 {
-	name = "Шкура";
+	name = "РЁРєСѓСЂР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Shadowbeastfell;
 	visual = "ItAt_Shadowbeast_01.3DS";
 	material = MAT_LEATHER;
-	description = "Шкура мракориса";
+	description = "РЁРєСѓСЂР° РјСЂР°РєРѕСЂРёСЃР°";
 	text[4] = NAME_Value;
 	count[4] = Value_Shadowbeastfell;
 };
 
 instance ItAt_Shadow_02(C_Item)
 {
-	name = "Рог";
+	name = "Р РѕРі";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Shadowbeasthorn;
 	visual = "ItAt_Shadowbeast_02.3DS";
 	material = MAT_LEATHER;
-	description = "Рог мракориса";
+	description = "Р РѕРі РјСЂР°РєРѕСЂРёСЃР°";
 	text[4] = NAME_Value;
 	count[4] = Value_Shadowbeasthorn;
 };
 
 instance ItAt_Lurker_01(C_Item)
 {
-	name = "Коготь шныга";
+	name = "РљРѕРіРѕС‚СЊ С€РЅС‹РіР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Lurkerklaue;
@@ -153,7 +153,7 @@ instance ItAt_Lurker_01(C_Item)
 
 instance ItAt_Lurker_02(C_Item)
 {
-	name = "Шкура шныга";
+	name = "РЁРєСѓСЂР° С€РЅС‹РіР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Lurkerhaut;
@@ -166,7 +166,7 @@ instance ItAt_Lurker_02(C_Item)
 
 instance ItAt_Troll_02(C_Item)
 {
-	name = "Клык тролля";
+	name = "РљР»С‹Рє С‚СЂРѕР»Р»СЏ";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Trollhauer;
@@ -179,7 +179,7 @@ instance ItAt_Troll_02(C_Item)
 
 instance ItAt_Troll_01(C_Item)
 {
-	name = "Шкура тролля";
+	name = "РЁРєСѓСЂР° С‚СЂРѕР»Р»СЏ";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Trollfell;
@@ -192,7 +192,7 @@ instance ItAt_Troll_01(C_Item)
 
 instance ItAt_Swampshark_01(C_Item)
 {
-	name = "Шкура болотожора";
+	name = "РЁРєСѓСЂР° Р±РѕР»РѕС‚РѕР¶РѕСЂР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Sumpfhaihaut;
@@ -205,33 +205,33 @@ instance ItAt_Swampshark_01(C_Item)
 
 instance ItAt_Swampshark_02(C_Item)
 {
-	name = "Клыки болотожора";
+	name = "РљР»С‹РєРё Р±РѕР»РѕС‚РѕР¶РѕСЂР°";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
-	value = Value_Sumpfhaizдhne;
+	value = Value_SumpfhaizРґhne;
 	visual = "ItAt_Swampshark_02.3DS";
 	material = MAT_LEATHER;
 	description = name;
 	text[4] = NAME_Value;
-	count[4] = Value_Sumpfhaizдhne;
+	count[4] = Value_SumpfhaizРґhne;
 };
 
 instance ItAt_Bloodfly_01(C_Item)
 {
-	name = "Крылья";
+	name = "РљСЂС‹Р»СЊСЏ";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
-	value = Value_Flьgel;
+	value = Value_FlСЊgel;
 	visual = "ItAt_Bloodfly_01.3DS";
 	material = MAT_LEATHER;
 	description = name;
 	text[4] = NAME_Value;
-	count[4] = Value_Flьgel;
+	count[4] = Value_FlСЊgel;
 };
 
 instance ItAt_Bloodfly_02(C_Item)
 {
-	name = "Жало шершня";
+	name = "Р–Р°Р»Рѕ С€РµСЂС€РЅСЏ";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Stachel;
@@ -244,7 +244,7 @@ instance ItAt_Bloodfly_02(C_Item)
 
 instance ItAt_StoneGolem_01(C_Item)
 {
-	name = "Сердце каменного голема";
+	name = "РЎРµСЂРґС†Рµ РєР°РјРµРЅРЅРѕРіРѕ РіРѕР»РµРјР°";
 	mainflag = ITEM_KAT_RUNE;
 	flags = ITEM_MISSION;
 	spell = SPL_WINDFIST;
@@ -252,17 +252,17 @@ instance ItAt_StoneGolem_01(C_Item)
 	visual = "ItAt_StoneGolem_01.3DS";
 	material = MAT_STONE;
 	description = name;
-	text[0] = "Это сердце добыто из тела";
-	text[1] = "убитого каменного голема.";
-	text[2] = "Оно обладает силой отбрасывать противника";
-	text[3] = "на большое расстояние.";
+	text[0] = "Р­С‚Рѕ СЃРµСЂРґС†Рµ РґРѕР±С‹С‚Рѕ РёР· С‚РµР»Р°";
+	text[1] = "СѓР±РёС‚РѕРіРѕ РєР°РјРµРЅРЅРѕРіРѕ РіРѕР»РµРјР°.";
+	text[2] = "РћРЅРѕ РѕР±Р»Р°РґР°РµС‚ СЃРёР»РѕР№ РѕС‚Р±СЂР°СЃС‹РІР°С‚СЊ РїСЂРѕС‚РёРІРЅРёРєР°";
+	text[3] = "РЅР° Р±РѕР»СЊС€РѕРµ СЂР°СЃСЃС‚РѕСЏРЅРёРµ.";
 	text[5] = NAME_Value;
 	count[5] = Value_Steinherz;
 };
 
 instance ItAt_FireGolem_01(C_Item)
 {
-	name = "Сердце огненного голема";
+	name = "РЎРµСЂРґС†Рµ РѕРіРЅРµРЅРЅРѕРіРѕ РіРѕР»РµРјР°";
 	mainflag = ITEM_KAT_RUNE;
 	flags = ITEM_MISSION;
 	spell = SPL_FIREBALL;
@@ -270,17 +270,17 @@ instance ItAt_FireGolem_01(C_Item)
 	visual = "ItAt_FireGolem_01.3DS";
 	material = MAT_STONE;
 	description = name;
-	text[0] = "Это сердце добыто из тела";
-	text[1] = "убитого огненного голема.";
-	text[2] = "Оно обладает силой сжигать";
-	text[3] = "противника заживо.";
+	text[0] = "Р­С‚Рѕ СЃРµСЂРґС†Рµ РґРѕР±С‹С‚Рѕ РёР· С‚РµР»Р°";
+	text[1] = "СѓР±РёС‚РѕРіРѕ РѕРіРЅРµРЅРЅРѕРіРѕ РіРѕР»РµРјР°.";
+	text[2] = "РћРЅРѕ РѕР±Р»Р°РґР°РµС‚ СЃРёР»РѕР№ СЃР¶РёРіР°С‚СЊ";
+	text[3] = "РїСЂРѕС‚РёРІРЅРёРєР° Р·Р°Р¶РёРІРѕ.";
 	text[5] = NAME_Value;
 	count[5] = Value_Feuerherz;
 };
 
 instance ItAt_IceGolem_01(C_Item)
 {
-	name = "Сердце ледяного голема";
+	name = "РЎРµСЂРґС†Рµ Р»РµРґСЏРЅРѕРіРѕ РіРѕР»РµРјР°";
 	mainflag = ITEM_KAT_RUNE;
 	flags = ITEM_MISSION;
 	spell = SPL_ICECUBE;
@@ -288,17 +288,17 @@ instance ItAt_IceGolem_01(C_Item)
 	visual = "ItAt_IceGolem_01.3DS";
 	material = MAT_STONE;
 	description = name;
-	text[0] = "Это сердце добыто из тела";
-	text[1] = "убитого ледяного голема.";
-	text[2] = "Оно обладает силой превращать";
-	text[3] = "противника в ледяную глыбу.";
+	text[0] = "Р­С‚Рѕ СЃРµСЂРґС†Рµ РґРѕР±С‹С‚Рѕ РёР· С‚РµР»Р°";
+	text[1] = "СѓР±РёС‚РѕРіРѕ Р»РµРґСЏРЅРѕРіРѕ РіРѕР»РµРјР°.";
+	text[2] = "РћРЅРѕ РѕР±Р»Р°РґР°РµС‚ СЃРёР»РѕР№ РїСЂРµРІСЂР°С‰Р°С‚СЊ";
+	text[3] = "РїСЂРѕС‚РёРІРЅРёРєР° РІ Р»РµРґСЏРЅСѓСЋ РіР»С‹Р±Сѓ.";
 	text[5] = NAME_Value;
 	count[5] = Value_Eisherz;
 };
 
 instance ItAt_IceGolem_02(C_Item)
 {
-	name = "Осколок ледяного голема";
+	name = "РћСЃРєРѕР»РѕРє Р»РµРґСЏРЅРѕРіРѕ РіРѕР»РµРјР°";
 	mainflag = ITEM_KAT_RUNE;
 	flags = 0;
 	spell = SPL_THUNDERBOLT;
@@ -308,8 +308,8 @@ instance ItAt_IceGolem_02(C_Item)
 	visual = "ItAt_IceGolem_01.3DS";
 	material = MAT_STONE;
 	description = name;
-	text[0] = "Это осколок от тела";
-	text[1] = "убитого ледяного голема.";
+	text[0] = "Р­С‚Рѕ РѕСЃРєРѕР»РѕРє РѕС‚ С‚РµР»Р°";
+	text[1] = "СѓР±РёС‚РѕРіРѕ Р»РµРґСЏРЅРѕРіРѕ РіРѕР»РµРјР°.";
 	text[4] = NAME_Value;
 	count[4] = Value_Eistueck;
 };

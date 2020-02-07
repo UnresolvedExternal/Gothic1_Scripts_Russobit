@@ -1,4 +1,4 @@
-
+﻿
 func void C_ZSInit()
 {
 	self.aivar[AIV_FIGHTSPEACHFLAG] = 0;

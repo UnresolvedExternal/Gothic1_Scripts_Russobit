@@ -1,4 +1,4 @@
-
+﻿
 func void B_OccupiedObserveIntruder()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"B_OccupiedObserveIntruder");

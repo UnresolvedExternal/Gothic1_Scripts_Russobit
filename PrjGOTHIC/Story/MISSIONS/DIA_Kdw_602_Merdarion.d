@@ -1,4 +1,4 @@
-
+﻿
 instance Info_Merdarion_EXIT(C_Info)
 {
 	npc = Kdw_602_Merdarion;

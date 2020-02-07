@@ -1,4 +1,4 @@
-
+﻿
 func void B_PointAtNpc(var C_Npc slf,var C_Npc oth,var C_Npc targ)
 {
 	AI_WaitTillEnd(slf,oth);

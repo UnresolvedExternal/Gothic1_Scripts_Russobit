@@ -1,4 +1,4 @@
-
+﻿
 func void B_SetGuildAttitude(var int fromGuild,var int attitude,var int toGuild)
 {
 	if(toGuild == GIL_SEPERATOR_HUM)

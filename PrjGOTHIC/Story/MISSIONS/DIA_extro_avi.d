@@ -1,4 +1,4 @@
-
+﻿
 func void dia_extro_avi()
 {
 	PlayVideo("Extro.bik");

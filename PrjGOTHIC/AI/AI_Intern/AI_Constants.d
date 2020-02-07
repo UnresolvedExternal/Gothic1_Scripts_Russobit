@@ -1,4 +1,4 @@
-
+﻿
 const int AIV_WANTEDITEM = 0;
 const int AIV_PCISSTRONGER = 1;
 const int AIV_BEENATTACKED = 2;

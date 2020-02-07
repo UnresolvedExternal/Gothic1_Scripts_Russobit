@@ -1,4 +1,4 @@
-
+﻿
 func void zs_iethomas()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_IETHOMAS");

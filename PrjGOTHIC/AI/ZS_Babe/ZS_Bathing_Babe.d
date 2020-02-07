@@ -1,13 +1,13 @@
-
+п»ї
 func void ZS_Bathing_Babe()
 {
 	PrintDebug("Enter ZS_Bathing_Babe ()");
 	B_SetBabeDefaultPerceptions();
 	AI_SetWalkMode(self,NPC_WALK);
-	PrintDebug("Найди ванну!");
+	PrintDebug("РќР°Р№РґРё РІР°РЅРЅСѓ!");
 	if(Wld_IsMobAvailable(self,"BATHTUB"))
 	{
-		PrintDebug("Ванна найдена! Иди купаться.");
+		PrintDebug("Р’Р°РЅРЅР° РЅР°Р№РґРµРЅР°! РРґРё РєСѓРїР°С‚СЊСЃСЏ.");
 		CreateInvItem(self,bab_armor_nude);
 		AI_EquipBestArmor(self);
 		AI_UseMob(self,"BATHTUB",1);

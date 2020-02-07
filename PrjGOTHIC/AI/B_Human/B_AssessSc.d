@@ -1,4 +1,4 @@
-
+ï»¿
 func void B_CheckStolenEquipment()
 {
 	var C_Item melee;
@@ -9,7 +9,7 @@ func void B_CheckStolenEquipment()
 	armor = Npc_GetEquippedArmor(other);
 	if(Npc_OwnedByNpc(melee,self))
 	{
-		PrintDebugNpc(PD_ZS_Check,"...SC trägt Nahkampf-Waffe des NSCs offen!");
+		PrintDebugNpc(PD_ZS_Check,"...SC trÐ´gt Nahkampf-Waffe des NSCs offen!");
 		self.aivar[AIV_WANTEDITEM] = Hlp_GetInstanceID(melee);
 		if(!Npc_HasNews(self,NEWS_DEFEAT,other,self) && (self.aivar[AIV_PCISSTRONGER] == 0))
 		{
@@ -25,7 +25,7 @@ func void B_CheckStolenEquipment()
 	}
 	else if(Npc_OwnedByNpc(ranged,self))
 	{
-		PrintDebugNpc(PD_ZS_Check,"...SC trägt Fernkampf-Waffe des NSCs offen!");
+		PrintDebugNpc(PD_ZS_Check,"...SC trÐ´gt Fernkampf-Waffe des NSCs offen!");
 		self.aivar[AIV_WANTEDITEM] = Hlp_GetInstanceID(ranged);
 		if(!Npc_HasNews(self,NEWS_DEFEAT,other,self) && (self.aivar[AIV_PCISSTRONGER] == 0))
 		{
@@ -84,7 +84,7 @@ func void B_AssessSC()
 			}
 			else
 			{
-				PrintDebugNpc(PD_ZS_Check,"...SC außerhalb ObserveIntruder-Reichweite!");
+				PrintDebugNpc(PD_ZS_Check,"...SC auÐ¯erhalb ObserveIntruder-Reichweite!");
 			};
 		};
 		B_CheckStolenEquipment();
@@ -95,7 +95,7 @@ func void B_AssessSC()
 		PrintDebugInt(PD_ZS_Check,"hero.aivar[AIV_GUARDPASSAGE_STATUS] =",hero.aivar[AIV_GUARDPASSAGE_STATUS]);
 		if(Npc_IsInState(self,ZS_GuardPassage) && (Npc_GetDistToNpc(self,hero) > HAI_DIST_GUARDPASSAGE_RESET))
 		{
-			PrintDebugNpc(PD_ZS_Check,"...Status für Durchgangswachen zurücksetzen!");
+			PrintDebugNpc(PD_ZS_Check,"...Status fÑŒr Durchgangswachen zurÑŒcksetzen!");
 			hero.aivar[AIV_GUARDPASSAGE_STATUS] = AIV_GPS_BEGIN;
 		};
 	};

@@ -1,4 +1,4 @@
-
+﻿
 const int PERC_DIST_CLOSE = 100;
 const int PERC_DIST_FLEE = 300;
 const int PERC_DIST_DIALOG = 500;

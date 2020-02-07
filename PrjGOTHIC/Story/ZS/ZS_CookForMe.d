@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_CookForMe()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_CookForMe");

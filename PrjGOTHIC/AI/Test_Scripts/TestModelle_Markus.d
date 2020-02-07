@@ -1,4 +1,4 @@
-
+﻿
 instance PC_Mini(C_Npc)
 {
 	name[0] = "Mini";

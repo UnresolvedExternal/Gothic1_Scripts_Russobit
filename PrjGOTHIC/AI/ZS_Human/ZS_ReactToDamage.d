@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_ReactToDamage()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"ZS_ReactToDamage");

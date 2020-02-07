@@ -1,7 +1,7 @@
-
+п»ї
 instance NOV_1302_Viran(Npc_Default)
 {
-	name[0] = "Виран";
+	name[0] = "Р’РёСЂР°РЅ";
 	npcType = npctype_main;
 	guild = GIL_NOV;
 	level = 15;

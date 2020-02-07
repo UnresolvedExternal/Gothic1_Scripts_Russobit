@@ -1,4 +1,4 @@
-
+﻿
 instance GRD_217_Torwache(Npc_Default)
 {
 	name[0] = NAME_Torwache;

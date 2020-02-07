@@ -1,4 +1,4 @@
-
+﻿
 func void B_DrawWeapon(var C_Npc slf,var C_Npc oth)
 {
 	PrintDebugNpc(PD_ZS_DETAIL,"B_DrawWeapon");
@@ -26,7 +26,7 @@ func void B_RemoveWeapon(var C_Npc slf)
 	}
 	else
 	{
-		PrintDebugNpc(PD_ZS_DETAIL,"...nur F�uste 'gezogen'!");
+		PrintDebugNpc(PD_ZS_DETAIL,"...nur Fдuste 'gezogen'!");
 		AI_RemoveWeapon(slf);
 	};
 };

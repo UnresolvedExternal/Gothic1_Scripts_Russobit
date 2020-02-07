@@ -1,4 +1,4 @@
-
+п»ї
 instance Info_Org_13_EXIT(C_Info)
 {
 	nr = 999;
@@ -26,7 +26,7 @@ instance Info_Org_13_EinerVonEuchWerden(C_Info)
 	condition = Info_Org_13_EinerVonEuchWerden_Condition;
 	information = Info_Org_13_EinerVonEuchWerden_Info;
 	permanent = 1;
-	description = "Что я должен сделать, чтобы присоединиться к лагерю?";
+	description = "Р§С‚Рѕ СЏ РґРѕР»Р¶РµРЅ СЃРґРµР»Р°С‚СЊ, С‡С‚РѕР±С‹ РїСЂРёСЃРѕРµРґРёРЅРёС‚СЊСЃСЏ Рє Р»Р°РіРµСЂСЋ?";
 };
 
 
@@ -40,8 +40,8 @@ func int Info_Org_13_EinerVonEuchWerden_Condition()
 
 func void Info_Org_13_EinerVonEuchWerden_Info()
 {
-	AI_Output(other,self,"Info_Org_13_EinerVonEuchWerden_15_00");	//Что я должен сделать, чтобы присоединиться к лагерю?
-	AI_Output(self,other,"Info_Org_13_EinerVonEuchWerden_13_01");	//Иди на поле и помоги крестьянам собрать рис, а там посмотрим.
+	AI_Output(other,self,"Info_Org_13_EinerVonEuchWerden_15_00");	//Р§С‚Рѕ СЏ РґРѕР»Р¶РµРЅ СЃРґРµР»Р°С‚СЊ, С‡С‚РѕР±С‹ РїСЂРёСЃРѕРµРґРёРЅРёС‚СЊСЃСЏ Рє Р»Р°РіРµСЂСЋ?
+	AI_Output(self,other,"Info_Org_13_EinerVonEuchWerden_13_01");	//РРґРё РЅР° РїРѕР»Рµ Рё РїРѕРјРѕРіРё РєСЂРµСЃС‚СЊСЏРЅР°Рј СЃРѕР±СЂР°С‚СЊ СЂРёСЃ, Р° С‚Р°Рј РїРѕСЃРјРѕС‚СЂРёРј.
 };
 
 
@@ -51,7 +51,7 @@ instance Info_Org_13_WichtigePersonen(C_Info)
 	condition = Info_Org_13_WichtigePersonen_Condition;
 	information = Info_Org_13_WichtigePersonen_Info;
 	permanent = 1;
-	description = "Кто здесь командует?";
+	description = "РљС‚Рѕ Р·РґРµСЃСЊ РєРѕРјР°РЅРґСѓРµС‚?";
 };
 
 
@@ -63,8 +63,8 @@ func int Info_Org_13_WichtigePersonen_Condition()
 func void Info_Org_13_WichtigePersonen_Info()
 {
 	var C_Npc Lee;
-	AI_Output(other,self,"Info_Org_13_WichtigePersonen_15_00");	//Кто здесь командует?
-	AI_Output(self,other,"Info_Org_13_WichtigePersonen_13_01");	//Ли, лидер наемников, если ты это хочешь знать. Но я не наемник и мне он не может приказывать.
+	AI_Output(other,self,"Info_Org_13_WichtigePersonen_15_00");	//РљС‚Рѕ Р·РґРµСЃСЊ РєРѕРјР°РЅРґСѓРµС‚?
+	AI_Output(self,other,"Info_Org_13_WichtigePersonen_13_01");	//Р›Рё, Р»РёРґРµСЂ РЅР°РµРјРЅРёРєРѕРІ, РµСЃР»Рё С‚С‹ СЌС‚Рѕ С…РѕС‡РµС€СЊ Р·РЅР°С‚СЊ. РќРѕ СЏ РЅРµ РЅР°РµРјРЅРёРє Рё РјРЅРµ РѕРЅ РЅРµ РјРѕР¶РµС‚ РїСЂРёРєР°Р·С‹РІР°С‚СЊ.
 	Lee = Hlp_GetNpc(Sld_700_Lee);
 	Lee.aivar[AIV_FINDABLE] = TRUE;
 };
@@ -76,7 +76,7 @@ instance Info_Org_13_DasLager(C_Info)
 	condition = Info_Org_13_DasLager_Condition;
 	information = Info_Org_13_DasLager_Info;
 	permanent = 1;
-	description = "Я бы хотел ознакомиться с лагерем.";
+	description = "РЇ Р±С‹ С…РѕС‚РµР» РѕР·РЅР°РєРѕРјРёС‚СЊСЃСЏ СЃ Р»Р°РіРµСЂРµРј.";
 };
 
 
@@ -87,8 +87,8 @@ func int Info_Org_13_DasLager_Condition()
 
 func void Info_Org_13_DasLager_Info()
 {
-	AI_Output(other,self,"Info_Org_13_DasLager_15_00");	//Я бы хотел ознакомиться с лагерем.
-	AI_Output(self,other,"Info_Org_13_DasLager_13_01");	//Так иди и осмотри его сам. Ты не из людей Гомеза, как я вижу, так что тебя никто не тронет.
+	AI_Output(other,self,"Info_Org_13_DasLager_15_00");	//РЇ Р±С‹ С…РѕС‚РµР» РѕР·РЅР°РєРѕРјРёС‚СЊСЃСЏ СЃ Р»Р°РіРµСЂРµРј.
+	AI_Output(self,other,"Info_Org_13_DasLager_13_01");	//РўР°Рє РёРґРё Рё РѕСЃРјРѕС‚СЂРё РµРіРѕ СЃР°Рј. РўС‹ РЅРµ РёР· Р»СЋРґРµР№ Р“РѕРјРµР·Р°, РєР°Рє СЏ РІРёР¶Сѓ, С‚Р°Рє С‡С‚Рѕ С‚РµР±СЏ РЅРёРєС‚Рѕ РЅРµ С‚СЂРѕРЅРµС‚.
 };
 
 
@@ -98,7 +98,7 @@ instance Info_Org_13_DieLage(C_Info)
 	condition = Info_Org_13_DieLage_Condition;
 	information = Info_Org_13_DieLage_Info;
 	permanent = 1;
-	description = "Как идут дела?";
+	description = "РљР°Рє РёРґСѓС‚ РґРµР»Р°?";
 };
 
 
@@ -109,8 +109,8 @@ func int Info_Org_13_DieLage_Condition()
 
 func void Info_Org_13_DieLage_Info()
 {
-	AI_Output(other,self,"Info_Org_13_DieLage_15_00");	//Как идут дела?
-	AI_Output(self,other,"Info_Org_13_DieLage_13_01");	//А тебе что от меня нужно? 
+	AI_Output(other,self,"Info_Org_13_DieLage_15_00");	//РљР°Рє РёРґСѓС‚ РґРµР»Р°?
+	AI_Output(self,other,"Info_Org_13_DieLage_13_01");	//Рђ С‚РµР±Рµ С‡С‚Рѕ РѕС‚ РјРµРЅСЏ РЅСѓР¶РЅРѕ? 
 };
 
 
@@ -120,7 +120,7 @@ instance Info_Org_13_Krautprobe(C_Info)
 	condition = Info_Org_13_Krautprobe_Condition;
 	information = Info_Org_13_Krautprobe_Info;
 	permanent = 1;
-	description = "Просто подумал, может быть, ты захочешь болотника.";
+	description = "РџСЂРѕСЃС‚Рѕ РїРѕРґСѓРјР°Р», РјРѕР¶РµС‚ Р±С‹С‚СЊ, С‚С‹ Р·Р°С…РѕС‡РµС€СЊ Р±РѕР»РѕС‚РЅРёРєР°.";
 };
 
 
@@ -134,7 +134,7 @@ func int Info_Org_13_Krautprobe_Condition()
 
 func void Info_Org_13_Krautprobe_Info()
 {
-	AI_Output(other,self,"Info_Org_13_Krautprobe_15_00");	//Просто подумал, может быть, ты захочешь болотника.
+	AI_Output(other,self,"Info_Org_13_Krautprobe_15_00");	//РџСЂРѕСЃС‚Рѕ РїРѕРґСѓРјР°Р», РјРѕР¶РµС‚ Р±С‹С‚СЊ, С‚С‹ Р·Р°С…РѕС‡РµС€СЊ Р±РѕР»РѕС‚РЅРёРєР°.
 	if((Npc_HasItems(other,ItMiJoint_1) > 0) || (Npc_HasItems(other,ItMiJoint_2) > 0) || (Npc_HasItems(other,ItMiJoint_3) > 0))
 	{
 		if(Npc_HasItems(other,ItMiJoint_1))
@@ -149,8 +149,8 @@ func void Info_Org_13_Krautprobe_Info()
 		{
 			B_GiveInvItems(other,self,ItMiJoint_3,1);
 		};
-		AI_Output(self,other,"Info_Org_13_Krautprobe_13_01");	//А у тебя он есть? Я куплю у тебя сигарету за 10 кусков руды.
-		AI_Output(self,other,"Info_Org_13_Krautprobe_13_02");	//Возвращайся в любое время, брат.
+		AI_Output(self,other,"Info_Org_13_Krautprobe_13_01");	//Рђ Сѓ С‚РµР±СЏ РѕРЅ РµСЃС‚СЊ? РЇ РєСѓРїР»СЋ Сѓ С‚РµР±СЏ СЃРёРіР°СЂРµС‚Сѓ Р·Р° 10 РєСѓСЃРєРѕРІ СЂСѓРґС‹.
+		AI_Output(self,other,"Info_Org_13_Krautprobe_13_02");	//Р’РѕР·РІСЂР°С‰Р°Р№СЃСЏ РІ Р»СЋР±РѕРµ РІСЂРµРјСЏ, Р±СЂР°С‚.
 		CreateInvItems(self,ItMiNugget,10);
 		B_GiveInvItems(self,other,ItMiNugget,10);
 		NC_Joints_verteilt = NC_Joints_verteilt + 1;
@@ -158,7 +158,7 @@ func void Info_Org_13_Krautprobe_Info()
 	}
 	else
 	{
-		AI_Output(self,other,"Info_Org_13_Krautprobe_No_Joint_13_00");	//Нет у тебя никакого болотника. Не стоит меня обманывать!
+		AI_Output(self,other,"Info_Org_13_Krautprobe_No_Joint_13_00");	//РќРµС‚ Сѓ С‚РµР±СЏ РЅРёРєР°РєРѕРіРѕ Р±РѕР»РѕС‚РЅРёРєР°. РќРµ СЃС‚РѕРёС‚ РјРµРЅСЏ РѕР±РјР°РЅС‹РІР°С‚СЊ!
 	};
 };
 

@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_Meditate()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_Meditate");

@@ -1,7 +1,7 @@
-
+п»ї
 prototype Mst_Default_Wolf(C_Npc)
 {
-	name[0] = "Волк";
+	name[0] = "Р’РѕР»Рє";
 	guild = GIL_WOLF;
 	aivar[AIV_IMPORTANT] = ID_WOLF;
 	level = 9;

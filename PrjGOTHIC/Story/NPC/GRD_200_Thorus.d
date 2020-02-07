@@ -1,7 +1,7 @@
-
+п»ї
 instance GRD_200_Thorus(Npc_Default)
 {
-	name[0] = "Торус";
+	name[0] = "РўРѕСЂСѓСЃ";
 	npcType = npctype_friend;
 	guild = GIL_GRD;
 	level = 50;

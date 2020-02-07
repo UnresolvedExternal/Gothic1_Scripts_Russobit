@@ -1,4 +1,4 @@
-
+﻿
 func void event_om_crawler_01()
 {
 	Wld_InsertNpc(MineCrawler,"OM_CAVE3_28");

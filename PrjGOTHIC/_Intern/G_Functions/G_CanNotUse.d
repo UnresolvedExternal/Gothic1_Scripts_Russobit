@@ -1,4 +1,4 @@
-
+﻿
 func void G_CanNotUse(var int bIsPlayer,var int nAttribute,var int nValue)
 {
 	var int nAttributeValue;

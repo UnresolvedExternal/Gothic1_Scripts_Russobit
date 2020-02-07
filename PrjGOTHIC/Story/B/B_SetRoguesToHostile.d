@@ -1,4 +1,4 @@
-
+﻿
 func void B_SetRoguesToHostile()
 {
 	var C_Npc Quentin;

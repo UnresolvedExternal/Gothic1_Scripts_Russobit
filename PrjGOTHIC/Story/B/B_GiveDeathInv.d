@@ -1,4 +1,4 @@
-
+﻿
 func void B_GiveDeathInv()
 {
 	if(self.aivar[AIV_MISSION1])

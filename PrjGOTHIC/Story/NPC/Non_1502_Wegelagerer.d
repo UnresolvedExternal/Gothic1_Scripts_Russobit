@@ -1,7 +1,7 @@
-
+п»ї
 instance Non_1502_Wegelagerer(Npc_Default)
 {
-	name[0] = "Бандит";
+	name[0] = "Р‘Р°РЅРґРёС‚";
 	npcType = npctype_ambient;
 	guild = GIL_None;
 	level = 9;

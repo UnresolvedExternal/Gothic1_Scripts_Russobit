@@ -1,7 +1,7 @@
-
+ο»Ώ
 prototype Mst_Default_OrcBiter(C_Npc)
 {
-	name[0] = "Ζεπυ";
+	name[0] = "Π–ΠµΡ€Ρ…";
 	guild = GIL_ORCDOG;
 	aivar[AIV_IMPORTANT] = ID_ORCBITER;
 	level = 12;

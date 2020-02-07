@@ -1,7 +1,7 @@
-
+п»ї
 prototype Mst_Default_Scavenger(C_Npc)
 {
-	name[0] = "Падальщик";
+	name[0] = "РџР°РґР°Р»СЊС‰РёРє";
 	guild = GIL_SCAVENGER;
 	aivar[AIV_IMPORTANT] = ID_SCAVENGER;
 	level = 5;
@@ -51,7 +51,7 @@ instance Scavenger(Mst_Default_Scavenger)
 
 instance YScavenger(Mst_Default_Scavenger)
 {
-	name[0] = "Молодой падальщик";
+	name[0] = "РњРѕР»РѕРґРѕР№ РїР°РґР°Р»СЊС‰РёРє";
 	level = 4;
 	attribute[ATR_STRENGTH] = 6;
 	attribute[ATR_DEXTERITY] = 6;

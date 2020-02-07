@@ -1,7 +1,7 @@
-
+п»ї
 instance PC_Thief(Npc_Default)
 {
-	name[0] = "Диего";
+	name[0] = "Р”РёРµРіРѕ";
 	npcType = npctype_friend;
 	guild = GIL_STT;
 	level = 999;

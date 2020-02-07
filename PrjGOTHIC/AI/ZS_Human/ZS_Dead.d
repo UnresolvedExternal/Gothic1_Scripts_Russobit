@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_Dead()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"ZS_Dead");

@@ -1,4 +1,4 @@
-
+﻿
 func void startup_world_demo()
 {
 	startup_world();

@@ -1,7 +1,7 @@
-
+п»ї
 instance PC_Fighter(Npc_Default)
 {
-	name[0] = "Горн";
+	name[0] = "Р“РѕСЂРЅ";
 	npcType = npctype_friend;
 	guild = GIL_SLD;
 	level = 999;
@@ -122,7 +122,7 @@ func void Rtn_WaitFM_3()
 
 instance PC_FighterFM(Npc_Default)
 {
-	name[0] = "Горн";
+	name[0] = "Р“РѕСЂРЅ";
 	npcType = npctype_friend;
 	guild = GIL_SLD;
 	level = 15;

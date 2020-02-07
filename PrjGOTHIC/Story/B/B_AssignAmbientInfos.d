@@ -1,4 +1,4 @@
-
+﻿
 func void B_AssignAmbientInfos(var C_Npc amb_self)
 {
 	if((amb_self.npcType == npctype_ambient) || (amb_self.npcType == npctype_guard))

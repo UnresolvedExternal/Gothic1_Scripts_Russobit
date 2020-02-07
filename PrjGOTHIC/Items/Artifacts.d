@@ -1,4 +1,4 @@
-
+п»ї
 instance ItArRuneLight(C_Item)
 {
 	name = NAME_Rune;
@@ -9,7 +9,7 @@ instance ItArRuneLight(C_Item)
 	material = MAT_STONE;
 	spell = SPL_LIGHT;
 	mag_circle = 1;
-	description = "Свет";
+	description = "РЎРІРµС‚";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_Manakosten;
@@ -29,7 +29,7 @@ instance ItArScrollLight(C_Item)
 	spell = SPL_LIGHT;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_LIGHT;
-	description = "Свет";
+	description = "РЎРІРµС‚";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_LIGHT;
 	text[5] = NAME_Value;
@@ -46,7 +46,7 @@ instance ItArRuneFirebolt(C_Item)
 	material = MAT_STONE;
 	spell = SPL_FIREBOLT;
 	mag_circle = 1;
-	description = "Огненная стрела";
+	description = "РћРіРЅРµРЅРЅР°СЏ СЃС‚СЂРµР»Р°";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_Manakosten;
@@ -68,7 +68,7 @@ instance ItArScrollFirebolt(C_Item)
 	spell = SPL_FIREBOLT;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_FIREBOLT;
-	description = "Огненная стрела";
+	description = "РћРіРЅРµРЅРЅР°СЏ СЃС‚СЂРµР»Р°";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_FIREBOLT;
 	text[2] = NAME_Dam_Fire;
@@ -87,7 +87,7 @@ instance ItArRuneFireball(C_Item)
 	material = MAT_STONE;
 	spell = SPL_FIREBALL;
 	mag_circle = 3;
-	description = "Огненный шар";
+	description = "РћРіРЅРµРЅРЅС‹Р№ С€Р°СЂ";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_ManakostenMax;
@@ -110,7 +110,7 @@ instance ItArScrollFireball(C_Item)
 	spell = SPL_FIREBALL;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_FIREBALL;
-	description = "Огненный шар";
+	description = "РћРіРЅРµРЅРЅС‹Р№ С€Р°СЂ";
 	text[1] = NAME_ManakostenMax;
 	count[1] = SPL_SENDCAST_FIREBALL;
 	text[2] = ConcatStrings(NAME_Dam_Fire,NAME_PerMana);
@@ -130,7 +130,7 @@ instance ItArRuneFirestorm(C_Item)
 	material = MAT_STONE;
 	spell = SPL_FIRESTORM;
 	mag_circle = 4;
-	description = "Огненный шторм";
+	description = "РћРіРЅРµРЅРЅС‹Р№ С€С‚РѕСЂРј";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_ManakostenMax;
@@ -153,7 +153,7 @@ instance ItArScrollFirestorm(C_Item)
 	spell = SPL_FIRESTORM;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_FIRESTORM;
-	description = "Огненный шторм";
+	description = "РћРіРЅРµРЅРЅС‹Р№ С€С‚РѕСЂРј";
 	text[1] = NAME_ManakostenMax;
 	count[1] = SPL_SENDCAST_FIRESTORM;
 	text[2] = ConcatStrings(NAME_Dam_Fire,NAME_PerMana);
@@ -173,7 +173,7 @@ instance ItArRuneFireRain(C_Item)
 	material = MAT_STONE;
 	spell = SPL_FIRERAIN;
 	mag_circle = 5;
-	description = "Огненный дождь";
+	description = "РћРіРЅРµРЅРЅС‹Р№ РґРѕР¶РґСЊ";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_Manakosten;
@@ -195,7 +195,7 @@ instance ItArScrollFirerain(C_Item)
 	spell = SPL_FIRERAIN;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_FIRERAIN;
-	description = "Огненный дождь";
+	description = "РћРіРЅРµРЅРЅС‹Р№ РґРѕР¶РґСЊ";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_FIRERAIN;
 	text[2] = NAME_Dam_Fire;
@@ -212,7 +212,7 @@ instance ItArRuneTeleport1(C_Item)
 	visual = "ItAr_Rune_38.3ds";
 	material = MAT_STONE;
 	spell = SPL_Teleport1;
-	description = "Телепортация к магам Огня";
+	description = "РўРµР»РµРїРѕСЂС‚Р°С†РёСЏ Рє РјР°РіР°Рј РћРіРЅСЏ";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_Manakosten;
@@ -229,7 +229,7 @@ instance ItArScrollTeleport1(C_Item)
 	spell = SPL_Teleport1;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_TELEPORT;
-	description = "Телепортация к магам Огня";
+	description = "РўРµР»РµРїРѕСЂС‚Р°С†РёСЏ Рє РјР°РіР°Рј РћРіРЅСЏ";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_TELEPORT;
 };
@@ -242,7 +242,7 @@ instance ItArRuneTeleport2(C_Item)
 	visual = "ItAr_Rune_40.3ds";
 	material = MAT_STONE;
 	spell = SPL_Teleport2;
-	description = "Телепортация к магам Воды";
+	description = "РўРµР»РµРїРѕСЂС‚Р°С†РёСЏ Рє РјР°РіР°Рј Р’РѕРґС‹";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_Manakosten;
@@ -259,7 +259,7 @@ instance ItArScrollTeleport2(C_Item)
 	spell = SPL_Teleport2;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_TELEPORT;
-	description = "Телепортация к магам Воды";
+	description = "РўРµР»РµРїРѕСЂС‚Р°С†РёСЏ Рє РјР°РіР°Рј Р’РѕРґС‹";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_TELEPORT;
 };
@@ -272,7 +272,7 @@ instance ItArRuneTeleport3(C_Item)
 	visual = "ItAr_Rune_41.3ds";
 	material = MAT_STONE;
 	spell = SPL_Teleport3;
-	description = "Телепортация к некроманту";
+	description = "РўРµР»РµРїРѕСЂС‚Р°С†РёСЏ Рє РЅРµРєСЂРѕРјР°РЅС‚Сѓ";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_Manakosten;
@@ -289,7 +289,7 @@ instance ItArScrollTeleport3(C_Item)
 	spell = SPL_Teleport3;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_TELEPORT;
-	description = "Телепортация к некроманту";
+	description = "РўРµР»РµРїРѕСЂС‚Р°С†РёСЏ Рє РЅРµРєСЂРѕРјР°РЅС‚Сѓ";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_TELEPORT;
 };
@@ -304,7 +304,7 @@ instance ItArScrollTeleport4(C_Item)
 	spell = SPL_Teleport4;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_TELEPORT;
-	description = "Орочье заклинание";
+	description = "РћСЂРѕС‡СЊРµ Р·Р°РєР»РёРЅР°РЅРёРµ";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_TELEPORT;
 };
@@ -317,7 +317,7 @@ instance ItArRuneTeleport5(C_Item)
 	visual = "ItAr_Rune_39.3ds";
 	material = MAT_STONE;
 	spell = SPL_Teleport5;
-	description = "Телепортация в Болотный лагерь";
+	description = "РўРµР»РµРїРѕСЂС‚Р°С†РёСЏ РІ Р‘РѕР»РѕС‚РЅС‹Р№ Р»Р°РіРµСЂСЊ";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_Manakosten;
@@ -334,7 +334,7 @@ instance ItArScrollTeleport5(C_Item)
 	spell = SPL_Teleport5;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_TELEPORT;
-	description = "Телепортация в Болотный лагерь";
+	description = "РўРµР»РµРїРѕСЂС‚Р°С†РёСЏ РІ Р‘РѕР»РѕС‚РЅС‹Р№ Р»Р°РіРµСЂСЊ";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_TELEPORT;
 };
@@ -349,10 +349,10 @@ instance ItArRuneHeal(C_Item)
 	material = MAT_STONE;
 	spell = SPL_HEAL;
 	mag_circle = 2;
-	description = "Лечение";
+	description = "Р›РµС‡РµРЅРёРµ";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
-	text[1] = "Лечение за маг. силу";
+	text[1] = "Р›РµС‡РµРЅРёРµ Р·Р° РјР°Рі. СЃРёР»Сѓ";
 	count[1] = SPL_HEALING_HP_PER_MP;
 	text[4] = NAME_Spell_Invest;
 	text[5] = NAME_Value;
@@ -370,8 +370,8 @@ instance ItArScrollHeal(C_Item)
 	spell = SPL_HEAL;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_HEALING_HP_PER_MP;
-	description = "Лечение";
-	text[1] = "Лечение за маг. силу";
+	description = "Р›РµС‡РµРЅРёРµ";
+	text[1] = "Р›РµС‡РµРЅРёРµ Р·Р° РјР°Рі. СЃРёР»Сѓ";
 	count[1] = SPL_HEALING_HP_PER_MP;
 	text[2] = NAME_Mana_needed;
 	count[2] = SPL_HEALING_HP_PER_MP;
@@ -391,7 +391,7 @@ instance ItArScrollTrfBloodfly(C_Item)
 	spell = SPL_TRF_BLOODFLY;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_TRF_BLOODFLY;
-	description = "Превращение в шершня";
+	description = "РџСЂРµРІСЂР°С‰РµРЅРёРµ РІ С€РµСЂС€РЅСЏ";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_TRF_BLOODFLY;
 	text[5] = NAME_Value;
@@ -409,7 +409,7 @@ instance ItArScrollTrfCrawler(C_Item)
 	spell = SPL_TRF_CRAWLER;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_TRF_CRAWLER;
-	description = "Превращение в ползуна";
+	description = "РџСЂРµРІСЂР°С‰РµРЅРёРµ РІ РїРѕР»Р·СѓРЅР°";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_TRF_CRAWLER;
 	text[5] = NAME_Value;
@@ -427,7 +427,7 @@ instance ItArScrollTrfLurker(C_Item)
 	spell = SPL_TRF_LURKER;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_TRF_LURKER;
-	description = "Превращение в шныга";
+	description = "РџСЂРµРІСЂР°С‰РµРЅРёРµ РІ С€РЅС‹РіР°";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_TRF_LURKER;
 	text[5] = NAME_Value;
@@ -445,7 +445,7 @@ instance ItArScrollTrfMeatbug(C_Item)
 	spell = SPL_TRF_MEATBUG;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_TRF_MEATBUG;
-	description = "Превращение в мясного жука";
+	description = "РџСЂРµРІСЂР°С‰РµРЅРёРµ РІ РјСЏСЃРЅРѕРіРѕ Р¶СѓРєР°";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_TRF_MEATBUG;
 	text[5] = NAME_Value;
@@ -463,7 +463,7 @@ instance ItArScrollTrfMolerat(C_Item)
 	spell = SPL_TRF_MOLERAT;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_TRF_MOLERAT;
-	description = "Превращение в кротокрыса";
+	description = "РџСЂРµРІСЂР°С‰РµРЅРёРµ РІ РєСЂРѕС‚РѕРєСЂС‹СЃР°";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_TRF_MOLERAT;
 	text[5] = NAME_Value;
@@ -481,7 +481,7 @@ instance ItArScrollTrfOrcdog(C_Item)
 	spell = SPL_TRF_ORCDOG;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_TRF_ORCDOG;
-	description = "Превращение в орочью собаку";
+	description = "РџСЂРµРІСЂР°С‰РµРЅРёРµ РІ РѕСЂРѕС‡СЊСЋ СЃРѕР±Р°РєСѓ";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_TRF_ORCDOG;
 	text[5] = NAME_Value;
@@ -499,7 +499,7 @@ instance ItArScrollTrfScavenger(C_Item)
 	spell = SPL_TRF_SCAVENGER;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_TRF_SCAVENGER;
-	description = "Превращение в падальщика";
+	description = "РџСЂРµРІСЂР°С‰РµРЅРёРµ РІ РїР°РґР°Р»СЊС‰РёРєР°";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_TRF_SCAVENGER;
 	text[5] = NAME_Value;
@@ -517,7 +517,7 @@ instance ItArScrollTrfShadowbeast(C_Item)
 	spell = SPL_TRF_SHADOWBEAST;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_TRF_SHADOWBEAST;
-	description = "Превращение в мракориса";
+	description = "РџСЂРµРІСЂР°С‰РµРЅРёРµ РІ РјСЂР°РєРѕСЂРёСЃР°";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_TRF_SHADOWBEAST;
 	text[5] = NAME_Value;
@@ -535,7 +535,7 @@ instance ItArScrollTrfSnapper(C_Item)
 	spell = SPL_TRF_SNAPPER;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_TRF_SNAPPER;
-	description = "Превращение в глорха";
+	description = "РџСЂРµРІСЂР°С‰РµРЅРёРµ РІ РіР»РѕСЂС…Р°";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_TRF_SNAPPER;
 	text[5] = NAME_Value;
@@ -553,7 +553,7 @@ instance ItArScrollTrfWaran(C_Item)
 	spell = SPL_TRF_WARAN;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_TRF_WARAN;
-	description = "Превращение в ящерицу";
+	description = "РџСЂРµРІСЂР°С‰РµРЅРёРµ РІ СЏС‰РµСЂРёС†Сѓ";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_TRF_WARAN;
 	text[5] = NAME_Value;
@@ -571,7 +571,7 @@ instance ItArScrollTrfWolf(C_Item)
 	spell = SPL_TRF_WOLF;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_TRF_WOLF;
-	description = "Превращение в волка";
+	description = "РџСЂРµРІСЂР°С‰РµРЅРёРµ РІ РІРѕР»РєР°";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_TRF_WOLF;
 	text[5] = NAME_Value;
@@ -588,7 +588,7 @@ instance ItArRuneChainLightning(C_Item)
 	material = MAT_STONE;
 	spell = SPL_CHAINLIGHTNING;
 	mag_circle = 4;
-	description = "Молния";
+	description = "РњРѕР»РЅРёСЏ";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_DamagePerSec;
@@ -607,7 +607,7 @@ instance ItArScrollChainLightning(C_Item)
 	visual = "ItAr_Scroll_20.3DS";
 	material = MAT_STONE;
 	spell = SPL_CHAINLIGHTNING;
-	description = "Молния";
+	description = "РњРѕР»РЅРёСЏ";
 	text[1] = NAME_DamagePerSec;
 	count[1] = SPL_ZAPPED_DAMAGE_PER_SEC;
 	text[4] = NAME_Spell_Invest;
@@ -625,7 +625,7 @@ instance ItArRuneThunderbolt(C_Item)
 	material = MAT_STONE;
 	spell = SPL_THUNDERBOLT;
 	mag_circle = 1;
-	description = "Ледяная стрела";
+	description = "Р›РµРґСЏРЅР°СЏ СЃС‚СЂРµР»Р°";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_Manakosten;
@@ -647,7 +647,7 @@ instance ItArScrollThunderbolt(C_Item)
 	spell = SPL_THUNDERBOLT;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_THUNDERBOLT;
-	description = "Ледяная стрела";
+	description = "Р›РµРґСЏРЅР°СЏ СЃС‚СЂРµР»Р°";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_THUNDERBOLT;
 	text[2] = NAME_Dam_Magic;
@@ -666,7 +666,7 @@ instance ItArRuneThunderball(C_Item)
 	material = MAT_STONE;
 	spell = SPL_THUNDERBALL;
 	mag_circle = 3;
-	description = "Шаровая молния";
+	description = "РЁР°СЂРѕРІР°СЏ РјРѕР»РЅРёСЏ";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_ManakostenMax;
@@ -689,7 +689,7 @@ instance ItArScrollThunderball(C_Item)
 	spell = SPL_THUNDERBALL;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_THUNDERBALL;
-	description = "Шаровая молния";
+	description = "РЁР°СЂРѕРІР°СЏ РјРѕР»РЅРёСЏ";
 	text[1] = NAME_ManakostenMax;
 	count[1] = SPL_SENDCAST_THUNDERBALL;
 	text[2] = ConcatStrings(NAME_Dam_Magic,NAME_PerMana);
@@ -709,12 +709,12 @@ instance ItArRuneIceCube(C_Item)
 	material = MAT_STONE;
 	spell = SPL_ICECUBE;
 	mag_circle = 3;
-	description = "Ледяная глыба";
+	description = "Р›РµРґСЏРЅР°СЏ РіР»С‹Р±Р°";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_ICECUBE;
-	text[2] = "Урон";
+	text[2] = "РЈСЂРѕРЅ";
 	count[2] = SPL_FREEZE_DAMAGE;
 	text[5] = NAME_Value;
 	count[5] = value;
@@ -731,10 +731,10 @@ instance ItArScrollIcecube(C_Item)
 	spell = SPL_ICECUBE;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_ICECUBE;
-	description = "Ледяная глыба";
+	description = "Р›РµРґСЏРЅР°СЏ РіР»С‹Р±Р°";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_ICECUBE;
-	text[2] = "Урон";
+	text[2] = "РЈСЂРѕРЅ";
 	count[2] = SPL_FREEZE_DAMAGE;
 	text[5] = NAME_Value;
 	count[5] = value;
@@ -750,12 +750,12 @@ instance ItArRuneIceWave(C_Item)
 	material = MAT_STONE;
 	spell = SPL_ICEWAVE;
 	mag_circle = 5;
-	description = "Ледяная волна";
+	description = "Р›РµРґСЏРЅР°СЏ РІРѕР»РЅР°";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_ICEWAVE;
-	text[2] = "Урон";
+	text[2] = "РЈСЂРѕРЅ";
 	count[2] = SPL_FREEZE_DAMAGE;
 	text[5] = NAME_Value;
 	count[5] = value;
@@ -772,10 +772,10 @@ instance ItArScrollIceWave(C_Item)
 	spell = SPL_ICEWAVE;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_ICEWAVE;
-	description = "Ледяная волна";
+	description = "Р›РµРґСЏРЅР°СЏ РІРѕР»РЅР°";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_ICEWAVE;
-	text[2] = "Урон";
+	text[2] = "РЈСЂРѕРЅ";
 	count[2] = SPL_FREEZE_DAMAGE;
 	text[5] = NAME_Value;
 	count[5] = value;
@@ -792,7 +792,7 @@ instance ItArScrollSummonDemon(C_Item)
 	spell = SPL_SUMMONDEMON;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_SUMMONDEMON;
-	description = "Призыв демона";
+	description = "РџСЂРёР·С‹РІ РґРµРјРѕРЅР°";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_SUMMONDEMON;
 	text[5] = NAME_Value;
@@ -810,7 +810,7 @@ instance ItArScrollSummonSkeletons(C_Item)
 	spell = SPL_SUMMONSKELETON;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_SUMMONSKELETON;
-	description = "Призыв скелета";
+	description = "РџСЂРёР·С‹РІ СЃРєРµР»РµС‚Р°";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_SUMMONSKELETON;
 	text[5] = NAME_Value;
@@ -828,7 +828,7 @@ instance ItArScrollSummonGolem(C_Item)
 	spell = SPL_SUMMONGOLEM;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_SUMMONGOLEM;
-	description = "Призыв голема";
+	description = "РџСЂРёР·С‹РІ РіРѕР»РµРјР°";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_SUMMONGOLEM;
 	text[5] = NAME_Value;
@@ -846,7 +846,7 @@ instance ItArScrollArmyOfDarkness(C_Item)
 	spell = SPL_ARMYOFDARKNESS;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_ARMYOFDARKNESS;
-	description = "Армия тьмы";
+	description = "РђСЂРјРёСЏ С‚СЊРјС‹";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_ARMYOFDARKNESS;
 	text[5] = NAME_Value;
@@ -863,7 +863,7 @@ instance ItArRuneDestroyUndead(C_Item)
 	material = MAT_STONE;
 	spell = SPL_DESTROYUNDEAD;
 	mag_circle = 4;
-	description = "Уничтожение нежити";
+	description = "РЈРЅРёС‡С‚РѕР¶РµРЅРёРµ РЅРµР¶РёС‚Рё";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_Manakosten;
@@ -885,7 +885,7 @@ instance ItArScrollDestroyUndead(C_Item)
 	spell = SPL_DESTROYUNDEAD;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_DESTROYUNDEAD;
-	description = "Уничтожение нежити";
+	description = "РЈРЅРёС‡С‚РѕР¶РµРЅРёРµ РЅРµР¶РёС‚Рё";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_Manakosten;
@@ -906,7 +906,7 @@ instance ItArRuneWindfist(C_Item)
 	material = MAT_STONE;
 	spell = SPL_WINDFIST;
 	mag_circle = 2;
-	description = "Кулак ветра";
+	description = "РљСѓР»Р°Рє РІРµС‚СЂР°";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_ManakostenMax;
@@ -929,7 +929,7 @@ instance ItArScrollWindfist(C_Item)
 	spell = SPL_WINDFIST;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_WINDFIST;
-	description = "Кулак ветра";
+	description = "РљСѓР»Р°Рє РІРµС‚СЂР°";
 	text[1] = NAME_ManakostenMax;
 	count[1] = SPL_SENDCAST_WINDFIST;
 	text[2] = ConcatStrings(NAME_Dam_Fly,NAME_PerMana);
@@ -949,7 +949,7 @@ instance ItArRuneStormfist(C_Item)
 	material = MAT_STONE;
 	spell = SPL_STORMFIST;
 	mag_circle = 4;
-	description = "Шторм";
+	description = "РЁС‚РѕСЂРј";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_ManakostenMax;
@@ -972,7 +972,7 @@ instance ItArScrollStormfist(C_Item)
 	spell = SPL_STORMFIST;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_STORMFIST;
-	description = "Шторм";
+	description = "РЁС‚РѕСЂРј";
 	text[1] = NAME_ManakostenMax;
 	count[1] = SPL_SENDCAST_STORMFIST;
 	text[2] = ConcatStrings(NAME_Dam_Fly,NAME_PerMana);
@@ -992,7 +992,7 @@ instance ItArRuneTelekinesis(C_Item)
 	material = MAT_STONE;
 	spell = SPL_TELEKINESIS;
 	mag_circle = 3;
-	description = "Телекинез";
+	description = "РўРµР»РµРєРёРЅРµР·";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_ManaPerSec;
@@ -1013,7 +1013,7 @@ instance ItArScrollTelekinesis(C_Item)
 	spell = SPL_TELEKINESIS;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = 10;
-	description = "Телекинез";
+	description = "РўРµР»РµРєРёРЅРµР·";
 	text[1] = NAME_ManaPerSec;
 	count[1] = 1;
 	text[2] = NAME_Mana_needed;
@@ -1033,7 +1033,7 @@ instance ItArRuneCharm(C_Item)
 	material = MAT_STONE;
 	spell = SPL_CHARM;
 	mag_circle = 3;
-	description = "Дружба";
+	description = "Р”СЂСѓР¶Р±Р°";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_Manakosten;
@@ -1053,7 +1053,7 @@ instance ItArScrollCharm(C_Item)
 	spell = SPL_CHARM;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_CHARM;
-	description = "Дружба";
+	description = "Р”СЂСѓР¶Р±Р°";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_CHARM;
 	text[5] = NAME_Value;
@@ -1070,7 +1070,7 @@ instance ItArRuneSleep(C_Item)
 	material = MAT_STONE;
 	spell = SPL_SLEEP;
 	mag_circle = 2;
-	description = "Сон";
+	description = "РЎРѕРЅ";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_Manakosten;
@@ -1090,7 +1090,7 @@ instance ItArScrollSleep(C_Item)
 	spell = SPL_SLEEP;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_SLEEP;
-	description = "Сон";
+	description = "РЎРѕРЅ";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_SLEEP;
 	text[5] = NAME_Value;
@@ -1107,7 +1107,7 @@ instance ItArRunePyrokinesis(C_Item)
 	material = MAT_STONE;
 	spell = SPL_PYROKINESIS;
 	mag_circle = 3;
-	description = "Пирокинез";
+	description = "РџРёСЂРѕРєРёРЅРµР·";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_DamagePerSec;
@@ -1128,7 +1128,7 @@ instance ItArScrollPyrokinesis(C_Item)
 	spell = SPL_PYROKINESIS;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = 10;
-	description = "Пирокинез";
+	description = "РџРёСЂРѕРєРёРЅРµР·";
 	text[1] = NAME_DamagePerSec;
 	count[1] = SPL_PYRO_DAMAGE_PER_SEC;
 	text[4] = NAME_Spell_Invest;
@@ -1146,7 +1146,7 @@ instance ItArRuneControl(C_Item)
 	material = MAT_STONE;
 	spell = SPL_CONTROL;
 	mag_circle = 4;
-	description = "Контроль";
+	description = "РљРѕРЅС‚СЂРѕР»СЊ";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[5] = NAME_Value;
@@ -1164,7 +1164,7 @@ instance ItArScrollControl(C_Item)
 	spell = SPL_CONTROL;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = 30;
-	description = "Контроль";
+	description = "РљРѕРЅС‚СЂРѕР»СЊ";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -1180,7 +1180,7 @@ instance ItArScrollFear(C_Item)
 	spell = SPL_FEAR;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_FEAR;
-	description = "Страх";
+	description = "РЎС‚СЂР°С…";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_FEAR;
 	text[5] = NAME_Value;
@@ -1198,7 +1198,7 @@ instance ItArScrollBerzerk(C_Item)
 	spell = SPL_BERZERK;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_BERZERK;
-	description = "Гнев";
+	description = "Р“РЅРµРІ";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_BERZERK;
 	text[5] = NAME_Value;
@@ -1215,7 +1215,7 @@ instance ItArRuneBreathOfDeath(C_Item)
 	material = MAT_STONE;
 	spell = SPL_BREATHOFDEATH;
 	mag_circle = 6;
-	description = "Дыхание смерти";
+	description = "Р”С‹С…Р°РЅРёРµ СЃРјРµСЂС‚Рё";
 	text[0] = NAME_Mag_Circle;
 	count[0] = mag_circle;
 	text[1] = NAME_Manakosten;
@@ -1237,7 +1237,7 @@ instance ItArScrollShrink(C_Item)
 	spell = SPL_SHRINK;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = SPL_SENDCAST_SHRINK;
-	description = "Ужас врагов";
+	description = "РЈР¶Р°СЃ РІСЂР°РіРѕРІ";
 	text[1] = NAME_Manakosten;
 	count[1] = SPL_SENDCAST_SHRINK;
 	text[5] = NAME_Value;

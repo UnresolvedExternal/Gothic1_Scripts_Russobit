@@ -1,7 +1,7 @@
-
+п»ї
 prototype Mst_Default_Demon(C_Npc)
 {
-	name[0] = "Пламенный демон";
+	name[0] = "РџР»Р°РјРµРЅРЅС‹Р№ РґРµРјРѕРЅ";
 	guild = GIL_DEMON;
 	aivar[AIV_IMPORTANT] = ID_DEMON;
 	level = 50;
@@ -75,7 +75,7 @@ instance XardasDemon(Mst_Default_Demon)
 
 instance OTDemon(Mst_Default_Demon)
 {
-	name[0] = "Низший демон";
+	name[0] = "РќРёР·С€РёР№ РґРµРјРѕРЅ";
 	guild = GIL_DEMON;
 	level = 60;
 	attribute[ATR_STRENGTH] = 130;

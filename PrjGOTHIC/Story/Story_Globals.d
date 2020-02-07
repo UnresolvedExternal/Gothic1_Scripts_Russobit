@@ -1,4 +1,4 @@
-
+﻿
 const int ZivilAnquatschDist = 300;
 const int DurstigeBauern = 10;
 var int slf_fire;

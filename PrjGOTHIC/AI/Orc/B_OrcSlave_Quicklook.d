@@ -1,4 +1,4 @@
-
+﻿
 func void B_OrcSlave_Quicklook()
 {
 	PrintDebugNpc(PD_ORC_FRAME,"OrcSlave_ObserveIntruder");

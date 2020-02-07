@@ -1,4 +1,4 @@
-
+﻿
 func int Spell_ProcessMana_Release(var int manaInvested)
 {
 	if(Npc_GetActiveSpell(self) == SPL_FIREBALL)

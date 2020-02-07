@@ -1,4 +1,4 @@
-
+﻿
 func int B_StopMagicSleep()
 {
 	Npc_PercDisable(self,PERC_ASSESSDAMAGE);
@@ -8,7 +8,7 @@ func int B_StopMagicSleep()
 	B_SayOverlay(self,other,"$WHATSTHAT");
 	if(Hlp_IsValidNpc(other))
 	{
-		PrintDebugNpc(PD_ZS_Check,"...'other' g�ltig!");
+		PrintDebugNpc(PD_ZS_Check,"...'other' gьltig!");
 		if(Npc_GetAttitude(self,other) == ATT_HOSTILE)
 		{
 			PrintDebugNpc(PD_ZS_Check,"...'other' hostile!");

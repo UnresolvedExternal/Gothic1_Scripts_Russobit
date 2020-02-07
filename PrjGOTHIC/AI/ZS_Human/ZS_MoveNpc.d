@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_MoveNpcWait()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"ZS_MoveNpcWait");

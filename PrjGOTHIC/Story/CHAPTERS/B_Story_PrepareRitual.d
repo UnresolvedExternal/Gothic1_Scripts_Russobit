@@ -1,4 +1,4 @@
-
+﻿
 func void B_Story_PrepareRitual()
 {
 	var C_Npc YBerion;

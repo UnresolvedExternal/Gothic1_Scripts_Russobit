@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_Smith_Anvil()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_Smith_Anvil");

@@ -1,4 +1,4 @@
-
+﻿
 func void B_SetFaceExpression(var C_Npc slf,var C_Npc oth)
 {
 	var int attitude;

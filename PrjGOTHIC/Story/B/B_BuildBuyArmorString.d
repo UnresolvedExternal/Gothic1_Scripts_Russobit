@@ -1,4 +1,4 @@
-
+﻿
 func string B_BuildBuyArmorString(var string text,var int price)
 {
 	var string msg;

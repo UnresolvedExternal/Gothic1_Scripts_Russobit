@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_TestGotoWP()
 {
 	Npc_PercEnable(self,PERC_CATCHTHIEF,ZS_CatchThief);

@@ -1,4 +1,4 @@
-
+﻿
 func void OrcSlavePerc()
 {
 	Npc_PercEnable(self,PERC_ASSESSDAMAGE,ZS_OrcSlave_AssessDamage);

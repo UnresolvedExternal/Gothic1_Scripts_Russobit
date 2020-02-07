@@ -1,4 +1,4 @@
-
+﻿
 instance Focus_Normal(C_Focus)
 {
 	npc_longrange = 500;

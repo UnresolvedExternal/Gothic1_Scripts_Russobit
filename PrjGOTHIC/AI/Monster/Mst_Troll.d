@@ -1,7 +1,7 @@
-
+п»ї
 prototype Mst_Default_Troll(C_Npc)
 {
-	name[0] = "Тролль";
+	name[0] = "РўСЂРѕР»Р»СЊ";
 	guild = GIL_TROLL;
 	aivar[AIV_IMPORTANT] = ID_TROLL;
 	level = 200;
@@ -47,7 +47,7 @@ instance Troll(Mst_Default_Troll)
 
 instance YoungTroll(Mst_Default_Troll)
 {
-	name[0] = "Молодой тролль";
+	name[0] = "РњРѕР»РѕРґРѕР№ С‚СЂРѕР»Р»СЊ";
 	guild = GIL_TROLL;
 	aivar[AIV_IMPORTANT] = ID_TROLL;
 	level = 100;

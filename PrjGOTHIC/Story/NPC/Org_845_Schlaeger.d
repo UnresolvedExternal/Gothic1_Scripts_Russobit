@@ -1,4 +1,4 @@
-
+﻿
 instance Org_845_Schlaeger(Npc_Default)
 {
 	name[0] = NAME_Schlaeger;

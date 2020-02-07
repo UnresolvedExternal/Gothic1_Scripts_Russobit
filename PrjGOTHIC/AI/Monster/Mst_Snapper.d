@@ -1,7 +1,7 @@
-
+п»ї
 prototype Mst_Default_Snapper(C_Npc)
 {
-	name[0] = "Глорх";
+	name[0] = "Р“Р»РѕСЂС…";
 	guild = GIL_SNAPPER;
 	aivar[AIV_IMPORTANT] = ID_SNAPPER;
 	level = 22;

@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_Firespit()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"ZS_Firespit");

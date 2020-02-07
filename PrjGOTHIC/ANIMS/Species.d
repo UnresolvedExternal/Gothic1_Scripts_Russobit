@@ -1,4 +1,4 @@
-
+﻿
 instance Gil_Values(C_GILVALUES)
 {
 	swim_time[GIL_HUMAN] = TIME_INFINITE;

@@ -1,4 +1,4 @@
-
+﻿
 func int G_CanSteal()
 {
 	if((other.npcType != npctype_friend) && (other.npcType != npctype_main))

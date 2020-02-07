@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_MCHunting()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_MCHunting");

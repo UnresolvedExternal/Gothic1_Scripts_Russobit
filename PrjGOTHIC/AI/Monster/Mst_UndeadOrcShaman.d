@@ -1,4 +1,4 @@
-
+﻿
 prototype Mst_Default_UndeadOrcShaman(C_Npc)
 {
 	name[0] = "Hohepriester";

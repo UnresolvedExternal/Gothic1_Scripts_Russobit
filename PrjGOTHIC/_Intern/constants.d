@@ -1,4 +1,4 @@
-
+п»ї
 const int ATR_HITPOINTS = 0;
 const int ATR_HITPOINTS_MAX = 1;
 const int ATR_MANA = 2;
@@ -262,9 +262,9 @@ const int MAT_GLAS = 5;
 const int LOG_MISSION = 0;
 const int LOG_NOTE = 1;
 
-const string STR_INFO_TRADE_ACCEPT = "Купить";
-const string STR_INFO_TRADE_RESET = "Отказаться";
-const string STR_INFO_TRADE_EXIT = "НАЗАД";
+const string STR_INFO_TRADE_ACCEPT = "РљСѓРїРёС‚СЊ";
+const string STR_INFO_TRADE_RESET = "РћС‚РєР°Р·Р°С‚СЊСЃСЏ";
+const string STR_INFO_TRADE_EXIT = "РќРђР—РђР”";
 
 const int TIME_INFINITE = -1000;
 const int NPC_VOICE_VARIATION_MAX = 10;

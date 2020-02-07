@@ -1,7 +1,7 @@
-
+п»ї
 instance Thorus_Schwert(C_Item)
 {
-	name = "Меч Торуса";
+	name = "РњРµС‡ РўРѕСЂСѓСЃР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD;
 	material = MAT_METAL;
@@ -25,7 +25,7 @@ instance Thorus_Schwert(C_Item)
 
 instance Innos_Zorn(C_Item)
 {
-	name = "Гнев Инноса";
+	name = "Р“РЅРµРІ РРЅРЅРѕСЃР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD;
 	material = MAT_METAL;
@@ -49,7 +49,7 @@ instance Innos_Zorn(C_Item)
 
 instance Scars_Schwert(C_Item)
 {
-	name = "Меч Шрама";
+	name = "РњРµС‡ РЁСЂР°РјР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -74,7 +74,7 @@ instance Scars_Schwert(C_Item)
 
 instance Artos_Schwert(C_Item)
 {
-	name = "Меч Арто";
+	name = "РњРµС‡ РђСЂС‚Рѕ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -98,7 +98,7 @@ instance Artos_Schwert(C_Item)
 
 instance Rabenrecht(C_Item)
 {
-	name = "Мудрость ворона";
+	name = "РњСѓРґСЂРѕСЃС‚СЊ РІРѕСЂРѕРЅР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -122,7 +122,7 @@ instance Rabenrecht(C_Item)
 
 instance Prankenhieb(C_Item)
 {
-	name = "Коготь глорха";
+	name = "РљРѕРіРѕС‚СЊ РіР»РѕСЂС…Р°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -146,7 +146,7 @@ instance Prankenhieb(C_Item)
 
 instance Diegos_Bogen(C_Item)
 {
-	name = "Лук Диего";
+	name = "Р›СѓРє Р”РёРµРіРѕ";
 	mainflag = ITEM_KAT_FF;
 	flags = ITEM_BOW;
 	material = MAT_WOOD;
@@ -169,7 +169,7 @@ instance Diegos_Bogen(C_Item)
 
 instance Whistlers_Schwert(C_Item)
 {
-	name = "Меч Уистлера";
+	name = "РњРµС‡ РЈРёСЃС‚Р»РµСЂР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -192,7 +192,7 @@ instance Whistlers_Schwert(C_Item)
 
 instance Stab_des_Lichts(C_Item)
 {
-	name = "Посох света";
+	name = "РџРѕСЃРѕС… СЃРІРµС‚Р°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;
@@ -216,7 +216,7 @@ instance Stab_des_Lichts(C_Item)
 
 instance Kaloms_Schwert(C_Item)
 {
-	name = "Меч Галома";
+	name = "РњРµС‡ Р“Р°Р»РѕРјР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -240,7 +240,7 @@ instance Kaloms_Schwert(C_Item)
 
 instance Streitschlichter(C_Item)
 {
-	name = "Судья Лестера";
+	name = "РЎСѓРґСЊСЏ Р›РµСЃС‚РµСЂР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_METAL;
@@ -264,7 +264,7 @@ instance Streitschlichter(C_Item)
 
 instance Roter_Wind(C_Item)
 {
-	name = "Красный ветер";
+	name = "РљСЂР°СЃРЅС‹Р№ РІРµС‚РµСЂ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD;
 	material = MAT_METAL;
@@ -288,7 +288,7 @@ instance Roter_Wind(C_Item)
 
 instance Namibs_Keule(C_Item)
 {
-	name = "Дубина Намиба";
+	name = "Р”СѓР±РёРЅР° РќР°РјРёР±Р°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_METAL;
@@ -312,7 +312,7 @@ instance Namibs_Keule(C_Item)
 
 instance Oruns_Keule(C_Item)
 {
-	name = "Дубина Орана";
+	name = "Р”СѓР±РёРЅР° РћСЂР°РЅР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_METAL;
@@ -336,7 +336,7 @@ instance Oruns_Keule(C_Item)
 
 instance Fortunos_Keule(C_Item)
 {
-	name = "Дубина Фортун";
+	name = "Р”СѓР±РёРЅР° Р¤РѕСЂС‚СѓРЅ";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_METAL;
@@ -360,7 +360,7 @@ instance Fortunos_Keule(C_Item)
 
 instance Lees_Axt(C_Item)
 {
-	name = "Топор Ли";
+	name = "РўРѕРїРѕСЂ Р›Рё";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_METAL;
@@ -384,7 +384,7 @@ instance Lees_Axt(C_Item)
 
 instance Oriks_Axt(C_Item)
 {
-	name = "Топор Орикса";
+	name = "РўРѕРїРѕСЂ РћСЂРёРєСЃР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_METAL;
@@ -408,7 +408,7 @@ instance Oriks_Axt(C_Item)
 
 instance Torlofs_Axt(C_Item)
 {
-	name = "Топор Торлофа";
+	name = "РўРѕРїРѕСЂ РўРѕСЂР»РѕС„Р°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_METAL;
@@ -432,7 +432,7 @@ instance Torlofs_Axt(C_Item)
 
 instance Cords_Spalter(C_Item)
 {
-	name = "Раскольник Корда";
+	name = "Р Р°СЃРєРѕР»СЊРЅРёРє РљРѕСЂРґР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_METAL;
@@ -456,7 +456,7 @@ instance Cords_Spalter(C_Item)
 
 instance Gorns_Rache(C_Item)
 {
-	name = "Месть Горна";
+	name = "РњРµСЃС‚СЊ Р“РѕСЂРЅР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_METAL;
@@ -480,7 +480,7 @@ instance Gorns_Rache(C_Item)
 
 instance Lares_Axt(C_Item)
 {
-	name = "Топор Ларса";
+	name = "РўРѕРїРѕСЂ Р›Р°СЂСЃР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_METAL;
@@ -504,7 +504,7 @@ instance Lares_Axt(C_Item)
 
 instance Wolfs_Bogen(C_Item)
 {
-	name = "Лук Волка";
+	name = "Р›СѓРє Р’РѕР»РєР°";
 	mainflag = ITEM_KAT_FF;
 	flags = ITEM_BOW;
 	material = MAT_WOOD;
@@ -527,7 +527,7 @@ instance Wolfs_Bogen(C_Item)
 
 instance Silas_Axt(C_Item)
 {
-	name = "Топор Силаса";
+	name = "РўРѕРїРѕСЂ РЎРёР»Р°СЃР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE;
 	material = MAT_METAL;
@@ -551,7 +551,7 @@ instance Silas_Axt(C_Item)
 
 instance Heerscherstab(C_Item)
 {
-	name = "Посох Мастера";
+	name = "РџРѕСЃРѕС… РњР°СЃС‚РµСЂР°";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE;
 	material = MAT_WOOD;

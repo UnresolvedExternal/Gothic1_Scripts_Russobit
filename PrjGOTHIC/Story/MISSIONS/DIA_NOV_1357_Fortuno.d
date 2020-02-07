@@ -1,4 +1,4 @@
-
+п»ї
 instance DIA_Fortuno_EXIT(C_Info)
 {
 	npc = NOV_1357_Fortuno;
@@ -42,7 +42,7 @@ func int DIA_Fortuno_Greet_Condition()
 
 func void DIA_Fortuno_Greet_Info()
 {
-	AI_Output(self,other,"DIA_Fortuno_Greet_05_00");	//Иди-ка сюда. Я ни одного новичка не отпускаю без подарка.
+	AI_Output(self,other,"DIA_Fortuno_Greet_05_00");	//РРґРё-РєР° СЃСЋРґР°. РЇ РЅРё РѕРґРЅРѕРіРѕ РЅРѕРІРёС‡РєР° РЅРµ РѕС‚РїСѓСЃРєР°СЋ Р±РµР· РїРѕРґР°СЂРєР°.
 };
 
 
@@ -55,7 +55,7 @@ instance DIA_Fortuno_GetGeschenk(C_Info)
 	condition = DIA_Fortuno_GetGeschenk_Condition;
 	information = DIA_Fortuno_GetGeschenk_Info;
 	permanent = 0;
-	description = "Что это за подарок?";
+	description = "Р§С‚Рѕ СЌС‚Рѕ Р·Р° РїРѕРґР°СЂРѕРє?";
 };
 
 
@@ -66,15 +66,15 @@ func int DIA_Fortuno_GetGeschenk_Condition()
 
 func void DIA_Fortuno_GetGeschenk_Info()
 {
-	AI_Output(other,self,"DIA_Fortuno_GetGeschenk_15_00");	//Что это за подарок?
-	AI_Output(self,other,"DIA_Fortuno_GetGeschenk_05_01");	//Вот, возьми этот болотник. Это 'Северный темный'. Отличная вещь!
-	AI_Output(self,other,"DIA_Fortuno_GetGeschenk_05_02");	//Каждый день я буду давать тебе немного болотника, но если тебе нужно больше, чем три сигареты, ты должен будешь заплатить.
-	AI_Output(self,other,"DIA_Fortuno_GetGeschenk_05_03");	//Если найдешь какие-нибудь травы или ягоды, заходи ко мне. Я с удовольствием куплю их у тебя.
+	AI_Output(other,self,"DIA_Fortuno_GetGeschenk_15_00");	//Р§С‚Рѕ СЌС‚Рѕ Р·Р° РїРѕРґР°СЂРѕРє?
+	AI_Output(self,other,"DIA_Fortuno_GetGeschenk_05_01");	//Р’РѕС‚, РІРѕР·СЊРјРё СЌС‚РѕС‚ Р±РѕР»РѕС‚РЅРёРє. Р­С‚Рѕ 'РЎРµРІРµСЂРЅС‹Р№ С‚РµРјРЅС‹Р№'. РћС‚Р»РёС‡РЅР°СЏ РІРµС‰СЊ!
+	AI_Output(self,other,"DIA_Fortuno_GetGeschenk_05_02");	//РљР°Р¶РґС‹Р№ РґРµРЅСЊ СЏ Р±СѓРґСѓ РґР°РІР°С‚СЊ С‚РµР±Рµ РЅРµРјРЅРѕРіРѕ Р±РѕР»РѕС‚РЅРёРєР°, РЅРѕ РµСЃР»Рё С‚РµР±Рµ РЅСѓР¶РЅРѕ Р±РѕР»СЊС€Рµ, С‡РµРј С‚СЂРё СЃРёРіР°СЂРµС‚С‹, С‚С‹ РґРѕР»Р¶РµРЅ Р±СѓРґРµС€СЊ Р·Р°РїР»Р°С‚РёС‚СЊ.
+	AI_Output(self,other,"DIA_Fortuno_GetGeschenk_05_03");	//Р•СЃР»Рё РЅР°Р№РґРµС€СЊ РєР°РєРёРµ-РЅРёР±СѓРґСЊ С‚СЂР°РІС‹ РёР»Рё СЏРіРѕРґС‹, Р·Р°С…РѕРґРё РєРѕ РјРЅРµ. РЇ СЃ СѓРґРѕРІРѕР»СЊСЃС‚РІРёРµРј РєСѓРїР»СЋ РёС… Сѓ С‚РµР±СЏ.
 	CreateInvItems(self,ItMiJoint_2,3);
 	B_GiveInvItems(self,other,ItMiJoint_2,3);
 	Fortuno_RationDay = Wld_GetDay();
 	Log_CreateTopic(GE_TraderPSI,LOG_NOTE);
-	B_LogEntry(GE_TraderPSI,"Фортуно торгует травами. Его дом находится под лабораторией Кор Галома.");
+	B_LogEntry(GE_TraderPSI,"Р¤РѕСЂС‚СѓРЅРѕ С‚РѕСЂРіСѓРµС‚ С‚СЂР°РІР°РјРё. Р•РіРѕ РґРѕРј РЅР°С…РѕРґРёС‚СЃСЏ РїРѕРґ Р»Р°Р±РѕСЂР°С‚РѕСЂРёРµР№ РљРѕСЂ Р“Р°Р»РѕРјР°.");
 };
 
 
@@ -85,7 +85,7 @@ instance DIA_Fortuno_DailyRation(C_Info)
 	condition = DIA_Fortuno_DailyRation_Condition;
 	information = DIA_Fortuno_DailyRation_Info;
 	permanent = 1;
-	description = "Я хочу взять дневную порцию болотника.";
+	description = "РЇ С…РѕС‡Сѓ РІР·СЏС‚СЊ РґРЅРµРІРЅСѓСЋ РїРѕСЂС†РёСЋ Р±РѕР»РѕС‚РЅРёРєР°.";
 };
 
 
@@ -99,17 +99,17 @@ func int DIA_Fortuno_DailyRation_Condition()
 
 func void DIA_Fortuno_DailyRation_Info()
 {
-	AI_Output(other,self,"DIA_Fortuno_DailyRation_15_00");	//Я хочу взять дневную порцию болотника.
+	AI_Output(other,self,"DIA_Fortuno_DailyRation_15_00");	//РЇ С…РѕС‡Сѓ РІР·СЏС‚СЊ РґРЅРµРІРЅСѓСЋ РїРѕСЂС†РёСЋ Р±РѕР»РѕС‚РЅРёРєР°.
 	if(Fortuno_RationDay != Wld_GetDay())
 	{
-		AI_Output(self,other,"DIA_Fortuno_DailyRation_05_01");	//Вот, возьми. Три 'Северных темных'. Только не стоит курить их все сразу!
+		AI_Output(self,other,"DIA_Fortuno_DailyRation_05_01");	//Р’РѕС‚, РІРѕР·СЊРјРё. РўСЂРё 'РЎРµРІРµСЂРЅС‹С… С‚РµРјРЅС‹С…'. РўРѕР»СЊРєРѕ РЅРµ СЃС‚РѕРёС‚ РєСѓСЂРёС‚СЊ РёС… РІСЃРµ СЃСЂР°Р·Сѓ!
 		CreateInvItems(self,ItMiJoint_2,3);
 		B_GiveInvItems(self,other,ItMiJoint_2,3);
 		Fortuno_RationDay = Wld_GetDay();
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Fortuno_DailyRation_05_02");	//Свою дневную порцию ты уже получил. Если тебе нужно больше, приходи утром, или купи сейчас.
+		AI_Output(self,other,"DIA_Fortuno_DailyRation_05_02");	//РЎРІРѕСЋ РґРЅРµРІРЅСѓСЋ РїРѕСЂС†РёСЋ С‚С‹ СѓР¶Рµ РїРѕР»СѓС‡РёР». Р•СЃР»Рё С‚РµР±Рµ РЅСѓР¶РЅРѕ Р±РѕР»СЊС€Рµ, РїСЂРёС…РѕРґРё СѓС‚СЂРѕРј, РёР»Рё РєСѓРїРё СЃРµР№С‡Р°СЃ.
 	};
 };
 
@@ -121,7 +121,7 @@ instance DIA_Fortuno_BuyJoints(C_Info)
 	condition = DIA_Fortuno_BuyJoints_Condition;
 	information = DIA_Fortuno_BuyJoints_Info;
 	permanent = 1;
-	description = "Давай меняться.";
+	description = "Р”Р°РІР°Р№ РјРµРЅСЏС‚СЊСЃСЏ.";
 	trade = 1;
 };
 
@@ -136,7 +136,7 @@ func int DIA_Fortuno_BuyJoints_Condition()
 
 func void DIA_Fortuno_BuyJoints_Info()
 {
-	AI_Output(other,self,"DIA_Fortuno_BuyJoints_15_00");	//Давай меняться.
-	AI_Output(self,other,"DIA_Fortuno_BuyJoints_05_01");	//Что ты от меня хочешь? Быть может, что-нибудь купить?
+	AI_Output(other,self,"DIA_Fortuno_BuyJoints_15_00");	//Р”Р°РІР°Р№ РјРµРЅСЏС‚СЊСЃСЏ.
+	AI_Output(self,other,"DIA_Fortuno_BuyJoints_05_01");	//Р§С‚Рѕ С‚С‹ РѕС‚ РјРµРЅСЏ С…РѕС‡РµС€СЊ? Р‘С‹С‚СЊ РјРѕР¶РµС‚, С‡С‚Рѕ-РЅРёР±СѓРґСЊ РєСѓРїРёС‚СЊ?
 };
 

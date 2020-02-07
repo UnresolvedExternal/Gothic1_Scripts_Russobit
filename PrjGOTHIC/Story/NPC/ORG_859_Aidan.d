@@ -1,7 +1,7 @@
-
+Ôªø
 instance ORG_859_Aidan(Npc_Default)
 {
-	name[0] = "¿È‰‡Ì";
+	name[0] = "–ê–π–¥–∞–Ω";
 	npcType = npctype_main;
 	guild = GIL_ORG;
 	level = 15;

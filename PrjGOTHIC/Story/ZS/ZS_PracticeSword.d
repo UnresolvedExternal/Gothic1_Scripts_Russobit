@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_PracticeSword()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_PracticeSword");

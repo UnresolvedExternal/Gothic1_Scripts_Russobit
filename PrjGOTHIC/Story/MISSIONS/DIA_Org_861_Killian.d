@@ -1,4 +1,4 @@
-
+ï»¿
 instance ORG_861_Killian_Exit(C_Info)
 {
 	npc = Org_861_Killian;
@@ -7,7 +7,7 @@ instance ORG_861_Killian_Exit(C_Info)
 	information = ORG_861_Killian_Exit_Info;
 	important = 0;
 	permanent = 1;
-	description = "ÇÀÊÎÍ×ÈÒÜ ĞÀÇÃÎÂÎĞ";
+	description = "Ğ—ĞĞšĞĞĞ§Ğ˜Ğ¢Ğ¬ Ğ ĞĞ—Ğ“ĞĞ’ĞĞ ";
 };
 
 
@@ -43,7 +43,7 @@ func int ORG_861_Killian_GetLost_Condition()
 
 func void ORG_861_Killian_GetLost_Info()
 {
-	AI_Output(self,other,"Org_861_Killian_GetLost_Info_13_00");	//Óáèğàéñÿ îòñşäà!
+	AI_Output(self,other,"Org_861_Killian_GetLost_Info_13_00");	//Ğ£Ğ±Ğ¸Ñ€Ğ°Ğ¹ÑÑ Ğ¾Ñ‚ÑÑĞ´Ğ°!
 	AI_StopProcessInfos(self);
 };
 

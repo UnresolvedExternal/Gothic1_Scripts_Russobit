@@ -1,4 +1,4 @@
-
+﻿
 func void B_CheerFight()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"B_CheerFight");

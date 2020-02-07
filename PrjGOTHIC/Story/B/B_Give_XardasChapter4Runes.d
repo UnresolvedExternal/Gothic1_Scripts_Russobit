@@ -1,4 +1,4 @@
-
+﻿
 func void B_Give_XardasChapter4Runes()
 {
 	var C_Npc npc;

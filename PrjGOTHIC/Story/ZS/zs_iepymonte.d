@@ -1,4 +1,4 @@
-
+﻿
 func void zs_iepymonte()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_IEPYMONTE");

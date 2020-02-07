@@ -1,7 +1,7 @@
-
+п»ї
 prototype Mst_Default_Skeleton(C_Npc)
 {
-	name[0] = "Скелет";
+	name[0] = "РЎРєРµР»РµС‚";
 	guild = GIL_SKELETON;
 	level = 25;
 	attribute[ATR_STRENGTH] = 80;
@@ -87,7 +87,7 @@ instance SkeletonSH(Mst_Default_Skeleton)
 
 instance SkeletonScout(Mst_Default_Skeleton)
 {
-	name[0] = "Скелет-копейщик";
+	name[0] = "РЎРєРµР»РµС‚-РєРѕРїРµР№С‰РёРє";
 	aivar[AIV_IMPORTANT] = id_skeletonscout;
 	Set_SkeletonScout_Visuals();
 	Npc_SetToFightMode(self,ItMw_1H_Scythe_01);
@@ -96,7 +96,7 @@ instance SkeletonScout(Mst_Default_Skeleton)
 
 instance SkeletonWarrior(Mst_Default_Skeleton)
 {
-	name[0] = "Скелет-воин";
+	name[0] = "РЎРєРµР»РµС‚-РІРѕРёРЅ";
 	Set_SkeletonWarrior_Visuals();
 	level = 30;
 	attribute[ATR_STRENGTH] = 120;
@@ -109,7 +109,7 @@ instance SkeletonMage(Mst_Default_Skeleton)
 {
 	aivar[AIV_IMPORTANT] = id_skeletonmage;
 	Set_SkeletonMage_Visuals();
-	name[0] = "Скелет-маг";
+	name[0] = "РЎРєРµР»РµС‚-РјР°Рі";
 	guild = GIL_DEMON;
 	level = 50;
 	protection[PROT_BLUNT] = 50;
@@ -127,7 +127,7 @@ instance SkeletonMage_fogtower(Mst_Default_Skeleton)
 {
 	aivar[AIV_IMPORTANT] = ID_SKELETONMAGE;
 	Set_SkeletonMage_Visuals();
-	name[0] = "Скелет-маг туманной башни";
+	name[0] = "РЎРєРµР»РµС‚-РјР°Рі С‚СѓРјР°РЅРЅРѕР№ Р±Р°С€РЅРё";
 	guild = GIL_DEMON;
 	level = 50;
 	protection[PROT_BLUNT] = 50;
@@ -166,7 +166,7 @@ instance SummonedByNPC_Skeleton(Mst_Default_Skeleton)
 
 instance SummonedByPC_SkeletonWarrior(Mst_Default_Skeleton)
 {
-	name[0] = "Скелет-боец";
+	name[0] = "РЎРєРµР»РµС‚-Р±РѕРµС†";
 	level = 30;
 	attribute[ATR_STRENGTH] = 120;
 	senses = SENSE_HEAR | SENSE_SEE;
@@ -182,7 +182,7 @@ instance SummonedByPC_SkeletonWarrior(Mst_Default_Skeleton)
 
 instance SummonedByNPC_SkeletonWarrior(Mst_Default_Skeleton)
 {
-	name[0] = "Скелет-боец";
+	name[0] = "РЎРєРµР»РµС‚-Р±РѕРµС†";
 	level = 30;
 	attribute[ATR_STRENGTH] = 120;
 	aivar[AIV_IMPORTANT] = ID_SKELETONWARRIOR;

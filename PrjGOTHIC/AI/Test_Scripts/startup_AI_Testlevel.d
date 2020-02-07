@@ -1,4 +1,4 @@
-
+﻿
 func void startup_AI_Testlevel()
 {
 	B_InitMonsterAttitudes();

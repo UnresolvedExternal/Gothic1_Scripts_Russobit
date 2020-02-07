@@ -1,4 +1,4 @@
-
+﻿
 func void B_Babe_AssessPlayer()
 {
 	if((Npc_GetDistToNpc(self,other) < PERC_DIST_FLEE) && Npc_CanSeeNpcFreeLOS(self,other))

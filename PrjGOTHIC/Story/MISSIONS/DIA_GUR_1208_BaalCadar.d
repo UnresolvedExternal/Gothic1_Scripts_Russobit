@@ -1,4 +1,4 @@
-
+п»ї
 instance DIA_BaalCadar_Exit(C_Info)
 {
 	npc = GUR_1208_BaalCadar;
@@ -47,28 +47,28 @@ func void DIA_BaalCadar_NoTalk_Info()
 {
 	Info_ClearChoices(DIA_BaalCadar_NoTalk);
 	Info_AddChoice(DIA_BaalCadar_NoTalk,DIALOG_ENDE,DIA_BaalCadar_NoTalk_ENDE);
-	Info_AddChoice(DIA_BaalCadar_NoTalk,"С тобой все нормально, старик?",DIA_BaalCadar_NoTalk_Imp);
-	Info_AddChoice(DIA_BaalCadar_NoTalk,"Да пребудет с тобой Спящий!",DIA_BaalCadar_NoTalk_Sleeper);
-	Info_AddChoice(DIA_BaalCadar_NoTalk,"Привет! Я здесь новенький!",DIA_BaalCadar_NoTalk_Hi);
+	Info_AddChoice(DIA_BaalCadar_NoTalk,"РЎ С‚РѕР±РѕР№ РІСЃРµ РЅРѕСЂРјР°Р»СЊРЅРѕ, СЃС‚Р°СЂРёРє?",DIA_BaalCadar_NoTalk_Imp);
+	Info_AddChoice(DIA_BaalCadar_NoTalk,"Р”Р° РїСЂРµР±СѓРґРµС‚ СЃ С‚РѕР±РѕР№ РЎРїСЏС‰РёР№!",DIA_BaalCadar_NoTalk_Sleeper);
+	Info_AddChoice(DIA_BaalCadar_NoTalk,"РџСЂРёРІРµС‚! РЇ Р·РґРµСЃСЊ РЅРѕРІРµРЅСЊРєРёР№!",DIA_BaalCadar_NoTalk_Hi);
 };
 
 func void DIA_BaalCadar_NoTalk_Hi()
 {
-	AI_Output(other,self,"DIA_BaalCadar_NoTalk_Hi_15_00");	//Привет! Я здесь новенький!
+	AI_Output(other,self,"DIA_BaalCadar_NoTalk_Hi_15_00");	//РџСЂРёРІРµС‚! РЇ Р·РґРµСЃСЊ РЅРѕРІРµРЅСЊРєРёР№!
 	AI_Output(self,other,"DIA_BaalCadar_NoTalk_Hi_02_01");	//
 	BaalCadar_Sakrileg = TRUE;
 };
 
 func void DIA_BaalCadar_NoTalk_Sleeper()
 {
-	AI_Output(other,self,"DIA_BaalCadar_NoTalk_Sleeper_15_00");	//Да пребудет с тобой Спящий!
+	AI_Output(other,self,"DIA_BaalCadar_NoTalk_Sleeper_15_00");	//Р”Р° РїСЂРµР±СѓРґРµС‚ СЃ С‚РѕР±РѕР№ РЎРїСЏС‰РёР№!
 	AI_Output(self,other,"DIA_BaalCadar_NoTalk_Sleeper_02_01");	//
 	BaalCadar_Sakrileg = TRUE;
 };
 
 func void DIA_BaalCadar_NoTalk_Imp()
 {
-	AI_Output(other,self,"DIA_BaalCadar_NoTalk_Imp_15_00");	//С тобой все нормально, старик?
+	AI_Output(other,self,"DIA_BaalCadar_NoTalk_Imp_15_00");	//РЎ С‚РѕР±РѕР№ РІСЃРµ РЅРѕСЂРјР°Р»СЊРЅРѕ, СЃС‚Р°СЂРёРє?
 	AI_Output(self,other,"DIA_BaalCadar_NoTalk_Imp_02_01");	//
 	BaalCadar_Sakrileg = TRUE;
 };
@@ -106,17 +106,17 @@ func int DIA_BaalCadar_SleepSpell_Condition()
 
 func void DIA_BaalCadar_SleepSpell_Info()
 {
-	AI_Output(self,other,"DIA_BaalCadar_SleepSpell_02_00");	//Что ты делаешь? Я предаюсь размышлениям вместе с моими учениками.
-	AI_Output(self,other,"DIA_BaalCadar_SleepSpell_02_01");	//Кто научил тебя использовать магическую силу Спящего?
-	AI_Output(other,self,"DIA_BaalCadar_SleepSpell_15_02");	//Никто. Это было не слишком сложно.
-	AI_Output(self,other,"DIA_BaalCadar_SleepSpell_02_03");	//Думаю, ты обладаешь способностями к обучению. Я буду учить тебя.
+	AI_Output(self,other,"DIA_BaalCadar_SleepSpell_02_00");	//Р§С‚Рѕ С‚С‹ РґРµР»Р°РµС€СЊ? РЇ РїСЂРµРґР°СЋСЃСЊ СЂР°Р·РјС‹С€Р»РµРЅРёСЏРј РІРјРµСЃС‚Рµ СЃ РјРѕРёРјРё СѓС‡РµРЅРёРєР°РјРё.
+	AI_Output(self,other,"DIA_BaalCadar_SleepSpell_02_01");	//РљС‚Рѕ РЅР°СѓС‡РёР» С‚РµР±СЏ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РјР°РіРёС‡РµСЃРєСѓСЋ СЃРёР»Сѓ РЎРїСЏС‰РµРіРѕ?
+	AI_Output(other,self,"DIA_BaalCadar_SleepSpell_15_02");	//РќРёРєС‚Рѕ. Р­С‚Рѕ Р±С‹Р»Рѕ РЅРµ СЃР»РёС€РєРѕРј СЃР»РѕР¶РЅРѕ.
+	AI_Output(self,other,"DIA_BaalCadar_SleepSpell_02_03");	//Р”СѓРјР°СЋ, С‚С‹ РѕР±Р»Р°РґР°РµС€СЊ СЃРїРѕСЃРѕР±РЅРѕСЃС‚СЏРјРё Рє РѕР±СѓС‡РµРЅРёСЋ. РЇ Р±СѓРґСѓ СѓС‡РёС‚СЊ С‚РµР±СЏ.
 	BaalCadar_Ansprechbar = TRUE;
 	if(Npc_GetTrueGuild(hero) == GIL_None)
 	{
 		Log_CreateTopic(CH1_JoinPsi,LOG_MISSION);
 		Log_SetTopicStatus(CH1_JoinPsi,LOG_RUNNING);
 	};
-	B_LogEntry(CH1_JoinPsi,"Идол Кадар считает меня способным учеником!");
+	B_LogEntry(CH1_JoinPsi,"РРґРѕР» РљР°РґР°СЂ СЃС‡РёС‚Р°РµС‚ РјРµРЅСЏ СЃРїРѕСЃРѕР±РЅС‹Рј СѓС‡РµРЅРёРєРѕРј!");
 	B_GiveXP(XP_ImpressBaalCadar);
 };
 
@@ -127,7 +127,7 @@ instance Gur_1208_BaalCadar_Teach(C_Info)
 	condition = Gur_1208_BaalCadar_Teach_Condition;
 	information = Gur_1208_BaalCadar_Teach_Info;
 	permanent = 1;
-	description = "Я хочу увеличить свою магическую силу.";
+	description = "РЇ С…РѕС‡Сѓ СѓРІРµР»РёС‡РёС‚СЊ СЃРІРѕСЋ РјР°РіРёС‡РµСЃРєСѓСЋ СЃРёР»Сѓ.";
 };
 
 
@@ -141,12 +141,12 @@ func int Gur_1208_BaalCadar_Teach_Condition()
 
 func void Gur_1208_BaalCadar_Teach_Info()
 {
-	AI_Output(other,self,"Gur_1208_BaalCadar_Teach_Info_15_01");	//Я хочу увеличить свою магическую силу.
-	AI_Output(self,other,"Gur_1208_BaalCadar_Teach_Info_02_02");	//Ключ к этому кроется в силе твоего духа.
+	AI_Output(other,self,"Gur_1208_BaalCadar_Teach_Info_15_01");	//РЇ С…РѕС‡Сѓ СѓРІРµР»РёС‡РёС‚СЊ СЃРІРѕСЋ РјР°РіРёС‡РµСЃРєСѓСЋ СЃРёР»Сѓ.
+	AI_Output(self,other,"Gur_1208_BaalCadar_Teach_Info_02_02");	//РљР»СЋС‡ Рє СЌС‚РѕРјСѓ РєСЂРѕРµС‚СЃСЏ РІ СЃРёР»Рµ С‚РІРѕРµРіРѕ РґСѓС…Р°.
 	if(log_baalcadartrain == FALSE)
 	{
 		Log_CreateTopic(GE_TeacherPSI,LOG_NOTE);
-		B_LogEntry(GE_TeacherPSI,"Идол Кадар может помочь мне увеличить мою магическую силу.");
+		B_LogEntry(GE_TeacherPSI,"РРґРѕР» РљР°РґР°СЂ РјРѕР¶РµС‚ РїРѕРјРѕС‡СЊ РјРЅРµ СѓРІРµР»РёС‡РёС‚СЊ РјРѕСЋ РјР°РіРёС‡РµСЃРєСѓСЋ СЃРёР»Сѓ.");
 		log_baalcadartrain = TRUE;
 	};
 	Info_ClearChoices(Gur_1208_BaalCadar_Teach);
@@ -186,7 +186,7 @@ instance Gur_1208_BaalCadar_FIRSTTEST(C_Info)
 	information = Gur_1208_BaalCadar_FIRSTTEST_Info;
 	important = 0;
 	permanent = 0;
-	description = "Научи меня использовать магию рун.";
+	description = "РќР°СѓС‡Рё РјРµРЅСЏ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РјР°РіРёСЋ СЂСѓРЅ.";
 };
 
 
@@ -200,11 +200,11 @@ func int Gur_1208_BaalCadar_FIRSTTEST_Condition()
 
 func void Gur_1208_BaalCadar_FIRSTTEST_Info()
 {
-	AI_Output(other,self,"Gur_1208_BaalCadar_FIRSTTEST_Info_15_01");	//Научи меня использовать магию рун.
-	AI_Output(self,other,"Gur_1208_BaalCadar_FIRSTTEST_Info_02_02");	//Многие выучили язык рун, но очень немногим дано постичь суть их магии.
-	AI_Output(self,other,"Gur_1208_BaalCadar_FIRSTTEST_Info_02_03");	//Я попробую научить тебя.
+	AI_Output(other,self,"Gur_1208_BaalCadar_FIRSTTEST_Info_15_01");	//РќР°СѓС‡Рё РјРµРЅСЏ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РјР°РіРёСЋ СЂСѓРЅ.
+	AI_Output(self,other,"Gur_1208_BaalCadar_FIRSTTEST_Info_02_02");	//РњРЅРѕРіРёРµ РІС‹СѓС‡РёР»Рё СЏР·С‹Рє СЂСѓРЅ, РЅРѕ РѕС‡РµРЅСЊ РЅРµРјРЅРѕРіРёРј РґР°РЅРѕ РїРѕСЃС‚РёС‡СЊ СЃСѓС‚СЊ РёС… РјР°РіРёРё.
+	AI_Output(self,other,"Gur_1208_BaalCadar_FIRSTTEST_Info_02_03");	//РЇ РїРѕРїСЂРѕР±СѓСЋ РЅР°СѓС‡РёС‚СЊ С‚РµР±СЏ.
 	Log_CreateTopic(GE_TeacherPSI,LOG_NOTE);
-	B_LogEntry(GE_TeacherPSI,"Идол Кадар может посвятить меня в тайны рун Первого Круга магии.");
+	B_LogEntry(GE_TeacherPSI,"РРґРѕР» РљР°РґР°СЂ РјРѕР¶РµС‚ РїРѕСЃРІСЏС‚РёС‚СЊ РјРµРЅСЏ РІ С‚Р°Р№РЅС‹ СЂСѓРЅ РџРµСЂРІРѕРіРѕ РљСЂСѓРіР° РјР°РіРёРё.");
 };
 
 
@@ -215,7 +215,7 @@ instance Gur_1208_BaalCadar_KREIS1(C_Info)
 	information = Gur_1208_BaalCadar_KREIS1_Info;
 	important = 0;
 	permanent = 1;
-	description = "Я готов овладеть знанием Первого Круга.";
+	description = "РЇ РіРѕС‚РѕРІ РѕРІР»Р°РґРµС‚СЊ Р·РЅР°РЅРёРµРј РџРµСЂРІРѕРіРѕ РљСЂСѓРіР°.";
 };
 
 
@@ -229,14 +229,14 @@ func int Gur_1208_BaalCadar_KREIS1_Condition()
 
 func void Gur_1208_BaalCadar_KREIS1_Info()
 {
-	AI_Output(other,self,"Gur_1208_BaalCadar_KREIS1_Info_15_01");	//Я готов овладеть знанием Первого Круга.
+	AI_Output(other,self,"Gur_1208_BaalCadar_KREIS1_Info_15_01");	//РЇ РіРѕС‚РѕРІ РѕРІР»Р°РґРµС‚СЊ Р·РЅР°РЅРёРµРј РџРµСЂРІРѕРіРѕ РљСЂСѓРіР°.
 	if(B_GiveSkill(other,NPC_TALENT_MAGE,1,LPCOST_TALENT_MAGE_1))
 	{
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS1_Info_02_02");	//Так слушай же меня.
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS1_Info_02_03");	//В далекие времена появился Спящий, и послал он роду человеческому видение.
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS1_Info_02_04");	//Людей ослепляло корыстолюбие, и своими алчными взорами не увидели они его. 
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS1_Info_02_05");	//Лишь Юберион и с ним несколько избранных отделились от слепой толпы и основали Братство.
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS1_Info_02_06");	//В тот момент, когда они последовали зову Спящего, был рожден Первый Круг. Магия рун покорится тому, кто идет за Спящим.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS1_Info_02_02");	//РўР°Рє СЃР»СѓС€Р°Р№ Р¶Рµ РјРµРЅСЏ.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS1_Info_02_03");	//Р’ РґР°Р»РµРєРёРµ РІСЂРµРјРµРЅР° РїРѕСЏРІРёР»СЃСЏ РЎРїСЏС‰РёР№, Рё РїРѕСЃР»Р°Р» РѕРЅ СЂРѕРґСѓ С‡РµР»РѕРІРµС‡РµСЃРєРѕРјСѓ РІРёРґРµРЅРёРµ.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS1_Info_02_04");	//Р›СЋРґРµР№ РѕСЃР»РµРїР»СЏР»Рѕ РєРѕСЂС‹СЃС‚РѕР»СЋР±РёРµ, Рё СЃРІРѕРёРјРё Р°Р»С‡РЅС‹РјРё РІР·РѕСЂР°РјРё РЅРµ СѓРІРёРґРµР»Рё РѕРЅРё РµРіРѕ. 
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS1_Info_02_05");	//Р›РёС€СЊ Р®Р±РµСЂРёРѕРЅ Рё СЃ РЅРёРј РЅРµСЃРєРѕР»СЊРєРѕ РёР·Р±СЂР°РЅРЅС‹С… РѕС‚РґРµР»РёР»РёСЃСЊ РѕС‚ СЃР»РµРїРѕР№ С‚РѕР»РїС‹ Рё РѕСЃРЅРѕРІР°Р»Рё Р‘СЂР°С‚СЃС‚РІРѕ.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS1_Info_02_06");	//Р’ С‚РѕС‚ РјРѕРјРµРЅС‚, РєРѕРіРґР° РѕРЅРё РїРѕСЃР»РµРґРѕРІР°Р»Рё Р·РѕРІСѓ РЎРїСЏС‰РµРіРѕ, Р±С‹Р» СЂРѕР¶РґРµРЅ РџРµСЂРІС‹Р№ РљСЂСѓРі. РњР°РіРёСЏ СЂСѓРЅ РїРѕРєРѕСЂРёС‚СЃСЏ С‚РѕРјСѓ, РєС‚Рѕ РёРґРµС‚ Р·Р° РЎРїСЏС‰РёРј.
 		Gur_1208_BaalCadar_KREIS1.permanent = 0;
 	};
 	AI_StopProcessInfos(self);
@@ -250,7 +250,7 @@ instance Gur_1208_BaalCadar_KREIS2(C_Info)
 	information = Gur_1208_BaalCadar_KREIS2_Info;
 	important = 0;
 	permanent = 1;
-	description = "Я готов к посвящению во Второй Круг.";
+	description = "РЇ РіРѕС‚РѕРІ Рє РїРѕСЃРІСЏС‰РµРЅРёСЋ РІРѕ Р’С‚РѕСЂРѕР№ РљСЂСѓРі.";
 };
 
 
@@ -264,14 +264,14 @@ func int Gur_1208_BaalCadar_KREIS2_Condition()
 
 func void Gur_1208_BaalCadar_KREIS2_Info()
 {
-	AI_Output(other,self,"Gur_1208_BaalCadar_KREIS2_Info_15_01");	//Я готов к посвящению во Второй Круг.
+	AI_Output(other,self,"Gur_1208_BaalCadar_KREIS2_Info_15_01");	//РЇ РіРѕС‚РѕРІ Рє РїРѕСЃРІСЏС‰РµРЅРёСЋ РІРѕ Р’С‚РѕСЂРѕР№ РљСЂСѓРі.
 	if(B_GiveSkill(other,NPC_TALENT_MAGE,2,LPCOST_TALENT_MAGE_2))
 	{
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS2_Info_02_02");	//Так слушай же меня и постарайся понять.
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS2_Info_02_03");	//Спящий привел Юбериона и его верных учеников в это место, где они основали храм.
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS2_Info_02_04");	//Они трудились, не покладая рук, день за днем, неделя за неделей, месяц за месяцем. Лагерь рос. Все больше и больше людей присоединялось к нему, следуя зову Спящего.
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS2_Info_02_05");	//Вместе они пытались говорить со Спящим на духовном уровне.
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS2_Info_02_06");	//Так был рожден Второй Круг.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS2_Info_02_02");	//РўР°Рє СЃР»СѓС€Р°Р№ Р¶Рµ РјРµРЅСЏ Рё РїРѕСЃС‚Р°СЂР°Р№СЃСЏ РїРѕРЅСЏС‚СЊ.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS2_Info_02_03");	//РЎРїСЏС‰РёР№ РїСЂРёРІРµР» Р®Р±РµСЂРёРѕРЅР° Рё РµРіРѕ РІРµСЂРЅС‹С… СѓС‡РµРЅРёРєРѕРІ РІ СЌС‚Рѕ РјРµСЃС‚Рѕ, РіРґРµ РѕРЅРё РѕСЃРЅРѕРІР°Р»Рё С…СЂР°Рј.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS2_Info_02_04");	//РћРЅРё С‚СЂСѓРґРёР»РёСЃСЊ, РЅРµ РїРѕРєР»Р°РґР°СЏ СЂСѓРє, РґРµРЅСЊ Р·Р° РґРЅРµРј, РЅРµРґРµР»СЏ Р·Р° РЅРµРґРµР»РµР№, РјРµСЃСЏС† Р·Р° РјРµСЃСЏС†РµРј. Р›Р°РіРµСЂСЊ СЂРѕСЃ. Р’СЃРµ Р±РѕР»СЊС€Рµ Рё Р±РѕР»СЊС€Рµ Р»СЋРґРµР№ РїСЂРёСЃРѕРµРґРёРЅСЏР»РѕСЃСЊ Рє РЅРµРјСѓ, СЃР»РµРґСѓСЏ Р·РѕРІСѓ РЎРїСЏС‰РµРіРѕ.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS2_Info_02_05");	//Р’РјРµСЃС‚Рµ РѕРЅРё РїС‹С‚Р°Р»РёСЃСЊ РіРѕРІРѕСЂРёС‚СЊ СЃРѕ РЎРїСЏС‰РёРј РЅР° РґСѓС…РѕРІРЅРѕРј СѓСЂРѕРІРЅРµ.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS2_Info_02_06");	//РўР°Рє Р±С‹Р» СЂРѕР¶РґРµРЅ Р’С‚РѕСЂРѕР№ РљСЂСѓРі.
 		Gur_1208_BaalCadar_KREIS2.permanent = 0;
 	};
 	AI_StopProcessInfos(self);
@@ -285,7 +285,7 @@ instance Gur_1208_BaalCadar_KREIS3(C_Info)
 	information = Gur_1208_BaalCadar_KREIS3_Info;
 	important = 0;
 	permanent = 1;
-	description = "Я готов получить знания Третьего Круга.";
+	description = "РЇ РіРѕС‚РѕРІ РїРѕР»СѓС‡РёС‚СЊ Р·РЅР°РЅРёСЏ РўСЂРµС‚СЊРµРіРѕ РљСЂСѓРіР°.";
 };
 
 
@@ -299,14 +299,14 @@ func int Gur_1208_BaalCadar_KREIS3_Condition()
 
 func void Gur_1208_BaalCadar_KREIS3_Info()
 {
-	AI_Output(other,self,"Gur_1208_BaalCadar_KREIS3_Info_15_01");	//Я готов получить знания Третьего Круга.
+	AI_Output(other,self,"Gur_1208_BaalCadar_KREIS3_Info_15_01");	//РЇ РіРѕС‚РѕРІ РїРѕР»СѓС‡РёС‚СЊ Р·РЅР°РЅРёСЏ РўСЂРµС‚СЊРµРіРѕ РљСЂСѓРіР°.
 	if(B_GiveSkill(other,NPC_TALENT_MAGE,3,LPCOST_TALENT_MAGE_3))
 	{
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS3_Info_02_02");	//Запомни.
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS3_Info_02_03");	//Видения прояснялись, но духовной силы Братства было недостаточно для того, чтобы призвать Спящего.
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS3_Info_02_04");	//Решение нашел один из Гуру, алхимик. Он приготовил эликсир из слюны ползунов. Братья выпили его перед молитвой, и впервые их силы объединились.
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS3_Info_02_05");	//В то самое время по другим лагерям разошлись послушники, неся людям слово Спящего и обращая язычников в истинную веру.
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS3_Info_02_06");	//Так был завершен Третий Круг.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS3_Info_02_02");	//Р—Р°РїРѕРјРЅРё.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS3_Info_02_03");	//Р’РёРґРµРЅРёСЏ РїСЂРѕСЏСЃРЅСЏР»РёСЃСЊ, РЅРѕ РґСѓС…РѕРІРЅРѕР№ СЃРёР»С‹ Р‘СЂР°С‚СЃС‚РІР° Р±С‹Р»Рѕ РЅРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ РїСЂРёР·РІР°С‚СЊ РЎРїСЏС‰РµРіРѕ.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS3_Info_02_04");	//Р РµС€РµРЅРёРµ РЅР°С€РµР» РѕРґРёРЅ РёР· Р“СѓСЂСѓ, Р°Р»С…РёРјРёРє. РћРЅ РїСЂРёРіРѕС‚РѕРІРёР» СЌР»РёРєСЃРёСЂ РёР· СЃР»СЋРЅС‹ РїРѕР»Р·СѓРЅРѕРІ. Р‘СЂР°С‚СЊСЏ РІС‹РїРёР»Рё РµРіРѕ РїРµСЂРµРґ РјРѕР»РёС‚РІРѕР№, Рё РІРїРµСЂРІС‹Рµ РёС… СЃРёР»С‹ РѕР±СЉРµРґРёРЅРёР»РёСЃСЊ.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS3_Info_02_05");	//Р’ С‚Рѕ СЃР°РјРѕРµ РІСЂРµРјСЏ РїРѕ РґСЂСѓРіРёРј Р»Р°РіРµСЂСЏРј СЂР°Р·РѕС€Р»РёСЃСЊ РїРѕСЃР»СѓС€РЅРёРєРё, РЅРµСЃСЏ Р»СЋРґСЏРј СЃР»РѕРІРѕ РЎРїСЏС‰РµРіРѕ Рё РѕР±СЂР°С‰Р°СЏ СЏР·С‹С‡РЅРёРєРѕРІ РІ РёСЃС‚РёРЅРЅСѓСЋ РІРµСЂСѓ.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS3_Info_02_06");	//РўР°Рє Р±С‹Р» Р·Р°РІРµСЂС€РµРЅ РўСЂРµС‚РёР№ РљСЂСѓРі.
 	};
 	AI_StopProcessInfos(self);
 };
@@ -319,7 +319,7 @@ instance Gur_1208_BaalCadar_KREIS4(C_Info)
 	information = Gur_1208_BaalCadar_KREIS4_Info;
 	important = 0;
 	permanent = 1;
-	description = "Я готов вступить в Четвертый Круг.";
+	description = "РЇ РіРѕС‚РѕРІ РІСЃС‚СѓРїРёС‚СЊ РІ Р§РµС‚РІРµСЂС‚С‹Р№ РљСЂСѓРі.";
 };
 
 
@@ -333,14 +333,14 @@ func int Gur_1208_BaalCadar_KREIS4_Condition()
 
 func void Gur_1208_BaalCadar_KREIS4_Info()
 {
-	AI_Output(other,self,"Gur_1208_BaalCadar_KREIS4_Info_15_01");	//Я готов вступить в Четвертый Круг.
+	AI_Output(other,self,"Gur_1208_BaalCadar_KREIS4_Info_15_01");	//РЇ РіРѕС‚РѕРІ РІСЃС‚СѓРїРёС‚СЊ РІ Р§РµС‚РІРµСЂС‚С‹Р№ РљСЂСѓРі.
 	if(B_GiveSkill(other,NPC_TALENT_MAGE,4,LPCOST_TALENT_MAGE_4))
 	{
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS4_Info_02_02");	//Много воды утекло со времени основания лагеря. Многое изменилось.
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS4_Info_02_03");	//Вера людей росла, распространялась и крепла.
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS4_Info_02_04");	//Мы не забыли нашу цель. Мы не оставили попыток призвать Спящего.
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS4_Info_02_05");	//Стойкость и непоколебимость веры образуют Четвертый Круг.
-		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS4_Info_02_06");	//Теперь тебе открыты все знания братьев о магии. Ты был хорошим учеником.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS4_Info_02_02");	//РњРЅРѕРіРѕ РІРѕРґС‹ СѓС‚РµРєР»Рѕ СЃРѕ РІСЂРµРјРµРЅРё РѕСЃРЅРѕРІР°РЅРёСЏ Р»Р°РіРµСЂСЏ. РњРЅРѕРіРѕРµ РёР·РјРµРЅРёР»РѕСЃСЊ.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS4_Info_02_03");	//Р’РµСЂР° Р»СЋРґРµР№ СЂРѕСЃР»Р°, СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅСЏР»Р°СЃСЊ Рё РєСЂРµРїР»Р°.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS4_Info_02_04");	//РњС‹ РЅРµ Р·Р°Р±С‹Р»Рё РЅР°С€Сѓ С†РµР»СЊ. РњС‹ РЅРµ РѕСЃС‚Р°РІРёР»Рё РїРѕРїС‹С‚РѕРє РїСЂРёР·РІР°С‚СЊ РЎРїСЏС‰РµРіРѕ.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS4_Info_02_05");	//РЎС‚РѕР№РєРѕСЃС‚СЊ Рё РЅРµРїРѕРєРѕР»РµР±РёРјРѕСЃС‚СЊ РІРµСЂС‹ РѕР±СЂР°Р·СѓСЋС‚ Р§РµС‚РІРµСЂС‚С‹Р№ РљСЂСѓРі.
+		AI_Output(self,other,"Gur_1208_BaalCadar_KREIS4_Info_02_06");	//РўРµРїРµСЂСЊ С‚РµР±Рµ РѕС‚РєСЂС‹С‚С‹ РІСЃРµ Р·РЅР°РЅРёСЏ Р±СЂР°С‚СЊРµРІ Рѕ РјР°РіРёРё. РўС‹ Р±С‹Р» С…РѕСЂРѕС€РёРј СѓС‡РµРЅРёРєРѕРј.
 		Gur_1208_BaalCadar_KREIS4.permanent = 0;
 	};
 };
@@ -371,9 +371,9 @@ func void Gur_1208_BaalCadar_SELLSTUFF_Info()
 	if(log_baalcadarsell == FALSE)
 	{
 		Log_CreateTopic(GE_TraderPSI,LOG_NOTE);
-		B_LogEntry(GE_TraderPSI,"Гуру Идол Кадар продает руны, свитки, зелья, амулеты и кольца.");
+		B_LogEntry(GE_TraderPSI,"Р“СѓСЂСѓ РРґРѕР» РљР°РґР°СЂ РїСЂРѕРґР°РµС‚ СЂСѓРЅС‹, СЃРІРёС‚РєРё, Р·РµР»СЊСЏ, Р°РјСѓР»РµС‚С‹ Рё РєРѕР»СЊС†Р°.");
 		log_baalcadarsell = TRUE;
 	};
-	AI_Output(other,self,"Gur_1208_BaalCadar_SELLSTUFF_Info_15_01");	//Я хочу приобрести магические свитки.
+	AI_Output(other,self,"Gur_1208_BaalCadar_SELLSTUFF_Info_15_01");	//РЇ С…РѕС‡Сѓ РїСЂРёРѕР±СЂРµСЃС‚Рё РјР°РіРёС‡РµСЃРєРёРµ СЃРІРёС‚РєРё.
 };
 

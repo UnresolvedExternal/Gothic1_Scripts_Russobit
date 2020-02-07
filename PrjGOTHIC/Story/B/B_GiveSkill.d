@@ -1,4 +1,4 @@
-
+п»ї
 func int B_GiveSkill(var C_Npc typ,var int tal,var int NEW_Wert,var int LP_Cost)
 {
 	var int TAL_Wert;
@@ -55,72 +55,72 @@ func int B_GiveSkill(var C_Npc typ,var int tal,var int NEW_Wert,var int LP_Cost)
 			{
 				Npc_SetTalentSkill(typ,NPC_TALENT_1H,NEW_Wert);
 				Npc_SetTalentValue(typ,NPC_TALENT_1H,Npc_GetTalentValue(typ,NPC_TALENT_1H) + 5);
-				PrintScreen("Навык: владение одноручным мечом",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
+				PrintScreen("РќР°РІС‹Рє: РІР»Р°РґРµРЅРёРµ РѕРґРЅРѕСЂСѓС‡РЅС‹Рј РјРµС‡РѕРј",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
 				return 1;
 			}
 			else if(tal == NPC_TALENT_2H)
 			{
 				Npc_SetTalentSkill(typ,NPC_TALENT_2H,NEW_Wert);
 				Npc_SetTalentValue(typ,NPC_TALENT_2H,Npc_GetTalentValue(typ,NPC_TALENT_2H) + 5);
-				PrintScreen("Навык: владение двуручным мечом",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
+				PrintScreen("РќР°РІС‹Рє: РІР»Р°РґРµРЅРёРµ РґРІСѓСЂСѓС‡РЅС‹Рј РјРµС‡РѕРј",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
 				return 1;
 			}
 			else if(tal == NPC_TALENT_BOW)
 			{
 				Npc_SetTalentSkill(typ,NPC_TALENT_BOW,NEW_Wert);
 				Npc_SetTalentValue(typ,NPC_TALENT_BOW,Npc_GetTalentValue(typ,NPC_TALENT_BOW) + 15);
-				PrintScreen("Навык: стрельба из лука",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
+				PrintScreen("РќР°РІС‹Рє: СЃС‚СЂРµР»СЊР±Р° РёР· Р»СѓРєР°",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
 				return 1;
 			}
 			else if(tal == NPC_TALENT_CROSSBOW)
 			{
 				Npc_SetTalentSkill(typ,NPC_TALENT_CROSSBOW,NEW_Wert);
 				Npc_SetTalentValue(typ,NPC_TALENT_CROSSBOW,Npc_GetTalentValue(typ,NPC_TALENT_CROSSBOW) + 20);
-				PrintScreen("Навык: стрельба из арбалета",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
+				PrintScreen("РќР°РІС‹Рє: СЃС‚СЂРµР»СЊР±Р° РёР· Р°СЂР±Р°Р»РµС‚Р°",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
 				return 1;
 			}
 			else if(tal == NPC_TALENT_PICKLOCK)
 			{
 				Npc_SetTalentSkill(typ,NPC_TALENT_PICKLOCK,NEW_Wert);
 				Npc_SetTalentValue(typ,NPC_TALENT_PICKLOCK,Npc_GetTalentValue(typ,NPC_TALENT_PICKLOCK) - 40);
-				PrintScreen("Навык: взлом замков",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
+				PrintScreen("РќР°РІС‹Рє: РІР·Р»РѕРј Р·Р°РјРєРѕРІ",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
 				return 1;
 			}
 			else if(tal == NPC_TALENT_PICKPOCKET)
 			{
 				Npc_SetTalentSkill(typ,NPC_TALENT_PICKPOCKET,NEW_Wert);
 				Npc_SetTalentValue(typ,NPC_TALENT_PICKPOCKET,Npc_GetTalentValue(typ,NPC_TALENT_PICKPOCKET) - 40);
-				PrintScreen("Навык: воровство",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
+				PrintScreen("РќР°РІС‹Рє: РІРѕСЂРѕРІСЃС‚РІРѕ",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
 				return 1;
 			}
 			else if(tal == NPC_TALENT_MAGE)
 			{
 				Npc_SetTalentSkill(typ,NPC_TALENT_MAGE,NEW_Wert);
-				PrintScreen("Навык: следующий Круг магии",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
+				PrintScreen("РќР°РІС‹Рє: СЃР»РµРґСѓСЋС‰РёР№ РљСЂСѓРі РјР°РіРёРё",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
 				return 1;
 			}
 			else if(tal == NPC_TALENT_SNEAK)
 			{
 				Npc_SetTalentSkill(typ,NPC_TALENT_SNEAK,NEW_Wert);
-				PrintScreen("Навык: подкрадывание",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
+				PrintScreen("РќР°РІС‹Рє: РїРѕРґРєСЂР°РґС‹РІР°РЅРёРµ",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
 				return 1;
 			}
 			else if(tal == NPC_TALENT_REGENERATE)
 			{
 				Npc_SetTalentSkill(typ,NPC_TALENT_REGENERATE,NEW_Wert);
-				PrintScreen("Повышение уровня регенерации",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
+				PrintScreen("РџРѕРІС‹С€РµРЅРёРµ СѓСЂРѕРІРЅСЏ СЂРµРіРµРЅРµСЂР°С†РёРё",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
 				return 1;
 			}
 			else if(tal == NPC_TALENT_FIREMASTER)
 			{
 				Npc_SetTalentSkill(typ,NPC_TALENT_FIREMASTER,NEW_Wert);
-				PrintScreen("Навык: Мастер Круга Огня",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
+				PrintScreen("РќР°РІС‹Рє: РњР°СЃС‚РµСЂ РљСЂСѓРіР° РћРіРЅСЏ",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
 				return 1;
 			}
 			else if(tal == NPC_TALENT_ACROBAT)
 			{
 				Npc_SetTalentSkill(typ,NPC_TALENT_ACROBAT,NEW_Wert);
-				PrintScreen("Навык: акробатика",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
+				PrintScreen("РќР°РІС‹Рє: Р°РєСЂРѕР±Р°С‚РёРєР°",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
 				return 1;
 			}
 			else
@@ -130,7 +130,7 @@ func int B_GiveSkill(var C_Npc typ,var int tal,var int NEW_Wert,var int LP_Cost)
 		}
 		else
 		{
-			PrintScreen("Недостаточно очков обучения!",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
+			PrintScreen("РќРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ РѕС‡РєРѕРІ РѕР±СѓС‡РµРЅРёСЏ!",-1,-1,"FONT_OLD_20_WHITE.TGA",2);
 			B_Say(self,other,"$NOLEARNNOPOINTS");
 			return 0;
 		};

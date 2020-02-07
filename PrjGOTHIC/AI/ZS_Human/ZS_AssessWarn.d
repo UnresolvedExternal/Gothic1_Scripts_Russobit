@@ -1,4 +1,4 @@
-
+ï»¿
 func void ZS_AssessWarn()
 {
 	var string nextWP;
@@ -26,7 +26,7 @@ func void ZS_AssessWarn()
 	}
 	else if(C_NpcIsGuard(self) && (Npc_IsInState(victim,ZS_CallGuardsOnEnterRoom) || Npc_WasInState(victim,ZS_CallGuardsOnEnterRoom)) && !Npc_IsInState(self,ZS_GuardPassage) && (Npc_GetAttitude(self,victim) == ATT_FRIENDLY))
 	{
-		PrintDebugNpc(PD_ZS_Check,"...verlassener Portalraum gehört Schützling-Gilde!");
+		PrintDebugNpc(PD_ZS_Check,"...verlassener Portalraum gehÑ†rt SchÑŒtzling-Gilde!");
 		Npc_PercEnable(self,PERC_ASSESSENTERROOM,B_ClearRoomEnterRoom);
 		B_WhirlAround(self,other);
 		AI_PointAtNpc(self,other);
@@ -39,7 +39,7 @@ func void ZS_AssessWarn()
 	}
 	else if(C_NpcIsGuardArcher(self) && Npc_IsInState(victim,ZS_CallGuardsOnEnterRoom) && (Npc_GetAttitude(self,victim) == ATT_FRIENDLY))
 	{
-		PrintDebugNpc(PD_ZS_Check,"...Warnung von Schützling, dessen Raum betreten/verlassen wurde!");
+		PrintDebugNpc(PD_ZS_Check,"...Warnung von SchÑŒtzling, dessen Raum betreten/verlassen wurde!");
 		if(other.aivar[AIV_HASBEENDEFEATEDINPORTALROOM] == FALSE)
 		{
 			B_WhirlAround(self,hero);
@@ -106,7 +106,7 @@ func void ZS_AssessWarn_End()
 		}
 		else if(Npc_HasNews(self,NEWS_MURDER,other,victim) && (Npc_GetGuildAttitude(self,victim) == ATT_FRIENDLY))
 		{
-			PrintDebugNpc(PD_ZS_Check,"ZS_AssessWarn End // Free Los //Not HOSTILE Kumpel getötet");
+			PrintDebugNpc(PD_ZS_Check,"ZS_AssessWarn End // Free Los //Not HOSTILE Kumpel getÑ†tet");
 			Npc_GetTarget(self);
 			AI_StartState(self,ZS_AssessEnemy,0,"");
 		}

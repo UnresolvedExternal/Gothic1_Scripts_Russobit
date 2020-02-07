@@ -1,4 +1,4 @@
-
+ï»¿
 func void B_GotoWPNextToNpc(var C_Npc slf,var C_Npc oth)
 {
 	var string waypoint;
@@ -180,7 +180,7 @@ func void B_RegainDroppedArmor(var C_Npc slf)
 	{
 		if(!Npc_IsPlayer(slf))
 		{
-			PrintDebugNpc(PD_ZS_Check,"...NSC hebt seine Rüstung wieder auf!");
+			PrintDebugNpc(PD_ZS_Check,"...NSC hebt seine RÑŒstung wieder auf!");
 			AI_TakeItem(slf,item);
 			AI_EquipBestArmor(slf);
 		};
@@ -370,7 +370,7 @@ func int B_CheckForImportantInfo(var C_Npc slf,var C_Npc oth)
 			PrintDebugNpc(PD_ZS_Check,"...SC springt nicht oder NSC ist Durchgangswache!");
 			if(!C_BodyStateContains(oth,BS_FALL))
 			{
-				PrintDebugNpc(PD_ZS_Check,"...fällt nicht!");
+				PrintDebugNpc(PD_ZS_Check,"...fÐ´llt nicht!");
 				if(!C_BodyStateContains(oth,BS_SWIM))
 				{
 					PrintDebugNpc(PD_ZS_Check,"...schwimmt nicht!");

@@ -1,4 +1,4 @@
-
+﻿
 const int PD_TA_FRAME = 1;
 const int PD_TA_LOOP = 2;
 const int PD_TA_CHECK = 3;

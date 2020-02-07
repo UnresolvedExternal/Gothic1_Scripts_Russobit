@@ -1,4 +1,4 @@
-
+﻿
 instance SLD_726_Soeldner(Npc_Default)
 {
 	name[0] = NAME_Soeldner;

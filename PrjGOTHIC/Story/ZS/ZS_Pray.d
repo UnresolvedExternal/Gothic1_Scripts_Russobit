@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_Pray()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_Pray");

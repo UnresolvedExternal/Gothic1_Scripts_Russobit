@@ -1,4 +1,4 @@
-
+﻿
 func void B_Story_Feueraufnahme()
 {
 	var C_Npc Magier_1;

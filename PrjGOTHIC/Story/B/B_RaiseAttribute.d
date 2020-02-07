@@ -1,4 +1,4 @@
-
+﻿
 func void B_RaiseAttribute(var int attribute,var int value)
 {
 	var string msg;

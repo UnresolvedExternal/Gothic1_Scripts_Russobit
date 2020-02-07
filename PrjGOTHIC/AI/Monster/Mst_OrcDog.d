@@ -1,7 +1,7 @@
-
+п»ї
 prototype Mst_Default_OrcDog(C_Npc)
 {
-	name[0] = "Орочья собака";
+	name[0] = "РћСЂРѕС‡СЊСЏ СЃРѕР±Р°РєР°";
 	guild = GIL_ORCDOG;
 	aivar[AIV_IMPORTANT] = ID_BLACKWOLF;
 	level = 12;

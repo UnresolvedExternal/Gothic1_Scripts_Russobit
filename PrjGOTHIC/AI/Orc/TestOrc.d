@@ -1,4 +1,4 @@
-
+﻿
 prototype ORC_TESTTYPE(C_Npc)
 {
 	name[0] = "Orc Prototype";

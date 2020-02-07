@@ -1,4 +1,4 @@
-
+Ôªø
 func void ZS_AssessMonster()
 {
 	PrintDebugNpc(PD_ZS_FRAME,"ZS_AssessMonster");
@@ -22,14 +22,14 @@ func void ZS_AssessMonster()
 		PrintDebugNpc(PD_ZS_Check," ...NSC ist wede WACHE noch BOSS!");
 		if(C_AmIStronger(self,other))
 		{
-			PrintDebugNpc(PD_ZS_Check," ...aber trotzdem st‰rker als das Monster!");
+			PrintDebugNpc(PD_ZS_Check," ...aber trotzdem st–¥rker als das Monster!");
 			B_FullStop(self);
 			B_DrawWeapon(self,other);
 			return;
 		}
 		else
 		{
-			PrintDebugNpc(PD_ZS_Check," ...und noch dazu schw‰cher als das Monster!");
+			PrintDebugNpc(PD_ZS_Check," ...und noch dazu schw–¥cher als das Monster!");
 			B_FullStop(self);
 			B_WhirlAround(self,other);
 			Npc_SetTarget(self,other);
@@ -71,7 +71,7 @@ func int ZS_AssessMonster_Loop()
 	}
 	else if(C_NpcIsDown(other))
 	{
-		PrintDebugNpc(PD_ZS_Check,"...Monster kampfunf‰hig!");
+		PrintDebugNpc(PD_ZS_Check,"...Monster kampfunf–¥hig!");
 		return LOOP_END;
 	}
 	else

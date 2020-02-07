@@ -1,4 +1,4 @@
-
+﻿
 func void B_ClearFMC()
 {
 	B_KillNpc(SLD_750_Soeldner);

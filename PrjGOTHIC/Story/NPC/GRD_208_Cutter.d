@@ -1,7 +1,7 @@
-
+п»ї
 instance GRD_208_Cutter(Npc_Default)
 {
-	name[0] = "Палач";
+	name[0] = "РџР°Р»Р°С‡";
 	npcType = npctype_main;
 	guild = GIL_GRD;
 	level = 20;

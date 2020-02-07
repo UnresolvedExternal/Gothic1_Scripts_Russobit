@@ -1,4 +1,4 @@
-
+﻿
 func void B_GiveRiordianChapter1Potions()
 {
 	var C_Npc npc;

@@ -1,4 +1,4 @@
-
+﻿
 instance STT_337_Schatten(Npc_Default)
 {
 	name[0] = NAME_Schatten;

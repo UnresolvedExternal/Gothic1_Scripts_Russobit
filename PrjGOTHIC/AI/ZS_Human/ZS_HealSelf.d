@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_HealSelf()
 {
 	PrintDebugNpc(PD_ZS_Check,"ZS_HealSelf");
@@ -23,7 +23,7 @@ func int ZS_HealSelf_Loop()
 	PrintDebugNpc(PD_ZS_LOOP,"ZS_HealSelf_Loop");
 	if((self.attribute[ATR_HITPOINTS] == self.attribute[ATR_HITPOINTS_MAX]) || (self.flags == NPC_FLAG_IMMORTAL))
 	{
-		PrintDebugNpc(PD_ZS_Check,"...vollst�ndig geheilt!");
+		PrintDebugNpc(PD_ZS_Check,"...vollstдndig geheilt!");
 		return LOOP_END;
 	}
 	else if(Npc_HasItems(self,ItFo_Potion_Health_03) > 0)

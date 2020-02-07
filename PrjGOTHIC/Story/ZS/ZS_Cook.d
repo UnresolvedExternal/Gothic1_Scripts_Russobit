@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_Cook()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_Cook");

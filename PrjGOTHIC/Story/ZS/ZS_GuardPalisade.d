@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_GuardPalisade()
 {
 	GuardPerception();

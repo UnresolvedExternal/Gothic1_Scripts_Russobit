@@ -1,4 +1,4 @@
-
+﻿
 func void B_Scale(var C_Npc n)
 {
 	PrintDebugNpc(PD_ZS_FRAME,"B_Scale");

@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_GuardWheelOpen()
 {
 	PrintDebugNpc(PD_TA_FRAME,"ZS_GuardWheelOpen");

@@ -1,7 +1,7 @@
-
+ï»¿
 instance KDF_405_Torrez(Npc_Default)
 {
-	name[0] = "Òîððåç";
+	name[0] = "Ð¢Ð¾Ñ€Ñ€ÐµÐ·";
 	npcType = npctype_main;
 	guild = GIL_KDF;
 	level = 26;

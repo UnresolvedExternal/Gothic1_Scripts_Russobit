@@ -1,4 +1,4 @@
-
+﻿
 func void ZS_OrcSlave_AssessDamage()
 {
 	PrintDebugNpc(PD_ORC_FRAME,"ZS_OrcSlave_AssessDamage: Weglaufen");

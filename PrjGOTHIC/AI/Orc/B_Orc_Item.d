@@ -1,4 +1,4 @@
-
+﻿
 func void B_Orc_ItemHorn()
 {
 	PrintDebugNpc(PD_TA_FRAME,"B_Orc_ItemHorn");

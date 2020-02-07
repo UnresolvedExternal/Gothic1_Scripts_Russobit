@@ -1,4 +1,4 @@
-
+﻿
 instance Babe(Npc_Default)
 {
 	name[0] = "babe";
